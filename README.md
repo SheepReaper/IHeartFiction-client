@@ -1,3 +1,7 @@
+![GitHub](https://img.shields.io/github/license/SheepReaper/IHeartFiction-client?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/SheepReaper/IHeartFiction-client/ci?style=for-the-badge)
+![Depfu](https://img.shields.io/depfu/SheepReaper/IHeartFiction-client?style=for-the-badge)
+
 # web-client
 
 ## Build Setup
