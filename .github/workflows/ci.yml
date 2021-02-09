@@ -28,6 +28,10 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      # just so we learn about available environment variables GitHub provides
+      - name: Print env variables
+        run: npx @bahmutov/print-env GITHUB
+
       - name: Get yarn cache directory path 🛠
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -41,11 +45,56 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Install dependencies 👨🏻‍💻
-        run: yarn
+      - name: Cache Cypress binary
+        uses: actions/cache@v2.1.4
+        with:
+          path: ~/.cache/Cypress
+          key: cypress-${{ runner.os }}-cypress-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            cypress-${{ runner.os }}-cypress-
+
+      - name: install dependencies and verify Cypress 👨🏻‍💻
+        env:
+          # make sure every Cypress install prints minimal information
+          CI: 1
+        # print Cypress and OS info
+        run: |
+          yarn install --frozen-lockfile
+          npx cypress verify
+          npx cypress info
+          npx cypress version
+          npx cypress version --component package
+          npx cypress version --component binary
+          npx cypress version --component electron
+          npx cypress version --component node
 
       - name: Run linter 👀
         run: yarn lint
 
-      - name: Run tests 🧪
+      - name: Run unit tests 🧪
         run: yarn test
+
+      - name: Run Cypress 🧪
+        uses: cypress-io/github-action@v2
+        with:
+          browser: chrome
+          headless: true
+          build: yarn generate
+          start: yarn start
+          wait-on: "http://localhost:3000"
+
+      # Save videos and screenshots as test artifacts
+      # https://github.com/actions/upload-artifact
+      - uses: actions/upload-artifact@master
+        with:
+          name: screenshots
+          path: cypress/screenshots
+          # there might be no screenshots created when:
+          # - there are no test failures
+          # so only upload screenshots if previous step has failed
+          if: failure()
+      # video should always be generated
+      - uses: actions/upload-artifact@master
+        with:
+          name: videos
+          path: cypress/videos

@@ -23,10 +23,13 @@
         "./*"
       ]
     },
+    "typeRoots": ["node_modules/@types"],
     "types": [
       "@nuxt/types",
       "@nuxtjs/axios",
-      "@types/node"
+      "cypress",
+      "node",
+      "jest"
     ]
   },
   "exclude": [

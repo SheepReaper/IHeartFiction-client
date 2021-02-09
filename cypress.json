@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/v5.3.0/cli/schema/cypress.schema.json",
+    "baseUrl": "http://localhost:3000",
+    "nodeVersion": "system",
+    "pluginsFile": false,
+    "supportFile": false
+}
