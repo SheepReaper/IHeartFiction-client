@@ -41,7 +41,12 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL:
+      process.env.NODE_ENV !== 'production'
+        ? 'https://localhost:5001/api'
+        : '/',
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
