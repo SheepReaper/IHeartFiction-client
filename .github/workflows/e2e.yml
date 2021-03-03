@@ -33,6 +33,8 @@ jobs:
         with:
           browser: chrome
           headless: true
+          install: true
+          install-command: yarn install
           build: yarn generate
           start: yarn start
           wait-on: "http://localhost:3000"
