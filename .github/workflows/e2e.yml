@@ -1,0 +1,54 @@
+name: End-to-end tests
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  ci:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v2
+
+      - name: Print env variables
+        run: npx @bahmutov/print-env GITHUB
+
+      - name: Run Cypress 🧪
+        uses: cypress-io/github-action@v2
+        env:
+          CI: 1
+        with:
+          browser: chrome
+          headless: true
+          build: yarn generate
+          start: yarn start
+          wait-on: "http://localhost:3000"
+
+      # Save videos and screenshots as test artifacts
+      # https://github.com/actions/upload-artifact
+      - uses: actions/upload-artifact@master
+        with:
+          name: screenshots
+          path: cypress/screenshots
+          # there might be no screenshots created when:
+          # - there are no test failures
+          # so only upload screenshots if previous step has failed
+          if: failure()
+      # video should always be generated
+      - uses: actions/upload-artifact@master
+        with:
+          name: videos
+          path: cypress/videos
