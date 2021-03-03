@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 nuxt-ts",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "dev": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 nuxt",
+    "build": "nuxt build",
+    "build:static": "cross-env ENABLE_STATIC=1 yarn build",
+    "start": "nuxt start",
+    "generate": "cross-env ENABLE_STATIC=1 nuxt generate",
+    "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
     "lint": "yarn lint:js && yarn lint:style",
+    "lint:fix": "yarn lint:js --fix && yarn lint:style",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "test:e2e:run": "cross-env NODE_ENV=testing NODE_TLS_REJECT_UNAUTHORIZED=0 start-server-and-test start http://localhost:3000 cy:run",
@@ -22,7 +24,6 @@
     "*.{css,vue}": "stylelint"
   },
   "dependencies": {
-    "@nuxt/typescript-runtime": "^2.0.2",
     "@nuxtjs/axios": "^5.13.1",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.9.1",
