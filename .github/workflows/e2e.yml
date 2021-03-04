@@ -38,6 +38,7 @@ jobs:
           build: yarn generate
           start: yarn start
           wait-on: "http://localhost:3000"
+          command: yarn cy:run
 
       # Save videos and screenshots as test artifacts
       # https://github.com/actions/upload-artifact
