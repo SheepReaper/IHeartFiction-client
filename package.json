@@ -71,7 +71,7 @@
     "start-server-and-test": "^1.12.0",
     "stylelint": "^13.11.0",
     "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-standard": "^21.0.0",
     "supports-color": "^8.1.1",
     "ts-jest": "^26.5.2",
     "typescript": "^4.2.2",
