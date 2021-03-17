@@ -3,11 +3,7 @@
     "target": "ES2018",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "lib": [
-      "ESNext",
-      "ESNext.AsyncIterable",
-      "DOM"
-    ],
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "allowJs": true,
     "sourceMap": true,
@@ -23,17 +19,9 @@
         "./*"
       ]
     },
-    "typeRoots": ["node_modules/@types"],
-    "types": [
-      "@nuxt/types",
-      "@nuxtjs/axios",
-      "cypress",
-      "node",
-      "jest"
-    ]
   },
   "exclude": [
-    "node_modules",
+    "cypress",
     ".nuxt",
     "dist"
   ]

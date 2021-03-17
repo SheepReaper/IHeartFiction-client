@@ -1,8 +1,11 @@
 {
+    "extends": "../tsconfig.json",
     "compilerOptions": {
-        "target": "ES5",
-        "lib": ["ES5", "DOM"],
+        "noEmit": false,
         "types": ["cypress"]
     },
-    "include": ["**/*.ts"]
+    "include": [
+        "./*/*.ts", "integration/index.spec.js",
+    ],
+    "exclude": []
 }
