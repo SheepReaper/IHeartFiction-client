@@ -1,5 +1,5 @@
 export default {
-  target: process.env.ENABLE_STATIC === 1 ? 'static' : 'server',
+  target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - IHeartFiction',
