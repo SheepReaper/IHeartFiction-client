@@ -34,11 +34,11 @@ jobs:
           browser: chrome
           headless: true
           install: true
-          install-command: yarn install
+          install-command: npm install
           build: npm run generate
           # start: npm run start
           # wait-on: "http://localhost:3000"
-          command: test:e2e:run
+          command: npm run test:e2e:run
 
       # Save videos and screenshots as test artifacts
       # https://github.com/actions/upload-artifact
