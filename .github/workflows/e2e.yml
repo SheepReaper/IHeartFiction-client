@@ -11,7 +11,7 @@ on:
       - master
 
 jobs:
-  ci:
+  e2e:
     runs-on: ${{ matrix.os }}
 
     strategy:
@@ -34,7 +34,7 @@ jobs:
           browser: chrome
           headless: true
           install: true
-          # install-command: yarn install
+          install-command: yarn install
           build: npm run generate
           # start: npm run start
           # wait-on: "http://localhost:3000"

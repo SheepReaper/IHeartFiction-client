@@ -11,7 +11,7 @@ on:
       - master
 
 jobs:
-  ci:
+  lint-and-unit-test:
     runs-on: ${{ matrix.os }}
 
     strategy:
