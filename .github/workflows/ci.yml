@@ -46,7 +46,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install node deps
-        run: yarn install
+        run: yarn
 
       - name: Run linter 👀
         run: yarn lint
