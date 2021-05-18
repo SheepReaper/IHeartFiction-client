@@ -1764,15 +1764,15 @@
     webpack-node-externals "^3.0.0"
     webpackbar "^4.0.0"
 
-"@nuxtjs/axios@^5.13.1":
-  version "5.13.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.13.1.tgz#70c7444e6be8989372c249637f9287c844340f42"
+"@nuxtjs/axios@^5.13.4":
+  version "5.13.4"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.13.4.tgz#32ef656b7fdec1e53acdfdff6fb1844a1698af1e"
   dependencies:
     "@nuxtjs/proxy" "^2.1.0"
     axios "^0.21.1"
     axios-retry "^3.1.9"
     consola "^2.15.3"
-    defu "^3.2.2"
+    defu "^5.0.0"
 
 "@nuxtjs/eslint-config-typescript@^6.0.0":
   version "6.0.0"
@@ -4507,6 +4507,10 @@ defu@^3.2.2:
 defu@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/defu/-/defu-4.0.1.tgz#9d7d7a48f9295f08285d153dcff174c89b9bcb22"
+
+defu@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/defu/-/defu-5.0.0.tgz#5768f0d402a555bfc4c267246b20f82ce8b5a10b"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
