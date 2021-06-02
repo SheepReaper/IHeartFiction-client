@@ -18474,6 +18474,16 @@ typescript@~4.2:
   languageName: node
   linkType: hard
 
+"vue-template-compiler@npm:2.6.13":
+  version: 2.6.13
+  resolution: "vue-template-compiler@npm:2.6.13"
+  dependencies:
+    de-indent: ^1.0.2
+    he: ^1.1.0
+  checksum: 439044736fc833081f0d2dfe54330f5d86e63b62a6f0fe917e04ae5056ea74495587662ac5be05601df2caf6fdda47511510b03f43e647c86c7c69e0927835e2
+  languageName: node
+  linkType: hard
+
 "vue-template-es2015-compiler@npm:^1.9.0":
   version: 1.9.1
   resolution: "vue-template-es2015-compiler@npm:1.9.1"
@@ -18489,6 +18499,13 @@ typescript@~4.2:
     "@vue/runtime-dom": 3.0.11
     "@vue/shared": 3.0.11
   checksum: b71201f33a37b8e2648126abc0ece5847087b5cdeb68c28e2d202c355efff1fd2d4a0ba6722d89778bf13ab2dc469cd6bb8b8f984283cfc06085646ae1295f40
+  languageName: node
+  linkType: hard
+
+"vue@npm:2.6.13":
+  version: 2.6.13
+  resolution: "vue@npm:2.6.13"
+  checksum: a47c25429591259dd628697a3416960b8199c1a7d2f7157b5ccbd90112f679001245b42488682d3c63b17354bf6402239c5a53cf400a47f68ef28326ce63ba07
   languageName: node
   linkType: hard
 
@@ -18693,10 +18710,10 @@ typescript@~4.2:
     stylelint-config-standard: ^22.0.0
     ts-jest: ^26.5.6
     typescript: ^4.2.4
-    vue: ^2.6.12
+    vue: 2.6.13
     vue-eslint-parser: ^7.6.0
     vue-jest: 4.0.1
-    vue-template-compiler: ^2.6.12
+    vue-template-compiler: 2.6.13
   languageName: unknown
   linkType: soft
 
