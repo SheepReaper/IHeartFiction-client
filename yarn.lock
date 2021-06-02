@@ -6345,10 +6345,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.12.1":
-  version: 3.12.1
-  resolution: "core-js@npm:3.12.1"
-  checksum: 8b1d05579e7ddeafcd390001cc893540275fa3e658a00ae57f88954411a25bdfe583debb1929c6a50e40631cc07f2092490ea2284b35ffb922b23d7677060f28
+"core-js@npm:3.13.1":
+  version: 3.13.1
+  resolution: "core-js@npm:3.13.1"
+  checksum: 9138463ed7e6489a0b7f7e8a13cb345fde22866ab23d35f0e0e0ddc13e0374dfc7542d7316762a7dc2a5074efe22f8ff692e26ccc22860d8179de5eedf922e98
   languageName: node
   linkType: hard
 
@@ -18585,7 +18585,7 @@ typescript@~4.2:
     "@vue/test-utils": 1.2.0
     babel-core: 7.0.0-bridge.0
     babel-jest: 26.6.3
-    core-js: 3.12.1
+    core-js: 3.13.1
     cross-env: 7.0.3
     cypress: 6.9.1
     eslint: 7.27.0
