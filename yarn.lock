@@ -3543,29 +3543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:4.24.0":
-  version: 4.24.0
-  resolution: "@typescript-eslint/eslint-plugin@npm:4.24.0"
-  dependencies:
-    "@typescript-eslint/experimental-utils": 4.24.0
-    "@typescript-eslint/scope-manager": 4.24.0
-    debug: ^4.1.1
-    functional-red-black-tree: ^1.0.1
-    lodash: ^4.17.15
-    regexpp: ^3.0.0
-    semver: ^7.3.2
-    tsutils: ^3.17.1
-  peerDependencies:
-    "@typescript-eslint/parser": ^4.0.0
-    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: b3fb023320073cfbbc51d435313d63519a0c2ddb6360ace337e57be29851733edae54d2b4a893b54ee06080266021951f8a541b85084f2a00bf49c06d90e410d
-  languageName: node
-  linkType: hard
-
-"@typescript-eslint/eslint-plugin@npm:^4.25.0":
+"@typescript-eslint/eslint-plugin@npm:4.26.0, @typescript-eslint/eslint-plugin@npm:^4.25.0":
   version: 4.26.0
   resolution: "@typescript-eslint/eslint-plugin@npm:4.26.0"
   dependencies:
@@ -3587,22 +3565,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:4.24.0, @typescript-eslint/experimental-utils@npm:^4.0.1":
-  version: 4.24.0
-  resolution: "@typescript-eslint/experimental-utils@npm:4.24.0"
-  dependencies:
-    "@types/json-schema": ^7.0.3
-    "@typescript-eslint/scope-manager": 4.24.0
-    "@typescript-eslint/types": 4.24.0
-    "@typescript-eslint/typescript-estree": 4.24.0
-    eslint-scope: ^5.0.0
-    eslint-utils: ^2.0.0
-  peerDependencies:
-    eslint: "*"
-  checksum: 09a28e2b8b39739e7543afca53910b175d0ac4d9346da25479ef179bbeea3cb6d004bd5e931f5402fb39a1af7aa49b793c573da1faa1e773ea6d18006b781a5a
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/experimental-utils@npm:4.26.0":
   version: 4.26.0
   resolution: "@typescript-eslint/experimental-utils@npm:4.26.0"
@@ -3619,24 +3581,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:4.24.0":
+"@typescript-eslint/experimental-utils@npm:^4.0.1":
   version: 4.24.0
-  resolution: "@typescript-eslint/parser@npm:4.24.0"
+  resolution: "@typescript-eslint/experimental-utils@npm:4.24.0"
   dependencies:
+    "@types/json-schema": ^7.0.3
     "@typescript-eslint/scope-manager": 4.24.0
     "@typescript-eslint/types": 4.24.0
     "@typescript-eslint/typescript-estree": 4.24.0
-    debug: ^4.1.1
+    eslint-scope: ^5.0.0
+    eslint-utils: ^2.0.0
   peerDependencies:
-    eslint: ^5.0.0 || ^6.0.0 || ^7.0.0
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 30ff5e6b1e5e28a21f609576b6c504b6311ee7c26c6ffb1eaa986db16857765e7f5ad46c37c362a1fd809c3f3aead6be9c4e6b1289473be6764cf8f22e6f067e
+    eslint: "*"
+  checksum: 09a28e2b8b39739e7543afca53910b175d0ac4d9346da25479ef179bbeea3cb6d004bd5e931f5402fb39a1af7aa49b793c573da1faa1e773ea6d18006b781a5a
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^4.25.0":
+"@typescript-eslint/parser@npm:4.26.0, @typescript-eslint/parser@npm:^4.25.0":
   version: 4.26.0
   resolution: "@typescript-eslint/parser@npm:4.26.0"
   dependencies:
@@ -18619,8 +18580,8 @@ typescript@~4.2:
     "@types/eslint": 7.2.13
     "@types/jest": 26.0.23
     "@types/node": 14.17.2
-    "@typescript-eslint/eslint-plugin": 4.24.0
-    "@typescript-eslint/parser": 4.24.0
+    "@typescript-eslint/eslint-plugin": 4.26.0
+    "@typescript-eslint/parser": 4.26.0
     "@vue/test-utils": 1.2.0
     babel-core: 7.0.0-bridge.0
     babel-jest: 26.6.3
