@@ -3332,16 +3332,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/vuetify@npm:1.11.3":
-  version: 1.11.3
-  resolution: "@nuxtjs/vuetify@npm:1.11.3"
+"@nuxtjs/vuetify@npm:1.12.1":
+  version: 1.12.1
+  resolution: "@nuxtjs/vuetify@npm:1.12.1"
   dependencies:
     deepmerge: ^4.2.2
-    sass: ^1.32.4
-    sass-loader: ^10.1.1
-    vuetify: ^2.4.2
-    vuetify-loader: ^1.6.0
-  checksum: 553cc83186c3da7deaca4962cd690378f0686dde48838f2888bae312e33d5944ac1d7b5218066e4f291c435ae8f02fda6d0c45a3dacc6f342cf7681e87dd7883
+    sass: ~1.32.13
+    sass-loader: ^10.2.0
+    vuetify: ^2.5.3
+    vuetify-loader: ^1.7.2
+  checksum: d86e0055d9f0d9a24448ad40ef6c3bc5bcb0dfea26b8eacfdce7f618599c9f3b396f25b1a88b47be9ba3900a87c45d06d997e1ac15082928fa929197ebd8a6ca
   languageName: node
   linkType: hard
 
@@ -16045,7 +16045,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^10.1.1":
+"sass-loader@npm:^10.2.0":
   version: 10.2.0
   resolution: "sass-loader@npm:10.2.0"
   dependencies:
@@ -16070,14 +16070,14 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.32.4":
-  version: 1.34.1
-  resolution: "sass@npm:1.34.1"
+"sass@npm:~1.32.13":
+  version: 1.32.13
+  resolution: "sass@npm:1.32.13"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
   bin:
     sass: sass.js
-  checksum: 5feb6de5ee50440da1764756b4ccd3060f6b091453579a2ab2854a9d7f6ff5b03dce01cd5bbe2d9cf916a68a581fc15203b66a9d3dc4b95709541ec43fd9eaca
+  checksum: 93913232ec9efbd9edbe63e9c32e08c90e2ca7e1b75079b570207aa828386ad1391a0944a06411f2b2add88803a41dd3ecbfbbcf45ec4c2b288154e17243e71f
   languageName: node
   linkType: hard
 
@@ -18522,7 +18522,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"vuetify-loader@npm:^1.6.0":
+"vuetify-loader@npm:^1.7.2":
   version: 1.7.2
   resolution: "vuetify-loader@npm:1.7.2"
   dependencies:
@@ -18537,7 +18537,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"vuetify@npm:^2.4.2":
+"vuetify@npm:^2.5.3":
   version: 2.5.3
   resolution: "vuetify@npm:2.5.3"
   peerDependencies:
@@ -18679,7 +18679,7 @@ fsevents@^1.2.7:
     "@nuxtjs/eslint-module": 3.0.2
     "@nuxtjs/pwa": 3.3.5
     "@nuxtjs/stylelint-module": 4.0.0
-    "@nuxtjs/vuetify": 1.11.3
+    "@nuxtjs/vuetify": 1.12.1
     "@types/babel__preset-env": 7.9.1
     "@types/eslint": 7.2.13
     "@types/jest": 26.0.23
