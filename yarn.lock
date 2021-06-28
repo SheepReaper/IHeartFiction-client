@@ -5149,7 +5149,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^3.0.0, ci-info@npm:^3.1.1":
+"ci-info@npm:^3.0.0, ci-info@npm:^3.1.1, ci-info@npm:^3.2.0":
   version: 3.2.0
   resolution: "ci-info@npm:3.2.0"
   checksum: d4a898d60111d00f2b7a06a349162971fe0603aefa208fe8d1343ce9e93c48e3d37311c47211d5c9040d25b43038c817588e5b7d8eab5d17b00aec49c7b5fade
@@ -7224,15 +7224,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:33.0.1":
-  version: 33.0.1
-  resolution: "eslint-plugin-unicorn@npm:33.0.1"
+"eslint-plugin-unicorn@npm:34.0.0":
+  version: 34.0.0
+  resolution: "eslint-plugin-unicorn@npm:34.0.0"
   dependencies:
-    ci-info: ^3.1.1
+    ci-info: ^3.2.0
     clean-regexp: ^1.0.0
     eslint-template-visitor: ^2.3.2
     eslint-utils: ^3.0.0
-    import-modules: ^2.1.0
     is-builtin-module: ^3.1.0
     lodash: ^4.17.21
     pluralize: ^8.0.0
@@ -7242,8 +7241,8 @@ __metadata:
     safe-regex: ^2.1.1
     semver: ^7.3.5
   peerDependencies:
-    eslint: ">=7.23.0"
-  checksum: 48c2b5c67c450a8b6743c93b4e74e821a330220949703a0ac2114c277212545a40f3af3a3185e5b641f1e5947207cb9473ce1543c73ee2afde79e37bb2b58477
+    eslint: ">=7.28.0"
+  checksum: db4946d888d42996a142b7d4c1489870b98f651a5e87060c61c2c992b52247016c3b2e7a025cf63779333c3a84f22fb3134e903cd050156bfc2fad6f67f1e38b
   languageName: node
   linkType: hard
 
@@ -17600,7 +17599,7 @@ fsevents@^1.2.7:
     eslint-plugin-nuxt: 2.0.0
     eslint-plugin-prettier: 3.4.0
     eslint-plugin-promise: 5.1.0
-    eslint-plugin-unicorn: 33.0.1
+    eslint-plugin-unicorn: 34.0.0
     eslint-plugin-vue: 7.12.1
     husky: 6.0.0
     jest: 26.6.3
