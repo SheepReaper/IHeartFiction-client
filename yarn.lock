@@ -3880,7 +3880,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.0.4, acorn@npm:^8.2.1, acorn@npm:^8.2.4":
+"acorn@npm:^8.0.4, acorn@npm:^8.2.1, acorn@npm:^8.2.4, acorn@npm:^8.4.1":
   version: 8.4.1
   resolution: "acorn@npm:8.4.1"
   bin:
@@ -7451,6 +7451,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-visitor-keys@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "eslint-visitor-keys@npm:3.0.0"
+  checksum: 44f58d85f7db0536e2f2dfabdf821e69ae362f87a222e8ac93438e1d6adc1bfd000c787ffe8287dbb2023d412648d299b9fd028f2ec72ad1ffcbfaab3a1f153b
+  languageName: node
+  linkType: hard
+
 "eslint-webpack-plugin@npm:^2.4.1":
   version: 2.5.4
   resolution: "eslint-webpack-plugin@npm:2.5.4"
@@ -7536,6 +7543,17 @@ __metadata:
     acorn-jsx: ^5.3.1
     eslint-visitor-keys: ^1.3.0
   checksum: ff8e0f73939e1e76529b630cba65b6128e4d18ed7bf0b16af62022cadc73ddb950c7e5aa629cca74e8abebdf76f6dcd1cf873dbc819f10599827c6019e2f8e91
+  languageName: node
+  linkType: hard
+
+"espree@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "espree@npm:8.0.0"
+  dependencies:
+    acorn: ^8.4.1
+    acorn-jsx: ^5.3.1
+    eslint-visitor-keys: ^3.0.0
+  checksum: 5d45f74ab0b69a4c5cc9bceec9800d076bebae25ac8b3499589939351a357a22fac74ccc484d62b33c21edbe66acc885559784aa082341f2abf1dab1fd981cd6
   languageName: node
   linkType: hard
 
@@ -17357,7 +17375,24 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:7.6.0, vue-eslint-parser@npm:^7.1.1, vue-eslint-parser@npm:^7.6.0":
+"vue-eslint-parser@npm:7.7.0":
+  version: 7.7.0
+  resolution: "vue-eslint-parser@npm:7.7.0"
+  dependencies:
+    debug: ^4.1.1
+    eslint-scope: ^5.1.1
+    eslint-visitor-keys: ^1.1.0
+    espree: ^8.0.0
+    esquery: ^1.4.0
+    lodash: ^4.17.21
+    semver: ^7.3.5
+  peerDependencies:
+    eslint: ">=5.0.0"
+  checksum: ceb49ae58fc5174d3d6706524cce28e8a257e26d315b9f96db22cd341ce8fff04bda0a95dfb48c46c2af00621cb0220c10c4a4aaddc70180b5957ba64483ec0f
+  languageName: node
+  linkType: hard
+
+"vue-eslint-parser@npm:^7.1.1, vue-eslint-parser@npm:^7.6.0":
   version: 7.6.0
   resolution: "vue-eslint-parser@npm:7.6.0"
   dependencies:
@@ -17715,7 +17750,7 @@ fsevents@^1.2.7:
     ts-jest: 26.5.6
     typescript: 4.2.4
     vue: 2.6.14
-    vue-eslint-parser: 7.6.0
+    vue-eslint-parser: 7.7.0
     vue-jest: 4.0.1
     vue-template-compiler: 2.6.14
   languageName: unknown
