@@ -17364,7 +17364,24 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:7.7.2, vue-eslint-parser@npm:^7.1.1, vue-eslint-parser@npm:^7.6.0":
+"vue-eslint-parser@npm:7.8.0":
+  version: 7.8.0
+  resolution: "vue-eslint-parser@npm:7.8.0"
+  dependencies:
+    debug: ^4.1.1
+    eslint-scope: ^5.1.1
+    eslint-visitor-keys: ^1.1.0
+    espree: ^6.2.1
+    esquery: ^1.4.0
+    lodash: ^4.17.21
+    semver: ^6.3.0
+  peerDependencies:
+    eslint: ">=5.0.0"
+  checksum: 6b9eeb275d1866548d0f4b161a8f037aed6a10f8eaca26a0b8545bf0ff56e55cfb90b1cefadeb19b3369ec8206e0be513ce2b5029d2be325df386a457528d5ff
+  languageName: node
+  linkType: hard
+
+"vue-eslint-parser@npm:^7.1.1, vue-eslint-parser@npm:^7.6.0":
   version: 7.7.2
   resolution: "vue-eslint-parser@npm:7.7.2"
   dependencies:
@@ -17723,7 +17740,7 @@ fsevents@^1.2.7:
     ts-jest: 26.5.6
     typescript: 4.2.4
     vue: 2.6.14
-    vue-eslint-parser: 7.7.2
+    vue-eslint-parser: 7.8.0
     vue-jest: 4.0.1
     vue-template-compiler: 2.6.14
   languageName: unknown
