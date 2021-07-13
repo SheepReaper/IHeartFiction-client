@@ -2607,13 +2607,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*, @types/eslint@npm:7.2.14, @types/eslint@npm:^7.2.6":
+"@types/eslint@npm:*, @types/eslint@npm:^7.2.6":
   version: 7.2.14
   resolution: "@types/eslint@npm:7.2.14"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
   checksum: e7ab90a295beae9495e3241a57078cc36dd1b7e58d0d2605d927abbe6eee5b8996ab6aff0f6d230da93d5f0361b737416dd8137f6c89d38f19d3d1f51f34d22d
+  languageName: node
+  linkType: hard
+
+"@types/eslint@npm:7.28.0":
+  version: 7.28.0
+  resolution: "@types/eslint@npm:7.28.0"
+  dependencies:
+    "@types/estree": "*"
+    "@types/json-schema": "*"
+  checksum: eae026f960db17c8a6e88b736eeabc6da553846ca88668d0757d1ee74e4abf2bed40ccff28548c89b088f513e9064f7a458c831dd8ef4445d0b5dc85eb94e791
   languageName: node
   linkType: hard
 
@@ -17702,7 +17712,7 @@ fsevents@^1.2.7:
     "@nuxtjs/stylelint-module": 4.0.0
     "@nuxtjs/vuetify": 1.12.1
     "@types/babel__preset-env": 7.9.2
-    "@types/eslint": 7.2.14
+    "@types/eslint": 7.28.0
     "@types/jest": 26.0.24
     "@types/node": 14.17.5
     "@typescript-eslint/eslint-plugin": 4.28.3
