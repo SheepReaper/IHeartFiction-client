@@ -51,7 +51,7 @@
     "cypress": "6.9.1",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-import-resolver-node": "0.3.5",
+    "eslint-import-resolver-node": "0.3.6",
     "eslint-plugin-cypress": "2.11.3",
     "eslint-plugin-import": "2.24.0",
     "eslint-plugin-jest": "24.4.0",
