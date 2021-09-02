@@ -15832,9 +15832,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:1.13.1":
-  version: 1.13.1
-  resolution: "start-server-and-test@npm:1.13.1"
+"start-server-and-test@npm:1.14.0":
+  version: 1.14.0
+  resolution: "start-server-and-test@npm:1.14.0"
   dependencies:
     bluebird: 3.7.2
     check-more-types: 2.24.0
@@ -15847,7 +15847,7 @@ fsevents@^1.2.7:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: b14af3e80fa4096f9859e14cf598c647876afb3c59c2e024e72f81dd383a561b71d7823187032e9ba5c5a9d31b81d799a01c2fbc8f8b7a9149289b77e6d4263b
+  checksum: d58b30f72b6849733b034211ba8c5c35fdf34e544235457d5ce0b52249cbe35f9390c65da70b6eaf9400382b1255bc354933eac55279e7340377bf48d293268c
   languageName: node
   linkType: hard
 
@@ -17773,7 +17773,7 @@ fsevents@^1.2.7:
     prettier: 2.3.2
     pug: 3.0.2
     pug-plain-loader: 1.1.0
-    start-server-and-test: 1.13.1
+    start-server-and-test: 1.14.0
     stylelint: 13.13.1
     stylelint-config-prettier: 8.0.2
     stylelint-config-standard: 22.0.0
