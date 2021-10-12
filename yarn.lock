@@ -7476,15 +7476,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:36.0.0":
-  version: 36.0.0
-  resolution: "eslint-plugin-unicorn@npm:36.0.0"
+"eslint-plugin-unicorn@npm:37.0.1":
+  version: 37.0.1
+  resolution: "eslint-plugin-unicorn@npm:37.0.1"
   dependencies:
     "@babel/helper-validator-identifier": ^7.14.9
     ci-info: ^3.2.0
     clean-regexp: ^1.0.0
     eslint-template-visitor: ^2.3.2
     eslint-utils: ^3.0.0
+    esquery: ^1.4.0
+    indent-string: 4
     is-builtin-module: ^3.1.0
     lodash: ^4.17.21
     pluralize: ^8.0.0
@@ -7492,9 +7494,10 @@ __metadata:
     regexp-tree: ^0.1.23
     safe-regex: ^2.1.1
     semver: ^7.3.5
+    strip-indent: ^3.0.0
   peerDependencies:
     eslint: ">=7.32.0"
-  checksum: 192b9e832678f62f8824487fd4a22092abdc93075dbaa44c74c46c23a4793c1579390f3d600af11ec513dd6c4ccb6ed2c57b00d89d0ae750e5b6921f023d5033
+  checksum: dea3cf4de8b0f50973c341a16a5267cb198ad9ff10a65d4fb3646802f0f39746cca0aa5179c31b471ceb383d89ba10260e2442d8f38aa22af4df9d81803cee6f
   languageName: node
   linkType: hard
 
@@ -9562,17 +9565,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"indent-string@npm:4, indent-string@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "indent-string@npm:4.0.0"
+  checksum: 3e54996c6e15ca00a7a4403be705bce4fb3bb4ac637da2e1473006e42a651863f53bfb8c3438c1b3aac77817768ac0cde0e7b7a81a6cf24a1286227a06510dbf
+  languageName: node
+  linkType: hard
+
 "indent-string@npm:^3.0.0":
   version: 3.2.0
   resolution: "indent-string@npm:3.2.0"
   checksum: 00d5200e3afc1ecfde7e82a28d14ce5e01ae5f07f883b5fdaa80146bb15854764f6a0e0ce5e41e30f377e25285139925adaf744b1754d83d69ab3852de7cd450
-  languageName: node
-  linkType: hard
-
-"indent-string@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "indent-string@npm:4.0.0"
-  checksum: 3e54996c6e15ca00a7a4403be705bce4fb3bb4ac637da2e1473006e42a651863f53bfb8c3438c1b3aac77817768ac0cde0e7b7a81a6cf24a1286227a06510dbf
   languageName: node
   linkType: hard
 
@@ -18016,7 +18019,7 @@ fsevents@^1.2.7:
     eslint-plugin-nuxt: 2.0.0
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-promise: 5.1.0
-    eslint-plugin-unicorn: 36.0.0
+    eslint-plugin-unicorn: 37.0.1
     eslint-plugin-vue: 7.19.1
     husky: 6.0.0
     jest: 26.6.3
