@@ -16450,15 +16450,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"stylelint-config-prettier@npm:9.0.2":
-  version: 9.0.2
-  resolution: "stylelint-config-prettier@npm:9.0.2"
+"stylelint-config-prettier@npm:9.0.3":
+  version: 9.0.3
+  resolution: "stylelint-config-prettier@npm:9.0.3"
   peerDependencies:
     stylelint: ">=11.0.0"
   bin:
     stylelint-config-prettier: bin/check.js
     stylelint-config-prettier-check: bin/check.js
-  checksum: 32f1552557ec834f5f9201f027cab7b644690479e2c750ab48516241182a467216096c118f10370002c4e9340ed93293fadbe1a480ad19dd238b25e7679eb543
+  checksum: 2b76fdc0ee2742e74e28e6fe24b7ae085515b5f658d8dfb39b0e22b26d9519cc28ad4e9dcf5915eb4df07c2106be8421dce94deb5aa8178ccd7bd5cda33ded84
   languageName: node
   linkType: hard
 
@@ -18065,7 +18065,7 @@ fsevents@^1.2.7:
     pug-plain-loader: 1.1.0
     start-server-and-test: 1.14.0
     stylelint: 13.13.1
-    stylelint-config-prettier: 9.0.2
+    stylelint-config-prettier: 9.0.3
     stylelint-config-standard: 22.0.0
     ts-jest: 26.5.6
     typescript: 4.2.4
