@@ -7512,14 +7512,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-nuxt@npm:2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-nuxt@npm:2.0.0"
+"eslint-plugin-nuxt@npm:3.0.0":
+  version: 3.0.0
+  resolution: "eslint-plugin-nuxt@npm:3.0.0"
   dependencies:
-    eslint-plugin-vue: ^7.1.0
-    semver: ^7.3.2
-    vue-eslint-parser: ^7.1.1
-  checksum: 2194a62658f1ae8628db9f8f7ffeb4d36af0f77aaf86715dc4ea9161f1bfc4d3ccaec7504b37170556e841d3d6abe36f3cde1cf8f446cc3c4ced050b64ba90d4
+    eslint-plugin-vue: ^7.20.0
+    semver: ^7.3.5
+    vue-eslint-parser: ^8.0.0
+  checksum: 27ce510f36cc21fc6cab31fd873d99eb8ca18fc18dfc60ce766873b1794ae5991e760ebc28b60cff436a889afdc91725b5db06007cb36ad0990371438d2b5876
   languageName: node
   linkType: hard
 
@@ -7613,7 +7613,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:7.20.0":
+"eslint-plugin-vue@npm:7.20.0, eslint-plugin-vue@npm:^7.20.0":
   version: 7.20.0
   resolution: "eslint-plugin-vue@npm:7.20.0"
   dependencies:
@@ -7627,7 +7627,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:^7.1.0, eslint-plugin-vue@npm:^7.9.0":
+"eslint-plugin-vue@npm:^7.9.0":
   version: 7.19.1
   resolution: "eslint-plugin-vue@npm:7.19.1"
   dependencies:
@@ -17747,7 +17747,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:7.11.0, vue-eslint-parser@npm:^7.1.1, vue-eslint-parser@npm:^7.10.0":
+"vue-eslint-parser@npm:7.11.0, vue-eslint-parser@npm:^7.10.0":
   version: 7.11.0
   resolution: "vue-eslint-parser@npm:7.11.0"
   dependencies:
@@ -17761,6 +17761,23 @@ fsevents@^1.2.7:
   peerDependencies:
     eslint: ">=5.0.0"
   checksum: 4a27398cff4235abd9fb59baa16bcf7c43b126eed7a3a966be97cd607cdc3295a1da845b3bf5bf4f9d6b3787f550735aef6b08d5c824af01213e7492781dddf1
+  languageName: node
+  linkType: hard
+
+"vue-eslint-parser@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "vue-eslint-parser@npm:8.0.0"
+  dependencies:
+    debug: ^4.3.2
+    eslint-scope: ^6.0.0
+    eslint-visitor-keys: ^3.0.0
+    espree: ^9.0.0
+    esquery: ^1.4.0
+    lodash: ^4.17.21
+    semver: ^7.3.5
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: 343ee6dd27a720e746806c5ce52856a25055fa654d75535dd16cb3071c60af421d66a148ebf7ab6206dc10ca3b8a29d5f729b22f184fbb2fb50022d0bdc74941
   languageName: node
   linkType: hard
 
@@ -18088,7 +18105,7 @@ fsevents@^1.2.7:
     eslint-plugin-import: 2.25.2
     eslint-plugin-jest: 25.2.2
     eslint-plugin-node: 11.1.0
-    eslint-plugin-nuxt: 2.0.0
+    eslint-plugin-nuxt: 3.0.0
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-promise: 5.1.1
     eslint-plugin-unicorn: 37.0.1
