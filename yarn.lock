@@ -2867,10 +2867,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:14.17.29":
-  version: 14.17.29
-  resolution: "@types/node@npm:14.17.29"
-  checksum: 1f9ad802619041cdec33472624d13291f553feb74d4a47d8da8ddab384d661b757224ddbf749eab6a087a694a7d4c0d7fc8a44994fe57ee8565768601c901a02
+"@types/node@npm:14.17.31":
+  version: 14.17.31
+  resolution: "@types/node@npm:14.17.31"
+  checksum: affd7b14750660bc771c9858b9a8575ebc338baee7973907bceb826365f81bc94f81d4f24a6ef1f77e0b4d41fab97fcb6c5e58ed168df0ebddf92c7bfbab5ab1
   languageName: node
   linkType: hard
 
@@ -18001,7 +18001,7 @@ fsevents@^1.2.7:
     "@types/babel__preset-env": 7.9.2
     "@types/eslint": 7.28.2
     "@types/jest": 27.0.2
-    "@types/node": 14.17.29
+    "@types/node": 14.17.31
     "@typescript-eslint/eslint-plugin": 5.1.0
     "@typescript-eslint/parser": 5.1.0
     "@vue/test-utils": 1.2.2
