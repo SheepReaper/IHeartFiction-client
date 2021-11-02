@@ -6070,10 +6070,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.19.0":
-  version: 3.19.0
-  resolution: "core-js@npm:3.19.0"
-  checksum: 2e9352f7794e555c377a61c7d9c007a7f66ce11ee0f1a26c1cfb48ff52885a2c162972c026eb32cbbfbb3be4050701f649e78ea8c44d4ac659d447a9dbc5f0de
+"core-js@npm:3.19.1":
+  version: 3.19.1
+  resolution: "core-js@npm:3.19.1"
+  checksum: 32b2ecead4b19f134b4c385271a0dd99f089ef90896d73a3b554b27832d1b56fc7ffaa5a8b396b670ef43c332b9a5522ccd9d1172189dcd911bbe5c08077d0d5
   languageName: node
   linkType: hard
 
@@ -18078,7 +18078,7 @@ fsevents@^1.2.7:
     "@vue/test-utils": 1.2.2
     babel-core: 7.0.0-bridge.0
     babel-jest: 26.6.3
-    core-js: 3.19.0
+    core-js: 3.19.1
     cross-env: 7.0.3
     cypress: 6.9.1
     eslint: 7.32.0
