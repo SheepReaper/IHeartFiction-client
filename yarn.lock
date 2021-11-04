@@ -7556,9 +7556,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:37.0.1":
-  version: 37.0.1
-  resolution: "eslint-plugin-unicorn@npm:37.0.1"
+"eslint-plugin-unicorn@npm:38.0.0":
+  version: 38.0.0
+  resolution: "eslint-plugin-unicorn@npm:38.0.0"
   dependencies:
     "@babel/helper-validator-identifier": ^7.14.9
     ci-info: ^3.2.0
@@ -7577,7 +7577,7 @@ __metadata:
     strip-indent: ^3.0.0
   peerDependencies:
     eslint: ">=7.32.0"
-  checksum: dea3cf4de8b0f50973c341a16a5267cb198ad9ff10a65d4fb3646802f0f39746cca0aa5179c31b471ceb383d89ba10260e2442d8f38aa22af4df9d81803cee6f
+  checksum: fb63c3a0465bc40f1bf4d0474a3d621841001e89be0326e2c2d6c6370839ff80fb96a56aabc1519d41def85986c38062bf249d759c6410a4b286ecf12c597866
   languageName: node
   linkType: hard
 
@@ -18091,7 +18091,7 @@ fsevents@^1.2.7:
     eslint-plugin-nuxt: 3.0.0
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-promise: 5.1.1
-    eslint-plugin-unicorn: 37.0.1
+    eslint-plugin-unicorn: 38.0.0
     eslint-plugin-vue: 8.0.1
     husky: 6.0.0
     jest: 26.6.3
