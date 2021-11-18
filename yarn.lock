@@ -2938,13 +2938,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:27.0.2":
-  version: 27.0.2
-  resolution: "@types/jest@npm:27.0.2"
+"@types/jest@npm:27.0.3":
+  version: 27.0.3
+  resolution: "@types/jest@npm:27.0.3"
   dependencies:
     jest-diff: ^27.0.0
     pretty-format: ^27.0.0
-  checksum: 0dca387566663601e03d4d668f9f5bffc18c992d30442a2de947c5021a0fb4c2c4aaf8b64df471915c37742a7c317c8d0a3587c0b46dd8332c6b686d5ae9c80a
+  checksum: c3c0f707f86d9b4195e29fd28871bd1017a242a60764d8f404ef3f8c5d9cdf95fc1d69fde9e2de09f23987457647cc690b9a9834ec6a3bf14a65ddb1d2cba492
   languageName: node
   linkType: hard
 
@@ -18258,7 +18258,7 @@ fsevents@^1.2.7:
     "@nuxtjs/vuetify": 1.12.1
     "@types/babel__preset-env": 7.9.2
     "@types/eslint": 7.29.0
-    "@types/jest": 27.0.2
+    "@types/jest": 27.0.3
     "@types/node": 16.11.8
     "@typescript-eslint/eslint-plugin": 5.4.0
     "@typescript-eslint/parser": 5.4.0
