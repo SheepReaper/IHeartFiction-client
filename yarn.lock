@@ -7707,14 +7707,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-nuxt@npm:3.0.0":
-  version: 3.0.0
-  resolution: "eslint-plugin-nuxt@npm:3.0.0"
+"eslint-plugin-nuxt@npm:3.1.0":
+  version: 3.1.0
+  resolution: "eslint-plugin-nuxt@npm:3.1.0"
   dependencies:
-    eslint-plugin-vue: ^7.20.0
+    eslint-plugin-vue: ^8.1.1
     semver: ^7.3.5
-    vue-eslint-parser: ^8.0.0
-  checksum: 27ce510f36cc21fc6cab31fd873d99eb8ca18fc18dfc60ce766873b1794ae5991e760ebc28b60cff436a889afdc91725b5db06007cb36ad0990371438d2b5876
+    vue-eslint-parser: ^8.0.1
+  checksum: cf1f0c1fec3c0c993abe489065eba08dc3091f37e5712d50487e0ddfc16a67341b7f9c91f057d3ddb08fa3814f81cf796b727cafcd9aa8f1132de91a3f103dcc
   languageName: node
   linkType: hard
 
@@ -7813,7 +7813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:^7.20.0, eslint-plugin-vue@npm:^7.9.0":
+"eslint-plugin-vue@npm:^7.9.0":
   version: 7.20.0
   resolution: "eslint-plugin-vue@npm:7.20.0"
   dependencies:
@@ -7824,6 +7824,20 @@ __metadata:
   peerDependencies:
     eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
   checksum: b755e8b8ab9700cbde366b3bc3a5b3ca35a3f2eb2076e91dc48f46b7ac17772180eac683de87e97776bc8057cbfc5a8b27f977a7b4fc5c98e8cea111eb0a62fa
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-vue@npm:^8.1.1":
+  version: 8.1.1
+  resolution: "eslint-plugin-vue@npm:8.1.1"
+  dependencies:
+    eslint-utils: ^3.0.0
+    natural-compare: ^1.4.0
+    semver: ^7.3.5
+    vue-eslint-parser: ^8.0.1
+  peerDependencies:
+    eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
+  checksum: b9d086596e48f06b0a6b60c089c2b3770194f77f069ee6148a519cdc005b564c980c778fa4a93a19c6493f0f51d1d09746a4e8315693d75ee13f4bf79b50ef29
   languageName: node
   linkType: hard
 
@@ -17931,7 +17945,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:^8.0.0":
+"vue-eslint-parser@npm:^8.0.0, vue-eslint-parser@npm:^8.0.1":
   version: 8.0.1
   resolution: "vue-eslint-parser@npm:8.0.1"
   dependencies:
@@ -18272,7 +18286,7 @@ fsevents@^1.2.7:
     eslint-plugin-import: 2.25.3
     eslint-plugin-jest: 25.3.0
     eslint-plugin-node: 11.1.0
-    eslint-plugin-nuxt: 3.0.0
+    eslint-plugin-nuxt: 3.1.0
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-promise: 5.1.1
     eslint-plugin-unicorn: 39.0.0
