@@ -2537,15 +2537,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/stylelint-module@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@nuxtjs/stylelint-module@npm:4.0.0"
+"@nuxtjs/stylelint-module@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@nuxtjs/stylelint-module@npm:4.1.0"
   dependencies:
-    consola: ^2.12.1
-    stylelint-webpack-plugin: ^2.0.0
+    consola: ^2.15.3
+    stylelint-webpack-plugin: ^2.3.1
   peerDependencies:
-    stylelint: ^13.0.0
-  checksum: de828df78e4c0339c87a6f00374a9be714de06e651ab891a591fd8be11ae91d3f32712463f61c966d68a615b17123cf98ea2e09242023aeddae7381ae5a77c5b
+    stylelint: ^13.0.0 || ^14.0.0
+    webpack: ^4.0.0 || ^5.0.0
+  checksum: 047af012f8fc4a4583a8c89a45e5b8372344c9af30112e694082c2e309e49eee6959e2dbe7c6370bccdf7006f0d0bc16cfd920102dd2b6374df8fa4905047910
   languageName: node
   linkType: hard
 
@@ -6132,7 +6133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"consola@npm:*, consola@npm:^2.10.0, consola@npm:^2.12.1, consola@npm:^2.15.0, consola@npm:^2.15.3, consola@npm:^2.6.0, consola@npm:^2.9.0":
+"consola@npm:*, consola@npm:^2.10.0, consola@npm:^2.15.0, consola@npm:^2.15.3, consola@npm:^2.6.0, consola@npm:^2.9.0":
   version: 2.15.3
   resolution: "consola@npm:2.15.3"
   checksum: 914e2b0b24605a41f1a83ae29a0238558d01a01c40ada5817db81b2dd1543a540d59e38e81e736d05360246379a18013e6930b32231650898dfc4adb52a93523
@@ -16712,7 +16713,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"stylelint-webpack-plugin@npm:^2.0.0":
+"stylelint-webpack-plugin@npm:^2.3.1":
   version: 2.3.1
   resolution: "stylelint-webpack-plugin@npm:2.3.1"
   dependencies:
@@ -18274,7 +18275,7 @@ fsevents@^1.2.7:
     "@nuxtjs/eslint-config-typescript": 6.0.1
     "@nuxtjs/eslint-module": 3.0.2
     "@nuxtjs/pwa": 3.3.5
-    "@nuxtjs/stylelint-module": 4.0.0
+    "@nuxtjs/stylelint-module": 4.1.0
     "@nuxtjs/vuetify": 1.12.2
     "@types/babel__preset-env": 7.9.2
     "@types/eslint": 7.29.0
