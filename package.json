@@ -39,7 +39,7 @@
     "@nuxtjs/stylelint-module": "4.1.0",
     "@nuxtjs/vuetify": "1.12.2",
     "@types/babel__preset-env": "7.9.2",
-    "@types/eslint": "7.29.0",
+    "@types/eslint": "8.2.2",
     "@types/jest": "27.0.3",
     "@types/node": "16.11.11",
     "@typescript-eslint/eslint-plugin": "5.5.0",
