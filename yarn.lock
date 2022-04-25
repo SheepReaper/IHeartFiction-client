@@ -7809,17 +7809,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:8.0.1":
-  version: 8.0.1
-  resolution: "eslint-plugin-vue@npm:8.0.1"
+"eslint-plugin-vue@npm:8.7.1":
+  version: 8.7.1
+  resolution: "eslint-plugin-vue@npm:8.7.1"
   dependencies:
     eslint-utils: ^3.0.0
     natural-compare: ^1.4.0
+    nth-check: ^2.0.1
+    postcss-selector-parser: ^6.0.9
     semver: ^7.3.5
-    vue-eslint-parser: ^8.0.0
+    vue-eslint-parser: ^8.0.1
   peerDependencies:
     eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
-  checksum: aaad6137abd002fc174d0d73893611220c2a665da508a741d96121e918081c6682e32a48895f7ab03d061af9646463c4186c4f47f6a565b6941d99f827fc7e64
+  checksum: 5bcf02774652624bd3a4d3bac9e4ff138ce34ca2e66b89acbd1aec44828cdb04dfd2b301b92cf2b97b493aeb3485658a095f7451b416ed9279ad2606ba56b2fc
   languageName: node
   linkType: hard
 
@@ -12872,7 +12874,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"nth-check@npm:^2.0.0":
+"nth-check@npm:^2.0.0, nth-check@npm:^2.0.1":
   version: 2.0.1
   resolution: "nth-check@npm:2.0.1"
   dependencies:
@@ -14413,6 +14415,16 @@ fsevents@^1.2.7:
     cssesc: ^3.0.0
     util-deprecate: ^1.0.2
   checksum: 7e4854e82faa14bab0c5affbdf49b67cc0bf3e6fd9b0273e7f72c8ec957b5c5bcb7c64ae3cb6f8fe5b3ef965ec7e235d4e4d1a8868bd02139072e7a545221f09
+  languageName: node
+  linkType: hard
+
+"postcss-selector-parser@npm:^6.0.9":
+  version: 6.0.10
+  resolution: "postcss-selector-parser@npm:6.0.10"
+  dependencies:
+    cssesc: ^3.0.0
+    util-deprecate: ^1.0.2
+  checksum: 87d4d3dce77c563e122451f0b571544bc2569a6e847643902d828b37dec93287100951753c125e7eccf93f13300e6cfac348f0a0c6994682410a0ad207bd8220
   languageName: node
   linkType: hard
 
@@ -17964,7 +17976,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"vue-eslint-parser@npm:^8.0.0, vue-eslint-parser@npm:^8.0.1":
+"vue-eslint-parser@npm:^8.0.1":
   version: 8.0.1
   resolution: "vue-eslint-parser@npm:8.0.1"
   dependencies:
@@ -18309,7 +18321,7 @@ fsevents@^1.2.7:
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-promise: 5.2.0
     eslint-plugin-unicorn: 39.0.0
-    eslint-plugin-vue: 8.0.1
+    eslint-plugin-vue: 8.7.1
     husky: 6.0.0
     jest: 26.6.3
     lint-staged: 10.5.4
