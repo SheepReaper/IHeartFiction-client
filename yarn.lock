@@ -1484,12 +1484,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:12.1.4":
-  version: 12.1.4
-  resolution: "@commitlint/config-conventional@npm:12.1.4"
+"@commitlint/config-conventional@npm:17.2.0":
+  version: 17.2.0
+  resolution: "@commitlint/config-conventional@npm:17.2.0"
   dependencies:
-    conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: 3bcc963d88a130f50d3d2b12a29a11eff6c0a553ad945595fe1d9d36052be662a011c2a6784ce88ede8c91b5aaadf5517c3f533747e91c799e0fe3281338d98c
+    conventional-changelog-conventionalcommits: ^5.0.0
+  checksum: 8254f37d11ad3178f9d6eceee22216bdee66c2cb733cf0f61714dfa6a5b4537bd0716d08b950e0605ddeb70905a9c0fa4b96a694ade8276419d6861d9d65eaab
   languageName: node
   linkType: hard
 
@@ -6190,14 +6190,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^4.3.1":
-  version: 4.6.1
-  resolution: "conventional-changelog-conventionalcommits@npm:4.6.1"
+"conventional-changelog-conventionalcommits@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "conventional-changelog-conventionalcommits@npm:5.0.0"
   dependencies:
     compare-func: ^2.0.0
     lodash: ^4.17.15
     q: ^1.5.1
-  checksum: c9a72b75eb68c0c5d837a5cce26a81ff2f726eedf3af4e4e616eb6de013e7884ef7a092483dec8edf2d18199ea9f3deb093eeb6febd0ccc7dda772bdedef0058
+  checksum: 757fb714e3fbcd182fa2fe5d31b992f27afa8f329e7e107dfb37ec9c591c0a6066116226ea7a945c7c106491d9f2ab544ec37cdc96b9ee2f09985c7e3afeae24
   languageName: node
   linkType: hard
 
@@ -18277,7 +18277,7 @@ fsevents@^1.2.7:
   dependencies:
     "@babel/preset-env": 7.16.4
     "@commitlint/cli": 12.1.4
-    "@commitlint/config-conventional": 12.1.4
+    "@commitlint/config-conventional": 17.2.0
     "@nuxt/types": 2.15.8
     "@nuxt/typescript-build": 2.1.0
     "@nuxtjs/axios": 5.13.6
