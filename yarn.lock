@@ -1873,6 +1873,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint-community/eslint-utils@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "@eslint-community/eslint-utils@npm:4.4.0"
+  dependencies:
+    eslint-visitor-keys: ^3.3.0
+  peerDependencies:
+    eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
+  checksum: b84a5675bb9ae989da1ae12c21755ba3e283495879276f87098c8f27040c886f8f192a6cc3460acdfee933928b31931f59e0ae928c816b82bdc0ac2caf21dc5a
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^0.4.3":
   version: 0.4.3
   resolution: "@eslint/eslintrc@npm:0.4.3"
@@ -4409,7 +4420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn-jsx@npm:^5.2.0, acorn-jsx@npm:^5.3.1":
+"acorn-jsx@npm:^5.2.0, acorn-jsx@npm:^5.3.1, acorn-jsx@npm:^5.3.2":
   version: 5.3.2
   resolution: "acorn-jsx@npm:5.3.2"
   peerDependencies:
@@ -4456,6 +4467,15 @@ __metadata:
   bin:
     acorn: bin/acorn
   checksum: 989ff8bf4b1f37d3c719c1dce785524344d2e3859ac9d851e25a0af9f4f8cddfb15f6b83560bf57508daebe76faaf2ee2a089ecb984ad4ac6236b594bc41abbb
+  languageName: node
+  linkType: hard
+
+"acorn@npm:^8.9.0":
+  version: 8.10.0
+  resolution: "acorn@npm:8.10.0"
+  bin:
+    acorn: bin/acorn
+  checksum: 36ba54f89953692c0fa082ac9768c15dd3ecd8b6b2ad0a3e176c2f3a2bdda3bde78206166d55bfc31987ec91a9042ea33fc11292b85619be879e4a3a5fbce3d1
   languageName: node
   linkType: hard
 
@@ -7056,6 +7076,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"debug@npm:^4.3.4":
+  version: 4.3.4
+  resolution: "debug@npm:4.3.4"
+  dependencies:
+    ms: 2.1.2
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 7d71c93be25ed05e85840ec12df1a6d1848adbf8bc66948017ad4120fed17d7889e305adec560c18d70710e6de0c55548fbed170f4355045bbbbbd2afd1532a2
+  languageName: node
+  linkType: hard
+
 "decache@npm:^4.6.0":
   version: 4.6.0
   resolution: "decache@npm:4.6.0"
@@ -7990,19 +8022,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vue@npm:8.7.1":
-  version: 8.7.1
-  resolution: "eslint-plugin-vue@npm:8.7.1"
+"eslint-plugin-vue@npm:9.17.0":
+  version: 9.17.0
+  resolution: "eslint-plugin-vue@npm:9.17.0"
   dependencies:
-    eslint-utils: ^3.0.0
+    "@eslint-community/eslint-utils": ^4.4.0
     natural-compare: ^1.4.0
-    nth-check: ^2.0.1
-    postcss-selector-parser: ^6.0.9
-    semver: ^7.3.5
-    vue-eslint-parser: ^8.0.1
+    nth-check: ^2.1.1
+    postcss-selector-parser: ^6.0.13
+    semver: ^7.5.4
+    vue-eslint-parser: ^9.3.1
+    xml-name-validator: ^4.0.0
   peerDependencies:
     eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
-  checksum: 5bcf02774652624bd3a4d3bac9e4ff138ce34ca2e66b89acbd1aec44828cdb04dfd2b301b92cf2b97b493aeb3485658a095f7451b416ed9279ad2606ba56b2fc
+  checksum: 345b63353a2ee8a071cf0e8dc783e24ac1443644e2fb4fe7b5b20c22a4b618225a3b8fce1f026fe0842f6219545140bac691b01cb6a0feea7b1a122c69135615
   languageName: node
   linkType: hard
 
@@ -8064,6 +8097,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-scope@npm:^7.1.1":
+  version: 7.2.2
+  resolution: "eslint-scope@npm:7.2.2"
+  dependencies:
+    esrecurse: ^4.3.0
+    estraverse: ^5.2.0
+  checksum: 810421bd047e33f9234b6b7633c2cb29d65e9acd06637e2a89cf8c28b15cf9a024aa6e8411e72f72bd359f3800734b74dddf00ec14f27b983845832f6ca457b0
+  languageName: node
+  linkType: hard
+
 "eslint-template-visitor@npm:^2.2.2, eslint-template-visitor@npm:^2.3.2":
   version: 2.3.2
   resolution: "eslint-template-visitor@npm:2.3.2"
@@ -8117,6 +8160,13 @@ __metadata:
   version: 3.1.0
   resolution: "eslint-visitor-keys@npm:3.1.0"
   checksum: 259de9f3e84d32b409dfc48ea91a2bb4fe6540b5d6c19395fe48f1bed052827d4e8ce43838fd3da14fc45f8be289b6fbf209983bf6af658cc8280c3949c8492f
+  languageName: node
+  linkType: hard
+
+"eslint-visitor-keys@npm:^3.3.0, eslint-visitor-keys@npm:^3.4.1":
+  version: 3.4.3
+  resolution: "eslint-visitor-keys@npm:3.4.3"
+  checksum: f86328346876e8d5bb9fd7cbc9e3bd2161b772c0f8b71981cf5ed8c6fd01e184551452ce5132facbff5a2bb50002ed1dc206368facc2b5c648e2989dc805276d
   languageName: node
   linkType: hard
 
@@ -8265,6 +8315,17 @@ __metadata:
     acorn-jsx: ^5.3.1
     eslint-visitor-keys: ^3.0.0
   checksum: 88eab3c3734097c2fd38d1a4fc2a473521cca5a006e08bb9171acef7c945aa1c24e4c0b15ab48ac3049f0d266ca963afbde51e65172dff27fdeed29fb544972d
+  languageName: node
+  linkType: hard
+
+"espree@npm:^9.3.1":
+  version: 9.6.1
+  resolution: "espree@npm:9.6.1"
+  dependencies:
+    acorn: ^8.9.0
+    acorn-jsx: ^5.3.2
+    eslint-visitor-keys: ^3.4.1
+  checksum: 9bf6eccc223f79ed7facfdca3f57b9a72c614b206ff3e9a1a8718725a1f8e46d488d902493313ad210d97fe25b70e59044801cdb948f5d0662add482bb838037
   languageName: node
   linkType: hard
 
@@ -13055,12 +13116,21 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"nth-check@npm:^2.0.0, nth-check@npm:^2.0.1":
+"nth-check@npm:^2.0.0":
   version: 2.0.1
   resolution: "nth-check@npm:2.0.1"
   dependencies:
     boolbase: ^1.0.0
   checksum: aed717639f2cd096c367d5c1d9f0f7e057b28461fbbab6bf20f1c51d8ca80e4a2089d49d0fbcb5004a9615d43496b5e6c672e2b1e16ff8269ab724ed51e425df
+  languageName: node
+  linkType: hard
+
+"nth-check@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "nth-check@npm:2.1.1"
+  dependencies:
+    boolbase: ^1.0.0
+  checksum: 4c4fe247599a7b6a1565245ed3921b31873117c547d41cefe4fbb37bc52ec0b890a9064f26ff4d75b19befc99812a0f86b77f0974ff194a9082f486584613810
   languageName: node
   linkType: hard
 
@@ -14599,13 +14669,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"postcss-selector-parser@npm:^6.0.9":
-  version: 6.0.10
-  resolution: "postcss-selector-parser@npm:6.0.10"
+"postcss-selector-parser@npm:^6.0.13":
+  version: 6.0.13
+  resolution: "postcss-selector-parser@npm:6.0.13"
   dependencies:
     cssesc: ^3.0.0
     util-deprecate: ^1.0.2
-  checksum: 87d4d3dce77c563e122451f0b571544bc2569a6e847643902d828b37dec93287100951753c125e7eccf93f13300e6cfac348f0a0c6994682410a0ad207bd8220
+  checksum: 556a43793913aa7ba4f1d776cdc339f0ac1b4dfb9238e9f3243a772fdb719dab6ff0b5b6eb6c9212702e3b4489d9bcdae1eb951eb6f439b2c36f014519ca60e2
   languageName: node
   linkType: hard
 
@@ -15994,6 +16064,17 @@ fsevents@^1.2.7:
   bin:
     semver: bin/semver.js
   checksum: 7c627af982bc6485e2d500c8078544f1a3f9a60f8afb058dcdb3bb466c54f340d04a20d228498394ffc231af80514bcc9d78ba40fc1860ef5fc148b34e5a2dc1
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.6, semver@npm:^7.5.4":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 9bc02fd8e2b3c9e5dea66f0d733a3c801c67f3c7f0190efa03112a7b516e39845456ae107214d7972c4be9c67bbc50c0f27bbaf49a79a0234de83717cdaf2058
   languageName: node
   linkType: hard
 
@@ -18183,6 +18264,23 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"vue-eslint-parser@npm:^9.3.1":
+  version: 9.3.1
+  resolution: "vue-eslint-parser@npm:9.3.1"
+  dependencies:
+    debug: ^4.3.4
+    eslint-scope: ^7.1.1
+    eslint-visitor-keys: ^3.3.0
+    espree: ^9.3.1
+    esquery: ^1.4.0
+    lodash: ^4.17.21
+    semver: ^7.3.6
+  peerDependencies:
+    eslint: ">=6.0.0"
+  checksum: f7160989ed6b6aa845d7ce982fa8767a7006665b5a05357a3fac45b8aece504b3dd1e8edf0c0112cc6a8435b22300fd3184d61fd2af21a60b6ddf13162461009
+  languageName: node
+  linkType: hard
+
 "vue-hot-reload-api@npm:^2.3.0":
   version: 2.3.4
   resolution: "vue-hot-reload-api@npm:2.3.4"
@@ -18511,7 +18609,7 @@ fsevents@^1.2.7:
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-promise: 5.2.0
     eslint-plugin-unicorn: 39.0.0
-    eslint-plugin-vue: 8.7.1
+    eslint-plugin-vue: 9.17.0
     husky: 6.0.0
     jest: 26.6.3
     lint-staged: 10.5.4
@@ -18945,6 +19043,13 @@ fsevents@^1.2.7:
   version: 3.0.0
   resolution: "xml-name-validator@npm:3.0.0"
   checksum: b96679a42e6be36d2433987fe3cc45e972d20d7c2c2a787a2d6b2da94392bd9f23f671cdba29a91211289a2fa8e6965e466dbc1105d0e5730fc3a43e4f1a0688
+  languageName: node
+  linkType: hard
+
+"xml-name-validator@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "xml-name-validator@npm:4.0.0"
+  checksum: e7c0e9e22111c79f0f02da0c052e16d241580bbad37046e58e64c369e51653aa8a97127893324c70cce8c47f1e72a985a17911f197c04ab843841a13a258de95
   languageName: node
   linkType: hard
 
