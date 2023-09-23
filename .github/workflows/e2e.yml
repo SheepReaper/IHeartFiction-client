@@ -27,7 +27,7 @@ jobs:
         run: npx @bahmutov/print-env GITHUB
 
       - name: Run Cypress 🧪
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v6
         env:
           CI: 1
         with:
