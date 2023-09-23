@@ -7719,9 +7719,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:4.0.0":
-  version: 4.0.0
-  resolution: "eslint-plugin-prettier@npm:4.0.0"
+"eslint-plugin-prettier@npm:4.2.1":
+  version: 4.2.1
+  resolution: "eslint-plugin-prettier@npm:4.2.1"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
@@ -7730,7 +7730,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: 6ae81c8c43d760ffb4a63ea2e343ac119b76fdd2a92e192dc55148616a748d6a95a00dcb6c09f66b61407965cf354546f7cffa4da519c3fa6da70c86c0eb8393
+  checksum: ff1b4155f247f09e1560ec13981ea6f512e858af13b9378f9d80fb1fe9fa89d0ffbc031c1f8390492e4579e79c278a34f361f2a7d4ffd80e677b4b80afb96056
   languageName: node
   linkType: hard
 
@@ -18318,7 +18318,7 @@ fsevents@^1.2.7:
     eslint-plugin-jest: 25.3.0
     eslint-plugin-node: 11.1.0
     eslint-plugin-nuxt: 3.1.0
-    eslint-plugin-prettier: 4.0.0
+    eslint-plugin-prettier: 4.2.1
     eslint-plugin-promise: 5.2.0
     eslint-plugin-unicorn: 39.0.0
     eslint-plugin-vue: 8.7.1
