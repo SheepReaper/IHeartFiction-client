@@ -7734,12 +7734,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:5.2.0":
-  version: 5.2.0
-  resolution: "eslint-plugin-promise@npm:5.2.0"
+"eslint-plugin-promise@npm:6.1.1":
+  version: 6.1.1
+  resolution: "eslint-plugin-promise@npm:6.1.1"
   peerDependencies:
-    eslint: ^7.0.0
-  checksum: f94e0c7f278d1de8518ad51ce7a2f67461a658840c5b3f8452b41e889939beeb5824f79f211ec93fbe2c03f9fa37e4a38b958ef565a94bc5802107da035f91e5
+    eslint: ^7.0.0 || ^8.0.0
+  checksum: fa6f418bcc402683c573f6cfb4a8816fec1f2c34323c575bfe12dbf31e78bd4b85cb28c7efa5d6412812896ec23b612449a4f37587650336f03e504109a18b1a
   languageName: node
   linkType: hard
 
@@ -18319,7 +18319,7 @@ fsevents@^1.2.7:
     eslint-plugin-node: 11.1.0
     eslint-plugin-nuxt: 3.1.0
     eslint-plugin-prettier: 4.0.0
-    eslint-plugin-promise: 5.2.0
+    eslint-plugin-promise: 6.1.1
     eslint-plugin-unicorn: 39.0.0
     eslint-plugin-vue: 8.7.1
     husky: 6.0.0
