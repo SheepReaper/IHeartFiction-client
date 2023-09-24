@@ -30,6 +30,7 @@ jobs:
         uses: cypress-io/github-action@v6
         env:
           CI: 1
+          NODE_OPTIONS: "--openssl-legacy-provider"
         with:
           install-command: yarn install
           build: yarn generate
