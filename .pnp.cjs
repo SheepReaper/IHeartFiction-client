@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nuxtjs/eslint-module", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
             ["@nuxtjs/pwa", "npm:3.3.5"],\
             ["@nuxtjs/stylelint-module", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:4.1.0"],\
-            ["@nuxtjs/vuetify", "npm:1.12.2"],\
+            ["@nuxtjs/vuetify", "npm:1.12.3"],\
             ["@types/babel__preset-env", "npm:7.9.2"],\
             ["@types/eslint", "npm:8.44.3"],\
             ["@types/jest", "npm:27.0.3"],\
@@ -4009,15 +4009,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nuxtjs/vuetify", [\
-        ["npm:1.12.2", {\
-          "packageLocation": "./.yarn/cache/@nuxtjs-vuetify-npm-1.12.2-beee363466-2adb658dbb.zip/node_modules/@nuxtjs/vuetify/",\
+        ["npm:1.12.3", {\
+          "packageLocation": "./.yarn/cache/@nuxtjs-vuetify-npm-1.12.3-6fbfd192ff-bfadb36413.zip/node_modules/@nuxtjs/vuetify/",\
           "packageDependencies": [\
-            ["@nuxtjs/vuetify", "npm:1.12.2"],\
+            ["@nuxtjs/vuetify", "npm:1.12.3"],\
             ["deepmerge", "npm:4.2.2"],\
             ["sass", "npm:1.32.13"],\
-            ["sass-loader", "virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:12.3.0"],\
-            ["vuetify", "virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:2.6.0"],\
-            ["vuetify-loader", "virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:1.7.3"]\
+            ["sass-loader", "virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:10.4.1"],\
+            ["vuetify", "virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:2.6.0"],\
+            ["vuetify-loader", "virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:1.7.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11853,21 +11853,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:84d8dc8e8e8e788c137d5a8cef1a9f5ee2d037da38ae4199cb2ce77d50247497533300806354423ca8e5e06dfec870ef7f24636f8edea1ce46159c6452796371#npm:6.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/file-loader-virtual-41916e6db6/0/cache/file-loader-npm-6.2.0-4b02fd87d5-faf43eecf2.zip/node_modules/file-loader/",\
-          "packageDependencies": [\
-            ["file-loader", "virtual:84d8dc8e8e8e788c137d5a8cef1a9f5ee2d037da38ae4199cb2ce77d50247497533300806354423ca8e5e06dfec870ef7f24636f8edea1ce46159c6452796371#npm:6.2.0"],\
-            ["@types/webpack", null],\
-            ["loader-utils", "npm:2.0.2"],\
-            ["schema-utils", "npm:3.1.1"],\
-            ["webpack", "virtual:045d790d213d181eb99244a05c02c11b7104decad5cf3e634f4ec5ee5acecce16acf6a2b6e489d5bb6a8263f5834324cb5f1a0c97d8bd204e441cff57f502e41#npm:5.64.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/webpack",\
-            "webpack"\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["virtual:921086496d1ef2c413bfd281309771be01dc4e382838a4b8897a17e7f90ef08c3b0c6e32dbcb93bf68312958f0a6882b647b10e0733102f6c0c747c9996e8f13#npm:6.2.0", {\
           "packageLocation": "./.yarn/__virtual__/file-loader-virtual-3493479486/0/cache/file-loader-npm-6.2.0-4b02fd87d5-faf43eecf2.zip/node_modules/file-loader/",\
           "packageDependencies": [\
@@ -11876,6 +11861,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loader-utils", "npm:2.0.2"],\
             ["schema-utils", "npm:3.1.1"],\
             ["webpack", "virtual:921086496d1ef2c413bfd281309771be01dc4e382838a4b8897a17e7f90ef08c3b0c6e32dbcb93bf68312958f0a6882b647b10e0733102f6c0c747c9996e8f13#npm:4.46.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/webpack",\
+            "webpack"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:a39b9ea0636bac3742c554c07ab4ce7b80b870326f452f48b98e5dd88eb2ddc561ca2184d20e2973f77a24a79002274d02840d9769fd6ae4e8d286e1bc24abf9#npm:6.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/file-loader-virtual-bcb3a1f03e/0/cache/file-loader-npm-6.2.0-4b02fd87d5-faf43eecf2.zip/node_modules/file-loader/",\
+          "packageDependencies": [\
+            ["file-loader", "virtual:a39b9ea0636bac3742c554c07ab4ce7b80b870326f452f48b98e5dd88eb2ddc561ca2184d20e2973f77a24a79002274d02840d9769fd6ae4e8d286e1bc24abf9#npm:6.2.0"],\
+            ["@types/webpack", null],\
+            ["loader-utils", "npm:2.0.2"],\
+            ["schema-utils", "npm:3.1.1"],\
+            ["webpack", "virtual:045d790d213d181eb99244a05c02c11b7104decad5cf3e634f4ec5ee5acecce16acf6a2b6e489d5bb6a8263f5834324cb5f1a0c97d8bd204e441cff57f502e41#npm:5.64.0"]\
           ],\
           "packagePeers": [\
             "@types/webpack",\
@@ -19937,10 +19937,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:12.3.0", {\
-          "packageLocation": "./.yarn/cache/sass-loader-npm-12.3.0-2fec8d367f-b755e6d5ce.zip/node_modules/sass-loader/",\
+        ["npm:10.4.1", {\
+          "packageLocation": "./.yarn/cache/sass-loader-npm-10.4.1-2a13914f69-df9a65a622.zip/node_modules/sass-loader/",\
           "packageDependencies": [\
-            ["sass-loader", "npm:12.3.0"]\
+            ["sass-loader", "npm:10.4.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
@@ -19973,19 +19973,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:12.3.0", {\
-          "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-71177aaa21/0/cache/sass-loader-npm-12.3.0-2fec8d367f-b755e6d5ce.zip/node_modules/sass-loader/",\
+        ["virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:10.4.1", {\
+          "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-6c28e22b3f/0/cache/sass-loader-npm-10.4.1-2a13914f69-df9a65a622.zip/node_modules/sass-loader/",\
           "packageDependencies": [\
-            ["sass-loader", "virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:12.3.0"],\
+            ["sass-loader", "virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:10.4.1"],\
             ["@types/fibers", null],\
             ["@types/node-sass", null],\
             ["@types/sass", null],\
             ["@types/webpack", null],\
             ["fibers", null],\
             ["klona", "npm:2.0.5"],\
+            ["loader-utils", "npm:2.0.2"],\
             ["neo-async", "npm:2.6.2"],\
             ["node-sass", null],\
             ["sass", "npm:1.32.13"],\
+            ["schema-utils", "npm:3.1.1"],\
+            ["semver", "npm:7.3.5"],\
             ["webpack", "virtual:045d790d213d181eb99244a05c02c11b7104decad5cf3e634f4ec5ee5acecce16acf6a2b6e489d5bb6a8263f5834324cb5f1a0c97d8bd204e441cff57f502e41#npm:5.64.0"]\
           ],\
           "packagePeers": [\
@@ -23060,10 +23063,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:2.6.0", {\
-          "packageLocation": "./.yarn/__virtual__/vuetify-virtual-1b24498c3c/0/cache/vuetify-npm-2.6.0-d42976042c-ce28415e6b.zip/node_modules/vuetify/",\
+        ["virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:2.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/vuetify-virtual-6bf9cfd154/0/cache/vuetify-npm-2.6.0-d42976042c-ce28415e6b.zip/node_modules/vuetify/",\
           "packageDependencies": [\
-            ["vuetify", "virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:2.6.0"],\
+            ["vuetify", "virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:2.6.0"],\
             ["@types/vue", null],\
             ["vue", "npm:3.2.22"]\
           ],\
@@ -23081,18 +23084,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:1.7.3", {\
-          "packageLocation": "./.yarn/__virtual__/vuetify-loader-virtual-84d8dc8e8e/0/cache/vuetify-loader-npm-1.7.3-f1d1b39131-81a3169810.zip/node_modules/vuetify-loader/",\
+        ["virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:1.7.3", {\
+          "packageLocation": "./.yarn/__virtual__/vuetify-loader-virtual-a39b9ea063/0/cache/vuetify-loader-npm-1.7.3-f1d1b39131-81a3169810.zip/node_modules/vuetify-loader/",\
           "packageDependencies": [\
-            ["vuetify-loader", "virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:1.7.3"],\
+            ["vuetify-loader", "virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:1.7.3"],\
             ["@types/vue-template-compiler", null],\
             ["@types/vuetify", null],\
             ["@types/webpack", null],\
             ["decache", "npm:4.6.0"],\
-            ["file-loader", "virtual:84d8dc8e8e8e788c137d5a8cef1a9f5ee2d037da38ae4199cb2ce77d50247497533300806354423ca8e5e06dfec870ef7f24636f8edea1ce46159c6452796371#npm:6.2.0"],\
+            ["file-loader", "virtual:a39b9ea0636bac3742c554c07ab4ce7b80b870326f452f48b98e5dd88eb2ddc561ca2184d20e2973f77a24a79002274d02840d9769fd6ae4e8d286e1bc24abf9#npm:6.2.0"],\
             ["loader-utils", "npm:2.0.2"],\
             ["vue-template-compiler", "npm:2.6.14"],\
-            ["vuetify", "virtual:beee363466a5f7e7592117d2c496a2c089e00d3818c8004d0efd1347d1de3ced358132a0beb35e4aad3a9c237e536fcde3a0379165823f86c284a11b3ad43e43#npm:2.6.0"],\
+            ["vuetify", "virtual:6fbfd192ffb4666b87641cf1020a6132ebe2da5ea329852e956e6e60fb74cecc44ba51da9a1d28202253a2f33676a6e0aaeb578d827eae77571d4de11890684d#npm:2.6.0"],\
             ["webpack", "virtual:045d790d213d181eb99244a05c02c11b7104decad5cf3e634f4ec5ee5acecce16acf6a2b6e489d5bb6a8263f5834324cb5f1a0c97d8bd204e441cff57f502e41#npm:5.64.0"]\
           ],\
           "packagePeers": [\
@@ -23290,7 +23293,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nuxtjs/eslint-module", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
             ["@nuxtjs/pwa", "npm:3.3.5"],\
             ["@nuxtjs/stylelint-module", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:4.1.0"],\
-            ["@nuxtjs/vuetify", "npm:1.12.2"],\
+            ["@nuxtjs/vuetify", "npm:1.12.3"],\
             ["@types/babel__preset-env", "npm:7.9.2"],\
             ["@types/eslint", "npm:8.44.3"],\
             ["@types/jest", "npm:27.0.3"],\

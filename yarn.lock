@@ -2639,16 +2639,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/vuetify@npm:1.12.2":
-  version: 1.12.2
-  resolution: "@nuxtjs/vuetify@npm:1.12.2"
+"@nuxtjs/vuetify@npm:1.12.3":
+  version: 1.12.3
+  resolution: "@nuxtjs/vuetify@npm:1.12.3"
   dependencies:
     deepmerge: ^4.2.2
     sass: ~1.32.13
-    sass-loader: ^12.3.0
+    sass-loader: ^10.2.0
     vuetify: ^2.6
     vuetify-loader: ^1.7.3
-  checksum: 2adb658dbbe113b6896ec4d3874a15b8b89fa6c077418812f7ffd9ff7173f1a64eeaab203d87a01d125e8737fdece453c96f544fbf352b793a26f5f3f7e54dff
+  checksum: bfadb3641330e29c76bc278768cf6dbe371360508cc94801c209c5d37dc360ed29bc2265da3db14f3d2940a9171db09f488edd1413c9a41c05f13bc2ecb8a651
   languageName: node
   linkType: hard
 
@@ -15983,17 +15983,20 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:^12.3.0":
-  version: 12.3.0
-  resolution: "sass-loader@npm:12.3.0"
+"sass-loader@npm:^10.2.0":
+  version: 10.4.1
+  resolution: "sass-loader@npm:10.4.1"
   dependencies:
     klona: ^2.0.4
+    loader-utils: ^2.0.0
     neo-async: ^2.6.2
+    schema-utils: ^3.0.0
+    semver: ^7.3.2
   peerDependencies:
     fibers: ">= 3.1.0"
-    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0
+    node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     sass: ^1.3.0
-    webpack: ^5.0.0
+    webpack: ^4.36.0 || ^5.0.0
   peerDependenciesMeta:
     fibers:
       optional: true
@@ -16001,7 +16004,7 @@ fsevents@^1.2.7:
       optional: true
     sass:
       optional: true
-  checksum: b755e6d5ceddb70d54334b53f70546b4afc9af5f9704cc0e2666894d0568bdaeccb2b07056bd35465c22c51c55e1d790023b32b9aa0977080403036ef6c47b29
+  checksum: df9a65a62247e95305299ccbdf212cffdcdb69490928aecdf4f3dcf539b5302ed7cbffa663f83c5fc3ce0864decf84257a9ce484f6df4cb4426feeb88445dcd0
   languageName: node
   linkType: hard
 
@@ -18694,7 +18697,7 @@ fsevents@^1.2.7:
     "@nuxtjs/eslint-module": 3.0.2
     "@nuxtjs/pwa": 3.3.5
     "@nuxtjs/stylelint-module": 4.1.0
-    "@nuxtjs/vuetify": 1.12.2
+    "@nuxtjs/vuetify": 1.12.3
     "@types/babel__preset-env": 7.9.2
     "@types/eslint": 8.44.3
     "@types/jest": 27.0.3
