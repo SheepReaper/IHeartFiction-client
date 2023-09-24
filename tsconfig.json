@@ -23,6 +23,7 @@
   "exclude": [
     "cypress",
     ".nuxt",
-    "dist"
+    "dist",
+    "./cypress.config.ts"
   ]
 }
