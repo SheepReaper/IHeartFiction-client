@@ -27,18 +27,15 @@ jobs:
         run: npx @bahmutov/print-env GITHUB
 
       - name: Run Cypress 🧪
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v6
         env:
           CI: 1
         with:
-          browser: chrome
-          headless: true
-          install: true
-          install-command: npm install
+          install-command: yarn install
           build: yarn generate
           start: yarn start
           wait-on: "http://localhost:3000"
-          command: yarn test:e2e:run
+          command: yarn test:e2e:run --binaries-only
 
       # Save videos and screenshots as test artifacts
       # https://github.com/actions/upload-artifact
