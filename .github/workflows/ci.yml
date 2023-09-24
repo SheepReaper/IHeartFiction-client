@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579 # v2.4.0
 
       - name: Setup node env 🏗
-        uses: actions/setup-node@v2.5.0
+        uses: actions/setup-node@04c56d2f954f1e4c69436aa54cfef261a018f458 # v2.5.0
         with:
           node-version: ${{ matrix.node }}
 
