@@ -17,14 +17,14 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14]
+        node: [20]
 
     steps:
       - name: Checkout 🛎
-        uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579 # v2.4.0
+        uses: actions/checkout@v4
 
       - name: Setup node env 🏗
-        uses: actions/setup-node@7c12f8017d5436eb855f1ed4399f037a36fbd9e8 # v2.5.2
+        uses: actions/setup-node@v3.8.1
         with:
           node-version: ${{ matrix.node }}
 
@@ -34,10 +34,10 @@ jobs:
 
       - name: Get yarn cache directory path 🛠
         id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "dir=$(yarn config get cacheFolder)" >> $GITHUB_OUTPUT
 
-      - name: Cache node_modules 📦
-        uses: actions/cache@2b250bc32ad02700b996b496c14ac8c2840a2991 # v2.1.8
+      - name: Cache dependencies 📦
+        uses: actions/cache@v3.3.2
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
