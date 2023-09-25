@@ -33,7 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:17.7.1"],\
             ["@commitlint/config-conventional", "npm:17.7.0"],\
             ["@nuxt/types", "npm:2.15.8"],\
-            ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
+            ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.1"],\
             ["@nuxtjs/axios", "npm:5.13.6"],\
             ["@nuxtjs/eslint-config-typescript", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:12.1.0"],\
             ["@nuxtjs/eslint-module", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
@@ -5107,27 +5107,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@nuxt/typescript-build", [\
-        ["npm:2.1.0", {\
-          "packageLocation": "./.yarn/cache/@nuxt-typescript-build-npm-2.1.0-c7051052fd-1589023f12.zip/node_modules/@nuxt/typescript-build/",\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/@nuxt-typescript-build-npm-3.0.1-2ffaed8d65-1af306f542.zip/node_modules/@nuxt/typescript-build/",\
           "packageDependencies": [\
-            ["@nuxt/typescript-build", "npm:2.1.0"]\
+            ["@nuxt/typescript-build", "npm:3.0.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/@nuxt-typescript-build-virtual-3edcb1409b/0/cache/@nuxt-typescript-build-npm-2.1.0-c7051052fd-1589023f12.zip/node_modules/@nuxt/typescript-build/",\
+        ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.1", {\
+          "packageLocation": "./.yarn/__virtual__/@nuxt-typescript-build-virtual-457835a0b6/0/cache/@nuxt-typescript-build-npm-3.0.1-2ffaed8d65-1af306f542.zip/node_modules/@nuxt/typescript-build/",\
           "packageDependencies": [\
-            ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
+            ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.1"],\
             ["@nuxt/types", "npm:2.15.8"],\
             ["@types/nuxt__types", null],\
+            ["@types/typescript", null],\
             ["consola", "npm:2.15.3"],\
-            ["fork-ts-checker-webpack-plugin", "virtual:3edcb1409b1ddfb5e706870c5c84ca0795a166749ff9ca1bb41bd98ad4708869bbd2cc93557530d423ffef7c5354915a9b11bed63e368200513c865c7032ef7c#npm:6.5.3"],\
-            ["ts-loader", "virtual:3edcb1409b1ddfb5e706870c5c84ca0795a166749ff9ca1bb41bd98ad4708869bbd2cc93557530d423ffef7c5354915a9b11bed63e368200513c865c7032ef7c#npm:8.4.0"],\
-            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=334f98"]\
+            ["defu", "npm:6.1.2"],\
+            ["fork-ts-checker-webpack-plugin", "virtual:457835a0b6fbf2f0c763ad0ef535d29c71b0f25341568812dbb07fc40fbfeddf18cc0c7e0e38d04fd0f92488c8f5d9212a19c7cc159892da59bfae184ec22f35#npm:6.5.3"],\
+            ["ts-loader", "virtual:457835a0b6fbf2f0c763ad0ef535d29c71b0f25341568812dbb07fc40fbfeddf18cc0c7e0e38d04fd0f92488c8f5d9212a19c7cc159892da59bfae184ec22f35#npm:8.4.0"],\
+            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"]\
           ],\
           "packagePeers": [\
             "@nuxt/types",\
-            "@types/nuxt__types"\
+            "@types/nuxt__types",\
+            "@types/typescript",\
+            "typescript"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -13876,10 +13880,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3edcb1409b1ddfb5e706870c5c84ca0795a166749ff9ca1bb41bd98ad4708869bbd2cc93557530d423ffef7c5354915a9b11bed63e368200513c865c7032ef7c#npm:6.5.3", {\
-          "packageLocation": "./.yarn/__virtual__/fork-ts-checker-webpack-plugin-virtual-7b1461786e/0/cache/fork-ts-checker-webpack-plugin-npm-6.5.3-918c914022-9732a49bfe.zip/node_modules/fork-ts-checker-webpack-plugin/",\
+        ["virtual:457835a0b6fbf2f0c763ad0ef535d29c71b0f25341568812dbb07fc40fbfeddf18cc0c7e0e38d04fd0f92488c8f5d9212a19c7cc159892da59bfae184ec22f35#npm:6.5.3", {\
+          "packageLocation": "./.yarn/__virtual__/fork-ts-checker-webpack-plugin-virtual-b8e187123e/0/cache/fork-ts-checker-webpack-plugin-npm-6.5.3-918c914022-9732a49bfe.zip/node_modules/fork-ts-checker-webpack-plugin/",\
           "packageDependencies": [\
-            ["fork-ts-checker-webpack-plugin", "virtual:3edcb1409b1ddfb5e706870c5c84ca0795a166749ff9ca1bb41bd98ad4708869bbd2cc93557530d423ffef7c5354915a9b11bed63e368200513c865c7032ef7c#npm:6.5.3"],\
+            ["fork-ts-checker-webpack-plugin", "virtual:457835a0b6fbf2f0c763ad0ef535d29c71b0f25341568812dbb07fc40fbfeddf18cc0c7e0e38d04fd0f92488c8f5d9212a19c7cc159892da59bfae184ec22f35#npm:6.5.3"],\
             ["@babel/code-frame", "npm:7.22.13"],\
             ["@types/eslint", null],\
             ["@types/json-schema", "npm:7.0.13"],\
@@ -13898,7 +13902,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["schema-utils", "npm:2.7.0"],\
             ["semver", "npm:7.5.4"],\
             ["tapable", "npm:1.1.3"],\
-            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=334f98"],\
+            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
             ["vue-template-compiler", null],\
             ["webpack", "virtual:045d790d213d181eb99244a05c02c11b7104decad5cf3e634f4ec5ee5acecce16acf6a2b6e489d5bb6a8263f5834324cb5f1a0c97d8bd204e441cff57f502e41#npm:5.88.2"]\
           ],\
@@ -23837,10 +23841,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3edcb1409b1ddfb5e706870c5c84ca0795a166749ff9ca1bb41bd98ad4708869bbd2cc93557530d423ffef7c5354915a9b11bed63e368200513c865c7032ef7c#npm:8.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/ts-loader-virtual-4092f22a03/0/cache/ts-loader-npm-8.4.0-8da6fd87a8-79da0f364c.zip/node_modules/ts-loader/",\
+        ["virtual:457835a0b6fbf2f0c763ad0ef535d29c71b0f25341568812dbb07fc40fbfeddf18cc0c7e0e38d04fd0f92488c8f5d9212a19c7cc159892da59bfae184ec22f35#npm:8.4.0", {\
+          "packageLocation": "./.yarn/__virtual__/ts-loader-virtual-899c0587eb/0/cache/ts-loader-npm-8.4.0-8da6fd87a8-79da0f364c.zip/node_modules/ts-loader/",\
           "packageDependencies": [\
-            ["ts-loader", "virtual:3edcb1409b1ddfb5e706870c5c84ca0795a166749ff9ca1bb41bd98ad4708869bbd2cc93557530d423ffef7c5354915a9b11bed63e368200513c865c7032ef7c#npm:8.4.0"],\
+            ["ts-loader", "virtual:457835a0b6fbf2f0c763ad0ef535d29c71b0f25341568812dbb07fc40fbfeddf18cc0c7e0e38d04fd0f92488c8f5d9212a19c7cc159892da59bfae184ec22f35#npm:8.4.0"],\
             ["@types/typescript", null],\
             ["@types/webpack", null],\
             ["chalk", "npm:4.1.2"],\
@@ -23848,7 +23852,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loader-utils", "npm:2.0.4"],\
             ["micromatch", "npm:4.0.5"],\
             ["semver", "npm:7.5.4"],\
-            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=334f98"],\
+            ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587"],\
             ["webpack", "virtual:045d790d213d181eb99244a05c02c11b7104decad5cf3e634f4ec5ee5acecce16acf6a2b6e489d5bb6a8263f5834324cb5f1a0c97d8bd204e441cff57f502e41#npm:5.88.2"]\
           ],\
           "packagePeers": [\
@@ -24146,13 +24150,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["typescript", [\
-        ["patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=334f98", {\
-          "packageLocation": "./.yarn/cache/typescript-patch-44e339655c-eb86e0e802.zip/node_modules/typescript/",\
-          "packageDependencies": [\
-            ["typescript", "patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=334f98"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=289587", {\
           "packageLocation": "./.yarn/cache/typescript-patch-f8edcd7439-1f8f3b6aae.zip/node_modules/typescript/",\
           "packageDependencies": [\
@@ -25325,7 +25322,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:17.7.1"],\
             ["@commitlint/config-conventional", "npm:17.7.0"],\
             ["@nuxt/types", "npm:2.15.8"],\
-            ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.1.0"],\
+            ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.1"],\
             ["@nuxtjs/axios", "npm:5.13.6"],\
             ["@nuxtjs/eslint-config-typescript", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:12.1.0"],\
             ["@nuxtjs/eslint-module", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
