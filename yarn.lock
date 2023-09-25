@@ -3838,17 +3838,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:^5.0.0":
-  version: 5.62.0
-  resolution: "@typescript-eslint/experimental-utils@npm:5.62.0"
-  dependencies:
-    "@typescript-eslint/utils": 5.62.0
-  peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: ce55d9f74eac5cb94d66d5db9ead9a5d734f4301519fb5956a57f4b405a5318a115b0316195a3c039e0111489138680411709cb769085d71e1e1db1376ea0949
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/parser@npm:6.7.2, @typescript-eslint/parser@npm:^6.5.0":
   version: 6.7.2
   resolution: "@typescript-eslint/parser@npm:6.7.2"
@@ -3954,24 +3943,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.62.0":
-  version: 5.62.0
-  resolution: "@typescript-eslint/utils@npm:5.62.0"
-  dependencies:
-    "@eslint-community/eslint-utils": ^4.2.0
-    "@types/json-schema": ^7.0.9
-    "@types/semver": ^7.3.12
-    "@typescript-eslint/scope-manager": 5.62.0
-    "@typescript-eslint/types": 5.62.0
-    "@typescript-eslint/typescript-estree": 5.62.0
-    eslint-scope: ^5.1.1
-    semver: ^7.3.7
-  peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: ee9398c8c5db6d1da09463ca7bf36ed134361e20131ea354b2da16a5fdb6df9ba70c62a388d19f6eebb421af1786dbbd79ba95ddd6ab287324fc171c3e28d931
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/utils@npm:6.7.2":
   version: 6.7.2
   resolution: "@typescript-eslint/utils@npm:6.7.2"
@@ -3986,6 +3957,24 @@ __metadata:
   peerDependencies:
     eslint: ^7.0.0 || ^8.0.0
   checksum: 97f950562dba2bda63ffe64672f643ef940123cf74007bc878afcf31c75f905c99934a3ad77da3d5a4fe7807d5d69c791b20c429712ad5a5525e331ebc313756
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/utils@npm:^5.10.0":
+  version: 5.62.0
+  resolution: "@typescript-eslint/utils@npm:5.62.0"
+  dependencies:
+    "@eslint-community/eslint-utils": ^4.2.0
+    "@types/json-schema": ^7.0.9
+    "@types/semver": ^7.3.12
+    "@typescript-eslint/scope-manager": 5.62.0
+    "@typescript-eslint/types": 5.62.0
+    "@typescript-eslint/typescript-estree": 5.62.0
+    eslint-scope: ^5.1.1
+    semver: ^7.3.7
+  peerDependencies:
+    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+  checksum: ee9398c8c5db6d1da09463ca7bf36ed134361e20131ea354b2da16a5fdb6df9ba70c62a388d19f6eebb421af1786dbbd79ba95ddd6ab287324fc171c3e28d931
   languageName: node
   linkType: hard
 
@@ -4139,7 +4128,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-dom@npm:3.3.4":
+"@vue/compiler-dom@npm:3.3.4, @vue/compiler-dom@npm:^3.3.4":
   version: 3.3.4
   resolution: "@vue/compiler-dom@npm:3.3.4"
   dependencies:
@@ -4149,18 +4138,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:2.7.14":
-  version: 2.7.14
-  resolution: "@vue/compiler-sfc@npm:2.7.14"
-  dependencies:
-    "@babel/parser": ^7.18.4
-    postcss: ^8.4.14
-    source-map: ^0.6.1
-  checksum: 25e00abaecb311f1effbf539bc3e4fdeedb39d35f9c2947b2640187a047e6a7400e693fd7da1d3a98977b9078c5bf629ca47f8b9a59dc14a080c0a1e1dd06a49
-  languageName: node
-  linkType: hard
-
-"@vue/compiler-sfc@npm:3.3.4":
+"@vue/compiler-sfc@npm:*, @vue/compiler-sfc@npm:3.3.4":
   version: 3.3.4
   resolution: "@vue/compiler-sfc@npm:3.3.4"
   dependencies:
@@ -4175,6 +4153,17 @@ __metadata:
     postcss: ^8.1.10
     source-map-js: ^1.0.2
   checksum: 0a0adfdd3e812f528e25e4b3bbf14b2296b719a8aac609eca42035295527cc253b918a552dc15218e917efef26b7ca94054dc8784a1a18c06c3d4bb4d18ab8b9
+  languageName: node
+  linkType: hard
+
+"@vue/compiler-sfc@npm:2.7.14":
+  version: 2.7.14
+  resolution: "@vue/compiler-sfc@npm:2.7.14"
+  dependencies:
+    "@babel/parser": ^7.18.4
+    postcss: ^8.4.14
+    source-map: ^0.6.1
+  checksum: 25e00abaecb311f1effbf539bc3e4fdeedb39d35f9c2947b2640187a047e6a7400e693fd7da1d3a98977b9078c5bf629ca47f8b9a59dc14a080c0a1e1dd06a49
   languageName: node
   linkType: hard
 
@@ -4258,7 +4247,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/server-renderer@npm:3.3.4":
+"@vue/server-renderer@npm:3.3.4, @vue/server-renderer@npm:^3.3.4":
   version: 3.3.4
   resolution: "@vue/server-renderer@npm:3.3.4"
   dependencies:
@@ -4277,27 +4266,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:1.3.0":
-  version: 1.3.0
-  resolution: "@vue/test-utils@npm:1.3.0"
+"@vue/test-utils@npm:2.4.1":
+  version: 2.4.1
+  resolution: "@vue/test-utils@npm:2.4.1"
   dependencies:
-    dom-event-types: ^1.0.0
-    lodash: ^4.17.15
-    pretty: ^2.0.0
+    js-beautify: 1.14.9
+    vue-component-type-helpers: 1.8.4
   peerDependencies:
-    vue: 2.x
-    vue-template-compiler: ^2.x
-  checksum: 5f93a1ce3aeb60d93fcf4ea7b28a2d4a327a8309441e87fa1e6c1314106287603d0f2868a084096b7b3db32cc69bba18974f8ba3a19212c7732c05e4da726f61
+    "@vue/server-renderer": ^3.0.1
+    vue: ^3.0.1
+  peerDependenciesMeta:
+    "@vue/server-renderer":
+      optional: true
+  checksum: 901b6a51708e5e5ea5f938ba4919c8b2420acb54ab1a692ff10d1b738bb2b8fb8e56f9f9d7a693ba7a62270b63fff17cd469ca41d1fdfe21f1cb9dac9d545f5b
   languageName: node
   linkType: hard
 
-"@vue/vue2-jest@npm:^29.2.6":
+"@vue/vue3-jest@npm:^29.2.6":
   version: 29.2.6
-  resolution: "@vue/vue2-jest@npm:29.2.6"
+  resolution: "@vue/vue3-jest@npm:29.2.6"
   dependencies:
     "@babel/plugin-transform-modules-commonjs": ^7.2.0
-    "@vue/component-compiler-utils": ^3.1.0
     chalk: ^2.1.0
+    convert-source-map: ^1.6.0
     css-tree: ^2.0.1
     source-map: 0.5.6
     tsconfig: ^7.0.0
@@ -4306,12 +4297,11 @@ __metadata:
     babel-jest: 29.x
     jest: 29.x
     typescript: ">= 4.3"
-    vue: ^2.x
-    vue-template-compiler: ^2.x
+    vue: ^3.0.0-0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2a0b3b6bad6af1b3e6754e8aa02c39a35e0b2ef38933ff9ef5cc0fa3ab0669aab7031ab672df79b917b78169ec9db4c5ea3a7bed0345abe36ded635ab23611e1
+  checksum: 2368ef29c1308e7d012db6d897e0f3b7fc62dab889e89c6368b7e1303362075a11df03c220d8f3950aba1c3c83f468488783fae329024e7efaf52ad115d66ace
   languageName: node
   linkType: hard
 
@@ -6679,17 +6669,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"condense-newlines@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "condense-newlines@npm:0.2.1"
-  dependencies:
-    extend-shallow: ^2.0.1
-    is-whitespace: ^0.3.0
-    kind-of: ^3.0.2
-  checksum: 3c20ff6ee88b5d2e81c122f33b5ba5d6976cdf86d83527fadea308b3020ed70af7ed98c2e2d94d36f27fcd723a7a477941c19575e0d2c8db6afc4aac6926a54e
-  languageName: node
-  linkType: hard
-
 "config-chain@npm:^1.1.13":
   version: 1.1.13
   resolution: "config-chain@npm:1.1.13"
@@ -7795,13 +7774,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dom-event-types@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "dom-event-types@npm:1.1.0"
-  checksum: 58bb4d4b3a0caf719ce42ab8445576b6309d43a3db3ca45ca3dabaa4d69d99472e75b89127c25a177fe8fd7b390530fc43cb1252d57ab25d7e4845ed647cb159
-  languageName: node
-  linkType: hard
-
 "dom-serializer@npm:0":
   version: 0.2.2
   resolution: "dom-serializer@npm:0.2.2"
@@ -8468,20 +8440,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:25.3.0":
-  version: 25.3.0
-  resolution: "eslint-plugin-jest@npm:25.3.0"
+"eslint-plugin-jest@npm:27.4.0":
+  version: 27.4.0
+  resolution: "eslint-plugin-jest@npm:27.4.0"
   dependencies:
-    "@typescript-eslint/experimental-utils": ^5.0.0
+    "@typescript-eslint/utils": ^5.10.0
   peerDependencies:
-    "@typescript-eslint/eslint-plugin": ^4.0.0 || ^5.0.0
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+    "@typescript-eslint/eslint-plugin": ^5.0.0 || ^6.0.0
+    eslint: ^7.0.0 || ^8.0.0
+    jest: "*"
   peerDependenciesMeta:
     "@typescript-eslint/eslint-plugin":
       optional: true
     jest:
       optional: true
-  checksum: d801c166f528392fbb0234e34b893e97c24a7be049744f2d23b1702bce6202d5f0760886a591f884ffa82c7e01a2b06134e86da991bfa568ca5a90311e5f452e
+  checksum: c33593dba87e750123555c2de32fb174d6f2c92342571492f8dbde01bf61a8ac229dff31bd08fea16c3ca2c4843fc2fec985459c351319c019016767ed1cd78e
   languageName: node
   linkType: hard
 
@@ -11355,13 +11328,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-whitespace@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "is-whitespace@npm:0.3.0"
-  checksum: dac8fc9a9b797afeef703f625269601715552883790d1385d6bb27dd04ffdafd5fddca8f2d85ee96913850211595da2ba483dac1f166829c4078fb58ce815140
-  languageName: node
-  linkType: hard
-
 "is-windows@npm:^1.0.2":
   version: 1.0.2
   resolution: "is-windows@npm:1.0.2"
@@ -12020,7 +11986,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-beautify@npm:^1.6.12":
+"js-beautify@npm:1.14.9":
   version: 1.14.9
   resolution: "js-beautify@npm:1.14.9"
   dependencies:
@@ -15502,17 +15468,6 @@ __metadata:
   version: 1.1.0
   resolution: "pretty-time@npm:1.1.0"
   checksum: a319e7009aadbc6cfedbd8b66861327d3a0c68bd3e8794bf5b86f62b40b01b9479c5a70c76bb368ad454acce52a1216daee460cc825766e2442c04f3a84a02c9
-  languageName: node
-  linkType: hard
-
-"pretty@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "pretty@npm:2.0.0"
-  dependencies:
-    condense-newlines: ^0.2.1
-    extend-shallow: ^2.0.1
-    js-beautify: ^1.6.12
-  checksum: 9c41ae0559195af2fb2496d84c6f442843e045d269d4008a6dd336f8372d7481395ed5ab23e5711b6172682c27cb0542e1ab3ca11b38da48f1109c0b701d0ef9
   languageName: node
   linkType: hard
 
@@ -19044,6 +18999,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vue-component-type-helpers@npm:1.8.4":
+  version: 1.8.4
+  resolution: "vue-component-type-helpers@npm:1.8.4"
+  checksum: ae6ada53945395984716ce276829557c750dc2e7dd3b143512ecd799052aa0e9df2c6247b1bc008f314bc76824c1e36d965f44d6a83601502635bf96403ea207
+  languageName: node
+  linkType: hard
+
 "vue-eslint-parser@npm:7.11.0":
   version: 7.11.0
   resolution: "vue-eslint-parser@npm:7.11.0"
@@ -19403,8 +19365,10 @@ __metadata:
     "@types/node": 16.11.11
     "@typescript-eslint/eslint-plugin": 6.7.2
     "@typescript-eslint/parser": 6.7.2
-    "@vue/test-utils": 1.3.0
-    "@vue/vue2-jest": ^29.2.6
+    "@vue/compiler-dom": ^3.3.4
+    "@vue/server-renderer": ^3.3.4
+    "@vue/test-utils": 2.4.1
+    "@vue/vue3-jest": ^29.2.6
     babel-core: 7.0.0-bridge.0
     babel-jest: 29.7.0
     core-js: 3.19.2
@@ -19416,7 +19380,7 @@ __metadata:
     eslint-import-resolver-typescript: ^3.6.1
     eslint-plugin-cypress: 2.12.1
     eslint-plugin-import: 2.25.3
-    eslint-plugin-jest: 25.3.0
+    eslint-plugin-jest: 27.4.0
     eslint-plugin-n: ^16.1.0
     eslint-plugin-node: 11.1.0
     eslint-plugin-nuxt: 3.1.0
