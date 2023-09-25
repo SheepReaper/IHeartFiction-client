@@ -4,6 +4,6 @@ describe('Index Page', () => {
   })
 
   it('should contain at least 1 triangle', function () {
-    cy.get('.Triangle').should('exist').should('have.lengthOf', 4)
+    cy.get('.triangle').should('exist').should('have.lengthOf', 4)
   })
 })
