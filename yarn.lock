@@ -15292,12 +15292,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.5.0":
-  version: 2.5.0
-  resolution: "prettier@npm:2.5.0"
+"prettier@npm:3.0.3":
+  version: 3.0.3
+  resolution: "prettier@npm:3.0.3"
   bin:
-    prettier: bin-prettier.js
-  checksum: aad1b35b73e7c14596d389d90977a83dad0db689ba5802a0ef319c357b7867f55b885db197972aa6a56c30f53088c9f8e0d7f7930ae074c275a4e9cbe091d21d
+    prettier: bin/prettier.cjs
+  checksum: e10b9af02b281f6c617362ebd2571b1d7fc9fb8a3bd17e371754428cda992e5e8d8b7a046e8f7d3e2da1dcd21aa001e2e3c797402ebb6111b5cd19609dd228e0
   languageName: node
   linkType: hard
 
@@ -19304,7 +19304,7 @@ __metadata:
     lint-staged: 10.5.4
     nuxt: 2.15.8
     nuxt-property-decorator: 2.9.1
-    prettier: 2.5.0
+    prettier: 3.0.3
     pug: 3.0.2
     pug-plain-loader: 1.1.0
     start-server-and-test: 2.0.1
