@@ -82,7 +82,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["start-server-and-test", "npm:2.0.1"],\
             ["stylelint", "npm:13.13.1"],\
             ["stylelint-config-prettier", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.0.3"],\
-            ["stylelint-config-standard", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:22.0.0"],\
+            ["stylelint-config-standard", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:34.0.0"],\
             ["ts-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.1.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vue", "npm:3.3.4"],\
@@ -19099,17 +19099,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["stylelint-config-recommended", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/cache/stylelint-config-recommended-npm-5.0.0-5268d1a05e-574468542e.zip/node_modules/stylelint-config-recommended/",\
+        ["npm:13.0.0", {\
+          "packageLocation": "./.yarn/cache/stylelint-config-recommended-npm-13.0.0-320cc5f7d9-a56eb6d1a7.zip/node_modules/stylelint-config-recommended/",\
           "packageDependencies": [\
-            ["stylelint-config-recommended", "npm:5.0.0"]\
+            ["stylelint-config-recommended", "npm:13.0.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:6fadd915fdc7a7f8f0ada2658ed67217719bee4a9078f092d042441dd155604ea68426fc76a2bfdf2c3ce53baed8c9b2f36518de128f292defeb2424faf1ed8b#npm:5.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/stylelint-config-recommended-virtual-06d385c14a/0/cache/stylelint-config-recommended-npm-5.0.0-5268d1a05e-574468542e.zip/node_modules/stylelint-config-recommended/",\
+        ["virtual:6fb6028dd428497367ede9dfabd378bea382d98c82af206b93d3f3b731b9a5cec3a5d7164d6f8961f53e7bc4546c73f27e10528fcefc495350aa3482067dc0e5#npm:13.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/stylelint-config-recommended-virtual-ca26478540/0/cache/stylelint-config-recommended-npm-13.0.0-320cc5f7d9-a56eb6d1a7.zip/node_modules/stylelint-config-recommended/",\
           "packageDependencies": [\
-            ["stylelint-config-recommended", "virtual:6fadd915fdc7a7f8f0ada2658ed67217719bee4a9078f092d042441dd155604ea68426fc76a2bfdf2c3ce53baed8c9b2f36518de128f292defeb2424faf1ed8b#npm:5.0.0"],\
+            ["stylelint-config-recommended", "virtual:6fb6028dd428497367ede9dfabd378bea382d98c82af206b93d3f3b731b9a5cec3a5d7164d6f8961f53e7bc4546c73f27e10528fcefc495350aa3482067dc0e5#npm:13.0.0"],\
             ["@types/stylelint", null],\
             ["stylelint", "npm:13.13.1"]\
           ],\
@@ -19121,20 +19121,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["stylelint-config-standard", [\
-        ["npm:22.0.0", {\
-          "packageLocation": "./.yarn/cache/stylelint-config-standard-npm-22.0.0-30e7e384f8-57497397c5.zip/node_modules/stylelint-config-standard/",\
+        ["npm:34.0.0", {\
+          "packageLocation": "./.yarn/cache/stylelint-config-standard-npm-34.0.0-3727f5ff5f-536249800c.zip/node_modules/stylelint-config-standard/",\
           "packageDependencies": [\
-            ["stylelint-config-standard", "npm:22.0.0"]\
+            ["stylelint-config-standard", "npm:34.0.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:22.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/stylelint-config-standard-virtual-6fadd915fd/0/cache/stylelint-config-standard-npm-22.0.0-30e7e384f8-57497397c5.zip/node_modules/stylelint-config-standard/",\
+        ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:34.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/stylelint-config-standard-virtual-6fb6028dd4/0/cache/stylelint-config-standard-npm-34.0.0-3727f5ff5f-536249800c.zip/node_modules/stylelint-config-standard/",\
           "packageDependencies": [\
-            ["stylelint-config-standard", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:22.0.0"],\
+            ["stylelint-config-standard", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:34.0.0"],\
             ["@types/stylelint", null],\
             ["stylelint", "npm:13.13.1"],\
-            ["stylelint-config-recommended", "virtual:6fadd915fdc7a7f8f0ada2658ed67217719bee4a9078f092d042441dd155604ea68426fc76a2bfdf2c3ce53baed8c9b2f36518de128f292defeb2424faf1ed8b#npm:5.0.0"]\
+            ["stylelint-config-recommended", "virtual:6fb6028dd428497367ede9dfabd378bea382d98c82af206b93d3f3b731b9a5cec3a5d7164d6f8961f53e7bc4546c73f27e10528fcefc495350aa3482067dc0e5#npm:13.0.0"]\
           ],\
           "packagePeers": [\
             "@types/stylelint",\
@@ -21190,7 +21190,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["start-server-and-test", "npm:2.0.1"],\
             ["stylelint", "npm:13.13.1"],\
             ["stylelint-config-prettier", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.0.3"],\
-            ["stylelint-config-standard", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:22.0.0"],\
+            ["stylelint-config-standard", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:34.0.0"],\
             ["ts-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.1.1"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vue", "npm:3.3.4"],\
