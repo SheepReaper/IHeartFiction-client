@@ -88,7 +88,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vue", "npm:3.3.4"],\
             ["vue-eslint-parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.3.1"],\
-            ["vue-template-compiler", "npm:2.6.14"],\
+            ["vue-template-compiler", "npm:2.7.14"],\
             ["webpack", "virtual:045d790d213d181eb99244a05c02c11b7104decad5cf3e634f4ec5ee5acecce16acf6a2b6e489d5bb6a8263f5834324cb5f1a0c97d8bd204e441cff57f502e41#npm:5.88.2"]\
           ],\
           "linkType": "SOFT"\
@@ -20597,10 +20597,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vue-template-compiler", [\
-        ["npm:2.6.14", {\
-          "packageLocation": "./.yarn/cache/vue-template-compiler-npm-2.6.14-37e260577c-0d03f804ac.zip/node_modules/vue-template-compiler/",\
+        ["npm:2.7.14", {\
+          "packageLocation": "./.yarn/cache/vue-template-compiler-npm-2.7.14-ad48736e8d-eba9d2eed6.zip/node_modules/vue-template-compiler/",\
           "packageDependencies": [\
-            ["vue-template-compiler", "npm:2.6.14"],\
+            ["vue-template-compiler", "npm:2.7.14"],\
             ["de-indent", "npm:1.0.2"],\
             ["he", "npm:1.2.0"]\
           ],\
@@ -20858,7 +20858,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vue", "npm:3.3.4"],\
             ["vue-eslint-parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.3.1"],\
-            ["vue-template-compiler", "npm:2.6.14"],\
+            ["vue-template-compiler", "npm:2.7.14"],\
             ["webpack", "virtual:045d790d213d181eb99244a05c02c11b7104decad5cf3e634f4ec5ee5acecce16acf6a2b6e489d5bb6a8263f5834324cb5f1a0c97d8bd204e441cff57f502e41#npm:5.88.2"]\
           ],\
           "linkType": "SOFT"\
