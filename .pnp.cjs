@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__preset-env", "npm:7.9.3"],\
             ["@types/eslint", "npm:8.44.3"],\
             ["@types/jest", "npm:29.5.5"],\
-            ["@types/node", "npm:18.18.1"],\
+            ["@types/node", "npm:18.18.3"],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.3"],\
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.3"],\
             ["@vue/compiler-dom", "npm:3.3.4"],\
@@ -5370,10 +5370,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:18.18.1", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.18.1-323b86a458-079085afc8.zip/node_modules/@types/node/",\
+        ["npm:18.18.3", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.18.3-965ec3aa2f-ed97a83217.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.18.1"]\
+            ["@types/node", "npm:18.18.3"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -15577,7 +15577,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nuxt/ui-templates", "npm:1.3.1"],\
             ["@nuxt/vite-builder", "virtual:50c972df49f03eafaf31cfdb35757e7d52fb1e368823dd17fb47d49a50f70a6cac6e5c8c6657bb48d4cbc8ecc4da2f2af8ab4d56d3fd5276933de973a7f46369#npm:3.7.3"],\
             ["@parcel/watcher", null],\
-            ["@types/node", "npm:18.18.1"],\
+            ["@types/node", "npm:18.18.3"],\
             ["@types/parcel__watcher", null],\
             ["@unhead/dom", "npm:1.7.4"],\
             ["@unhead/ssr", "npm:1.7.4"],\
@@ -20950,7 +20950,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__preset-env", "npm:7.9.3"],\
             ["@types/eslint", "npm:8.44.3"],\
             ["@types/jest", "npm:29.5.5"],\
-            ["@types/node", "npm:18.18.1"],\
+            ["@types/node", "npm:18.18.3"],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.3"],\
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.3"],\
             ["@vue/compiler-dom", "npm:3.3.4"],\
