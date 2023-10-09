@@ -6118,10 +6118,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.19.2":
-  version: 3.19.2
-  resolution: "core-js@npm:3.19.2"
-  checksum: a605f7b0448a7aa13731fd9a13525460681e15ce60ec0e1ff45e88b18b71e74f6c625959200f0f8376ec0a1eb94b0f06e3d6807a01c5a46f3871d08a2c4f1d58
+"core-js@npm:3.33.0":
+  version: 3.33.0
+  resolution: "core-js@npm:3.33.0"
+  checksum: dd62217935ac281faf6f833bb306fb891162919fcf9c1f0c975b1b91e82ac09a940f5deb5950bbb582739ceef716e8bd7e4f9eab8328932fb029d3bc2ecb2881
   languageName: node
   linkType: hard
 
@@ -16089,7 +16089,7 @@ __metadata:
     "@vue/vue3-jest": 29.2.6
     babel-core: 7.0.0-bridge.0
     babel-jest: 29.7.0
-    core-js: 3.19.2
+    core-js: 3.33.0
     cross-env: 7.0.3
     cypress: 13.3.0
     eslint: 8.51.0
