@@ -6348,7 +6348,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/shared", "npm:3.3.4"],\
             ["estree-walker", "npm:2.0.2"],\
             ["magic-string", "npm:0.30.3"],\
-            ["postcss", "npm:8.4.30"],\
+            ["postcss", "npm:8.4.31"],\
             ["source-map-js", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
@@ -16186,16 +16186,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss", [\
-        ["npm:8.4.30", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-8.4.30-b2330f9182-6c810c10c9.zip/node_modules/postcss/",\
-          "packageDependencies": [\
-            ["postcss", "npm:8.4.30"],\
-            ["nanoid", "npm:3.3.6"],\
-            ["picocolors", "npm:1.0.0"],\
-            ["source-map-js", "npm:1.0.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:8.4.31", {\
           "packageLocation": "./.yarn/cache/postcss-npm-8.4.31-385051a82b-1d8611341b.zip/node_modules/postcss/",\
           "packageDependencies": [\
@@ -16376,7 +16366,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-html", "npm:1.5.0"],\
             ["htmlparser2", "npm:8.0.2"],\
             ["js-tokens", "npm:8.0.2"],\
-            ["postcss", "npm:8.4.30"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-safe-parser", "virtual:0b232c130bc110efe931002ae38cde49ee948a21371530bf2f9cb0ca2ba32ae3a98e8db47a280e82f081763793e6a4e0f487b80a7a42f78ea7b6b875b13469da#npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -16863,7 +16853,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["postcss-safe-parser", "virtual:0b232c130bc110efe931002ae38cde49ee948a21371530bf2f9cb0ca2ba32ae3a98e8db47a280e82f081763793e6a4e0f487b80a7a42f78ea7b6b875b13469da#npm:6.0.0"],\
             ["@types/postcss", null],\
-            ["postcss", "npm:8.4.30"]\
+            ["postcss", "npm:8.4.31"]\
           ],\
           "packagePeers": [\
             "@types/postcss",\
@@ -18826,7 +18816,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["micromatch", "npm:4.0.5"],\
             ["normalize-path", "npm:3.0.0"],\
             ["picocolors", "npm:1.0.0"],\
-            ["postcss", "npm:8.4.30"],\
+            ["postcss", "npm:8.4.31"],\
             ["postcss-resolve-nested-selector", "npm:0.1.1"],\
             ["postcss-safe-parser", "virtual:0b232c130bc110efe931002ae38cde49ee948a21371530bf2f9cb0ca2ba32ae3a98e8db47a280e82f081763793e6a4e0f487b80a7a42f78ea7b6b875b13469da#npm:6.0.0"],\
             ["postcss-selector-parser", "npm:6.0.13"],\
@@ -20283,7 +20273,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fsevents", "patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
             ["less", null],\
             ["lightningcss", null],\
-            ["postcss", "npm:8.4.30"],\
+            ["postcss", "npm:8.4.31"],\
             ["rollup", "npm:3.29.3"],\
             ["sass", null],\
             ["stylus", null],\
