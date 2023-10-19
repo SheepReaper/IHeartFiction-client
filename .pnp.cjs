@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nuxtjs/stylelint-module", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.1.0"],\
             ["@nuxtjs/vuetify", "npm:1.12.3"],\
             ["@types/babel__core", "npm:7.20.3"],\
-            ["@types/babel__preset-env", "npm:7.9.3"],\
+            ["@types/babel__preset-env", "npm:7.9.4"],\
             ["@types/eslint", "npm:8.44.4"],\
             ["@types/jest", "npm:29.5.5"],\
             ["@types/node", "npm:18.18.5"],\
@@ -5251,10 +5251,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/babel__preset-env", [\
-        ["npm:7.9.3", {\
-          "packageLocation": "./.yarn/cache/@types-babel__preset-env-npm-7.9.3-1881e2aadf-7e89a37c4a.zip/node_modules/@types/babel__preset-env/",\
+        ["npm:7.9.4", {\
+          "packageLocation": "./.yarn/cache/@types-babel__preset-env-npm-7.9.4-765ca46f4a-a4580b541d.zip/node_modules/@types/babel__preset-env/",\
           "packageDependencies": [\
-            ["@types/babel__preset-env", "npm:7.9.3"]\
+            ["@types/babel__preset-env", "npm:7.9.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21243,7 +21243,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nuxtjs/stylelint-module", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.1.0"],\
             ["@nuxtjs/vuetify", "npm:1.12.3"],\
             ["@types/babel__core", "npm:7.20.3"],\
-            ["@types/babel__preset-env", "npm:7.9.3"],\
+            ["@types/babel__preset-env", "npm:7.9.4"],\
             ["@types/eslint", "npm:8.44.4"],\
             ["@types/jest", "npm:29.5.5"],\
             ["@types/node", "npm:18.18.5"],\
