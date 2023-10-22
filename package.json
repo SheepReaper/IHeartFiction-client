@@ -31,8 +31,8 @@
   "devDependencies": {
     "@babel/core": "7.23.2",
     "@babel/preset-env": "7.23.2",
-    "@commitlint/cli": "17.7.2",
-    "@commitlint/config-conventional": "17.7.0",
+    "@commitlint/cli": "18.0.0",
+    "@commitlint/config-conventional": "18.0.0",
     "@nuxt/types": "2.17.1",
     "@nuxt/typescript-build": "3.0.1",
     "@nuxtjs/eslint-config-typescript": "12.1.0",
