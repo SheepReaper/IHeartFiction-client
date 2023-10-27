@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__preset-env", "npm:7.9.4"],\
             ["@types/eslint", "npm:8.44.6"],\
             ["@types/jest", "npm:29.5.6"],\
-            ["@types/node", "npm:18.18.6"],\
+            ["@types/node", "npm:18.18.7"],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@vue/compiler-dom", "npm:3.3.7"],\
@@ -6460,6 +6460,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-18.18.6-67880ca2e3-a847639b84.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:18.18.6"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:18.18.7", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.18.7-c7916bed57-972f8b214f.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.18.7"],\
+            ["undici-types", "npm:5.26.5"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -17389,7 +17397,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nuxt/ui-templates", "npm:1.3.1"],\
             ["@nuxt/vite-builder", "virtual:bf6e35625c399fbd1ef4d073df2ff3daa8aff37b892cbf7ac3c1658e0f57c6f920534ee8dd3171641c5e0ff6f16615dc00dd4e3d89360014407ab8b85068f61c#npm:3.8.0"],\
             ["@parcel/watcher", null],\
-            ["@types/node", "npm:18.18.6"],\
+            ["@types/node", "npm:18.18.7"],\
             ["@types/parcel__watcher", null],\
             ["@unhead/dom", "npm:1.7.4"],\
             ["@unhead/ssr", "npm:1.7.4"],\
@@ -21863,6 +21871,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["undici-types", [\
+        ["npm:5.26.5", {\
+          "packageLocation": "./.yarn/cache/undici-types-npm-5.26.5-de4f7c7bb9-3192ef6f3f.zip/node_modules/undici-types/",\
+          "packageDependencies": [\
+            ["undici-types", "npm:5.26.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["unenv", [\
         ["npm:1.7.4", {\
           "packageLocation": "./.yarn/cache/unenv-npm-1.7.4-6799265323-a60873b928.zip/node_modules/unenv/",\
@@ -23091,7 +23108,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__preset-env", "npm:7.9.4"],\
             ["@types/eslint", "npm:8.44.6"],\
             ["@types/jest", "npm:29.5.6"],\
-            ["@types/node", "npm:18.18.6"],\
+            ["@types/node", "npm:18.18.7"],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@vue/compiler-dom", "npm:3.3.7"],\
