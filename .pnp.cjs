@@ -163,7 +163,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helpers", "npm:7.23.1"],\
             ["@babel/parser", "npm:7.23.0"],\
             ["@babel/template", "npm:7.22.15"],\
-            ["@babel/traverse", "npm:7.23.0"],\
+            ["@babel/traverse", "npm:7.23.2"],\
             ["@babel/types", "npm:7.23.0"],\
             ["convert-source-map", "npm:2.0.0"],\
             ["debug", "virtual:4758feee42453c0e31b0d2032a7b1362d6b06281699830d2da9a056f2cca72bd2c5cfdb74005fdf03a64876be8eaca2dd7b0fc2dc59d14318badf19cb22ba18e#npm:4.3.4"],\
@@ -659,7 +659,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@babel/helpers", "npm:7.23.1"],\
             ["@babel/template", "npm:7.22.15"],\
-            ["@babel/traverse", "npm:7.23.0"],\
+            ["@babel/traverse", "npm:7.23.2"],\
             ["@babel/types", "npm:7.23.0"]\
           ],\
           "linkType": "HARD"\
@@ -3060,23 +3060,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@babel/traverse", [\
-        ["npm:7.23.0", {\
-          "packageLocation": "./.yarn/cache/@babel-traverse-npm-7.23.0-16705129e7-0b17fae532.zip/node_modules/@babel/traverse/",\
-          "packageDependencies": [\
-            ["@babel/traverse", "npm:7.23.0"],\
-            ["@babel/code-frame", "npm:7.22.13"],\
-            ["@babel/generator", "npm:7.23.0"],\
-            ["@babel/helper-environment-visitor", "npm:7.22.20"],\
-            ["@babel/helper-function-name", "npm:7.23.0"],\
-            ["@babel/helper-hoist-variables", "npm:7.22.5"],\
-            ["@babel/helper-split-export-declaration", "npm:7.22.6"],\
-            ["@babel/parser", "npm:7.23.0"],\
-            ["@babel/types", "npm:7.23.0"],\
-            ["debug", "virtual:4758feee42453c0e31b0d2032a7b1362d6b06281699830d2da9a056f2cca72bd2c5cfdb74005fdf03a64876be8eaca2dd7b0fc2dc59d14318badf19cb22ba18e#npm:4.3.4"],\
-            ["globals", "npm:11.12.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:7.23.2", {\
           "packageLocation": "./.yarn/cache/@babel-traverse-npm-7.23.2-4758feee42-26a1eea0dd.zip/node_modules/@babel/traverse/",\
           "packageDependencies": [\
@@ -7427,7 +7410,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-module-imports", "npm:7.22.15"],\
             ["@babel/plugin-syntax-jsx", "virtual:15ef0a4ad61c166598c4d195dc64a0b7270b186e9a584ea25871b4181189fa5a61a49aa37f6bcda6ffed25499ff900f1a33224b0c22868c8eb1eaf1dd4f0dc11#npm:7.22.5"],\
             ["@babel/template", "npm:7.22.15"],\
-            ["@babel/traverse", "npm:7.23.0"],\
+            ["@babel/traverse", "npm:7.23.2"],\
             ["@babel/types", "npm:7.23.0"],\
             ["@types/babel__core", null],\
             ["@vue/babel-helper-vue-transform-on", "npm:1.1.5"],\
@@ -7449,7 +7432,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-module-imports", "npm:7.22.15"],\
             ["@babel/plugin-syntax-jsx", "virtual:ba5e5a0e3f27934f0b429bca1613884a02d69ac5074935dcb34fa8a35e44a2231cf9aeca9a9e68f5cac77a0dad8ef3cdb367d0cafef8558e10d29b1b5779c4cb#npm:7.22.5"],\
             ["@babel/template", "npm:7.22.15"],\
-            ["@babel/traverse", "npm:7.23.0"],\
+            ["@babel/traverse", "npm:7.23.2"],\
             ["@babel/types", "npm:7.23.0"],\
             ["@types/babel__core", null],\
             ["@vue/babel-helper-vue-transform-on", "npm:1.1.5"],\
