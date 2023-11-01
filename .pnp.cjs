@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", "npm:7.20.3"],\
             ["@types/babel__preset-env", "npm:7.9.4"],\
             ["@types/eslint", "npm:8.44.6"],\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["@types/node", "npm:20.8.10"],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
@@ -6310,10 +6310,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/jest", [\
-        ["npm:29.5.6", {\
-          "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.6-fa191e2675-fa13a27bd1.zip/node_modules/@types/jest/",\
+        ["npm:29.5.7", {\
+          "packageLocation": "./.yarn/cache/@types-jest-npm-29.5.7-e6780d868f-e28624ccb0.zip/node_modules/@types/jest/",\
           "packageDependencies": [\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["expect", "npm:29.7.0"],\
             ["pretty-format", "npm:29.7.0"]\
           ],\
@@ -7748,7 +7748,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-transform-modules-commonjs", "virtual:7305a31d297e1d389cb45c796b070fe8749f4075de94b4f9f1dafe967f0088af8d19c59ad05139fdad67c197d181077e81a6b9c6bbd9bc86633d9c631c4efd7d#npm:7.23.0"],\
             ["@types/babel-jest", null],\
             ["@types/babel__core", "npm:7.20.3"],\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["@types/typescript", null],\
             ["@types/vue", null],\
             ["@vue/compiler-sfc", "npm:3.3.4"],\
@@ -12004,7 +12004,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["eslint-plugin-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:27.6.0"],\
             ["@types/eslint", "npm:8.44.6"],\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["@types/typescript-eslint__eslint-plugin", null],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@typescript-eslint/utils", "virtual:40dceb7c8349bc382796ac1d617e29ced325f188dbd62240106f20af03a036dd40d8c0e5bc06f34e441859cac86eff289c482b0f87c13ab0cf7a62dc898f703d#npm:5.62.0"],\
@@ -21392,7 +21392,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel-jest", null],\
             ["@types/babel__core", "npm:7.20.3"],\
             ["@types/esbuild", null],\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["@types/jest__types", null],\
             ["@types/typescript", null],\
             ["babel-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
@@ -22978,7 +22978,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__core", "npm:7.20.3"],\
             ["@types/babel__preset-env", "npm:7.9.4"],\
             ["@types/eslint", "npm:8.44.6"],\
-            ["@types/jest", "npm:29.5.6"],\
+            ["@types/jest", "npm:29.5.7"],\
             ["@types/node", "npm:20.8.10"],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
