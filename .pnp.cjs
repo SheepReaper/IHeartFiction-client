@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__preset-env", "npm:7.9.5"],\
             ["@types/eslint", "npm:8.44.7"],\
             ["@types/jest", "npm:29.5.8"],\
-            ["@types/node", "npm:20.8.10"],\
+            ["@types/node", "npm:20.9.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@vue/compiler-dom", "npm:3.3.8"],\
@@ -6628,10 +6628,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:20.8.10", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-20.8.10-29d985f3e4-7c61190e43.zip/node_modules/@types/node/",\
+        ["npm:20.9.0", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.9.0-d5b5fa6634-bfd927da6b.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:20.8.10"],\
+            ["@types/node", "npm:20.9.0"],\
             ["undici-types", "npm:5.26.5"]\
           ],\
           "linkType": "HARD"\
@@ -17635,7 +17635,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nuxt/ui-templates", "npm:1.3.1"],\
             ["@nuxt/vite-builder", "virtual:4490b48bf6ee4f1b30fd656fd41a333b034911262ec1febb988084c8c68c3499180affe26290f0ef8d400b82081b6a405b078c4d7859e123b60dc639d3e7864f#npm:3.8.1"],\
             ["@parcel/watcher", null],\
-            ["@types/node", "npm:20.8.10"],\
+            ["@types/node", "npm:20.9.0"],\
             ["@types/parcel__watcher", null],\
             ["@unhead/dom", "npm:1.8.3"],\
             ["@unhead/ssr", "npm:1.8.3"],\
@@ -23262,7 +23262,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__preset-env", "npm:7.9.5"],\
             ["@types/eslint", "npm:8.44.7"],\
             ["@types/jest", "npm:29.5.8"],\
-            ["@types/node", "npm:20.8.10"],\
+            ["@types/node", "npm:20.9.0"],\
             ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.7.5"],\
             ["@vue/compiler-dom", "npm:3.3.8"],\
