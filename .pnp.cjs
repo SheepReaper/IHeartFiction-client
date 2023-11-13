@@ -73,7 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
             ["jest-environment-jsdom", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-            ["lint-staged", "npm:15.0.2"],\
+            ["lint-staged", "npm:15.1.0"],\
             ["nuxt", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.8.1"],\
             ["nuxt-property-decorator", "npm:2.9.1"],\
             ["postcss-html", "npm:1.5.0"],\
@@ -16106,10 +16106,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lint-staged", [\
-        ["npm:15.0.2", {\
-          "packageLocation": "./.yarn/cache/lint-staged-npm-15.0.2-9a94018c19-437bc006a1.zip/node_modules/lint-staged/",\
+        ["npm:15.1.0", {\
+          "packageLocation": "./.yarn/cache/lint-staged-npm-15.1.0-b45b212a0d-e99bdedb32.zip/node_modules/lint-staged/",\
           "packageDependencies": [\
-            ["lint-staged", "npm:15.0.2"],\
+            ["lint-staged", "npm:15.1.0"],\
             ["chalk", "npm:5.3.0"],\
             ["commander", "npm:11.1.0"],\
             ["debug", "virtual:4758feee42453c0e31b0d2032a7b1362d6b06281699830d2da9a056f2cca72bd2c5cfdb74005fdf03a64876be8eaca2dd7b0fc2dc59d14318badf19cb22ba18e#npm:4.3.4"],\
@@ -16119,7 +16119,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["micromatch", "npm:4.0.5"],\
             ["pidtree", "npm:0.6.0"],\
             ["string-argv", "npm:0.3.2"],\
-            ["yaml", "npm:2.3.3"]\
+            ["yaml", "npm:2.3.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -23292,7 +23292,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
             ["jest-environment-jsdom", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-            ["lint-staged", "npm:15.0.2"],\
+            ["lint-staged", "npm:15.1.0"],\
             ["nuxt", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.8.1"],\
             ["nuxt-property-decorator", "npm:2.9.1"],\
             ["postcss-html", "npm:1.5.0"],\
@@ -23671,10 +23671,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.3.3", {\
-          "packageLocation": "./.yarn/cache/yaml-npm-2.3.3-c5a47b9f8f-cdfd132e7e.zip/node_modules/yaml/",\
+        ["npm:2.3.4", {\
+          "packageLocation": "./.yarn/cache/yaml-npm-2.3.4-8bb6dc2c0d-e6d1dae1c6.zip/node_modules/yaml/",\
           "packageDependencies": [\
-            ["yaml", "npm:2.3.3"]\
+            ["yaml", "npm:2.3.4"]\
           ],\
           "linkType": "HARD"\
         }]\
