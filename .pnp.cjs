@@ -80,7 +80,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.1.0"],\
             ["pug", "npm:3.0.2"],\
             ["pug-plain-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.1.0"],\
-            ["start-server-and-test", "npm:2.0.2"],\
+            ["start-server-and-test", "npm:2.0.3"],\
             ["stylelint", "npm:15.11.0"],\
             ["stylelint-config-prettier", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.0.5"],\
             ["stylelint-config-standard-vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.0.0"],\
@@ -8942,12 +8942,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:0.27.2", {\
-          "packageLocation": "./.yarn/cache/axios-npm-0.27.2-dbe3a48aea-38cb754046.zip/node_modules/axios/",\
+        ["npm:1.6.2", {\
+          "packageLocation": "./.yarn/cache/axios-npm-1.6.2-2334cb6eee-4a7429e2b7.zip/node_modules/axios/",\
           "packageDependencies": [\
-            ["axios", "npm:0.27.2"],\
+            ["axios", "npm:1.6.2"],\
             ["follow-redirects", "virtual:a313c479c5c7e54d9ec8fbeeea69ff640f56b8989ea2dff42351a3fa5c4061fb80a52d8ede0f0826a181a216820c2d2c3f15da881e7fdf31cef1c446e42f0c45#npm:1.15.3"],\
-            ["form-data", "npm:4.0.0"]\
+            ["form-data", "npm:4.0.0"],\
+            ["proxy-from-env", "npm:1.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -19187,6 +19188,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["proxy-from-env", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:1.1.0", {\
+          "packageLocation": "./.yarn/cache/proxy-from-env-npm-1.1.0-c13d07f26b-ed7fcc2ba0.zip/node_modules/proxy-from-env/",\
+          "packageDependencies": [\
+            ["proxy-from-env", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["prr", [\
@@ -20700,10 +20708,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["start-server-and-test", [\
-        ["npm:2.0.2", {\
-          "packageLocation": "./.yarn/cache/start-server-and-test-npm-2.0.2-5ada37a882-3abe3e7a0d.zip/node_modules/start-server-and-test/",\
+        ["npm:2.0.3", {\
+          "packageLocation": "./.yarn/cache/start-server-and-test-npm-2.0.3-0dbea6192f-8e2844a1fa.zip/node_modules/start-server-and-test/",\
           "packageDependencies": [\
-            ["start-server-and-test", "npm:2.0.2"],\
+            ["start-server-and-test", "npm:2.0.3"],\
             ["arg", "npm:5.0.2"],\
             ["bluebird", "npm:3.7.2"],\
             ["check-more-types", "npm:2.24.0"],\
@@ -20711,7 +20719,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["execa", "npm:5.1.1"],\
             ["lazy-ass", "npm:1.6.0"],\
             ["ps-tree", "npm:1.2.0"],\
-            ["wait-on", "npm:7.1.0"]\
+            ["wait-on", "npm:7.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -23253,11 +23261,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["wait-on", [\
-        ["npm:7.1.0", {\
-          "packageLocation": "./.yarn/cache/wait-on-npm-7.1.0-04a21387c2-f956c79f5c.zip/node_modules/wait-on/",\
+        ["npm:7.2.0", {\
+          "packageLocation": "./.yarn/cache/wait-on-npm-7.2.0-672226c2e5-69ec1432bb.zip/node_modules/wait-on/",\
           "packageDependencies": [\
-            ["wait-on", "npm:7.1.0"],\
-            ["axios", "npm:0.27.2"],\
+            ["wait-on", "npm:7.2.0"],\
+            ["axios", "npm:1.6.2"],\
             ["joi", "npm:17.11.0"],\
             ["lodash", "npm:4.17.21"],\
             ["minimist", "npm:1.2.8"],\
@@ -23344,7 +23352,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.1.0"],\
             ["pug", "npm:3.0.2"],\
             ["pug-plain-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.1.0"],\
-            ["start-server-and-test", "npm:2.0.2"],\
+            ["start-server-and-test", "npm:2.0.3"],\
             ["stylelint", "npm:15.11.0"],\
             ["stylelint-config-prettier", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.0.5"],\
             ["stylelint-config-standard-vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.0.0"],\
