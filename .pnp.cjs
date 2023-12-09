@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/vue3-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.6"],\
             ["babel-core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.0.0-bridge.0"],\
             ["babel-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-            ["core-js", "npm:3.33.3"],\
+            ["core-js", "npm:3.34.0"],\
             ["cross-env", "npm:7.0.3"],\
             ["cypress", "npm:13.6.1"],\
             ["eslint", "npm:8.55.0"],\
@@ -9533,10 +9533,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["core-js", [\
-        ["npm:3.33.3", {\
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.33.3-1962d5ccd2/node_modules/core-js/",\
+        ["npm:3.34.0", {\
+          "packageLocation": "./.yarn/unplugged/core-js-npm-3.34.0-8debcb197b/node_modules/core-js/",\
           "packageDependencies": [\
-            ["core-js", "npm:3.33.3"]\
+            ["core-js", "npm:3.34.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -22351,7 +22351,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/vue3-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.6"],\
             ["babel-core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.0.0-bridge.0"],\
             ["babel-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-            ["core-js", "npm:3.33.3"],\
+            ["core-js", "npm:3.34.0"],\
             ["cross-env", "npm:7.0.3"],\
             ["cypress", "npm:13.6.1"],\
             ["eslint", "npm:8.55.0"],\
