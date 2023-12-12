@@ -7628,7 +7628,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-es-x@npm:^7.1.0":
+"eslint-plugin-es-x@npm:^7.5.0":
   version: 7.5.0
   resolution: "eslint-plugin-es-x@npm:7.5.0"
   dependencies:
@@ -7710,13 +7710,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:16.3.1":
-  version: 16.3.1
-  resolution: "eslint-plugin-n@npm:16.3.1"
+"eslint-plugin-n@npm:16.4.0":
+  version: 16.4.0
+  resolution: "eslint-plugin-n@npm:16.4.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.4.0
     builtins: ^5.0.1
-    eslint-plugin-es-x: ^7.1.0
+    eslint-plugin-es-x: ^7.5.0
     get-tsconfig: ^4.7.0
     ignore: ^5.2.4
     is-builtin-module: ^3.2.1
@@ -7726,7 +7726,7 @@ __metadata:
     semver: ^7.5.3
   peerDependencies:
     eslint: ">=7.0.0"
-  checksum: 915d80f16e2668d4692536bd4592f7d9d5202c5babf8d204fdb602137481d2fcb2a7c76f67958b327699d9df5c22d91def0b42b6599a3e283941170a320f77d3
+  checksum: de5b2ca4586180c9ec2cbd21806dbc8d6bf409a5e83d540fa2f4a1db5014b0cb0c65f6e53184a58069b6f6e48d79ed9bb2bd3b86d7f1b6b3847d795157ccf951
   languageName: node
   linkType: hard
 
@@ -16686,7 +16686,7 @@ __metadata:
     eslint-plugin-cypress: 2.15.1
     eslint-plugin-import: 2.29.0
     eslint-plugin-jest: 27.6.0
-    eslint-plugin-n: 16.3.1
+    eslint-plugin-n: 16.4.0
     eslint-plugin-node: 11.1.0
     eslint-plugin-nuxt: 4.0.0
     eslint-plugin-prettier: 5.0.1
