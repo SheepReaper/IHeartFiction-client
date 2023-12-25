@@ -4476,7 +4476,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nuxt/kit", "npm:3.8.2"],\
             ["@rollup/plugin-replace", "virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:5.0.5"],\
             ["@types/vue", null],\
-            ["@vitejs/plugin-vue", "virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:4.5.2"],\
+            ["@vitejs/plugin-vue", "virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:4.6.0"],\
             ["@vitejs/plugin-vue-jsx", "virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:3.1.0"],\
             ["autoprefixer", "virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:10.4.16"],\
             ["clear", "npm:0.1.0"],\
@@ -6512,17 +6512,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@vitejs/plugin-vue", [\
-        ["npm:4.5.2", {\
-          "packageLocation": "./.yarn/cache/@vitejs-plugin-vue-npm-4.5.2-9dcb3a0766-8b150d3a71.zip/node_modules/@vitejs/plugin-vue/",\
+        ["npm:4.6.0", {\
+          "packageLocation": "./.yarn/cache/@vitejs-plugin-vue-npm-4.6.0-752f0315da-9e1d71852f.zip/node_modules/@vitejs/plugin-vue/",\
           "packageDependencies": [\
-            ["@vitejs/plugin-vue", "npm:4.5.2"]\
+            ["@vitejs/plugin-vue", "npm:4.6.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:4.5.2", {\
-          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-vue-virtual-420709acb0/0/cache/@vitejs-plugin-vue-npm-4.5.2-9dcb3a0766-8b150d3a71.zip/node_modules/@vitejs/plugin-vue/",\
+        ["virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:4.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/@vitejs-plugin-vue-virtual-48e26aaf6b/0/cache/@vitejs-plugin-vue-npm-4.6.0-752f0315da-9e1d71852f.zip/node_modules/@vitejs/plugin-vue/",\
           "packageDependencies": [\
-            ["@vitejs/plugin-vue", "virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:4.5.2"],\
+            ["@vitejs/plugin-vue", "virtual:a06d464512918a7ef2535d89d83d9ac40e73e74609a28c1981f68fdf8d7e57e2fc8f30e5b0fce9c0683cf5c6ad490f88ca15bfe04caf7e937cf5429b7db4fa23#npm:4.6.0"],\
             ["@types/vite", null],\
             ["@types/vue", null],\
             ["vite", "virtual:185bd601e02ffe31741ebe5fd9185af7ea79dc6e098f6290e1bb0212a50aac69c474ab2f2089ce16e96ddfd2444b0860d9e3457861e243603a62f3be84b37977#npm:4.5.1"],\
@@ -8266,7 +8266,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chokidar", "npm:3.5.3"],\
             ["defu", "npm:6.1.3"],\
             ["dotenv", "npm:16.3.1"],\
-            ["giget", "npm:1.1.3"],\
+            ["giget", "npm:1.2.1"],\
             ["jiti", "npm:1.21.0"],\
             ["mlly", "npm:1.4.2"],\
             ["ohash", "npm:1.1.3"],\
@@ -12228,15 +12228,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["giget", [\
-        ["npm:1.1.3", {\
-          "packageLocation": "./.yarn/cache/giget-npm-1.1.3-d7430cf5de-1a88b29e3e.zip/node_modules/giget/",\
+        ["npm:1.2.1", {\
+          "packageLocation": "./.yarn/cache/giget-npm-1.2.1-d6296bbea3-0af12adf84.zip/node_modules/giget/",\
           "packageDependencies": [\
-            ["giget", "npm:1.1.3"],\
-            ["colorette", "npm:2.0.20"],\
+            ["giget", "npm:1.2.1"],\
+            ["citty", "npm:0.1.5"],\
+            ["consola", "npm:3.2.3"],\
             ["defu", "npm:6.1.3"],\
-            ["https-proxy-agent", "npm:7.0.2"],\
-            ["mri", "npm:1.2.0"],\
-            ["node-fetch-native", "npm:1.4.1"],\
+            ["node-fetch-native", "npm:1.6.1"],\
+            ["nypm", "npm:0.3.3"],\
+            ["ohash", "npm:1.1.3"],\
             ["pathe", "npm:1.1.1"],\
             ["tar", "npm:6.2.0"]\
           ],\
@@ -15728,7 +15729,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mime", "npm:3.0.0"],\
             ["mlly", "npm:1.4.2"],\
             ["mri", "npm:1.2.0"],\
-            ["node-fetch-native", "npm:1.4.1"],\
+            ["node-fetch-native", "npm:1.6.1"],\
             ["ofetch", "npm:1.3.3"],\
             ["ohash", "npm:1.1.3"],\
             ["openapi-typescript", "npm:6.7.3"],\
@@ -15793,10 +15794,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["node-fetch-native", [\
-        ["npm:1.4.1", {\
-          "packageLocation": "./.yarn/cache/node-fetch-native-npm-1.4.1-45e9b9d2ba-339001ad32.zip/node_modules/node-fetch-native/",\
+        ["npm:1.6.1", {\
+          "packageLocation": "./.yarn/cache/node-fetch-native-npm-1.6.1-3d17da8352-1a248ada34.zip/node_modules/node-fetch-native/",\
           "packageDependencies": [\
-            ["node-fetch-native", "npm:1.4.1"]\
+            ["node-fetch-native", "npm:1.6.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16256,7 +16257,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["ofetch", "npm:1.3.3"],\
             ["destr", "npm:2.0.2"],\
-            ["node-fetch-native", "npm:1.4.1"],\
+            ["node-fetch-native", "npm:1.6.1"],\
             ["ufo", "npm:1.3.2"]\
           ],\
           "linkType": "HARD"\
@@ -19561,17 +19562,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["stylelint-config-standard", [\
-        ["npm:35.0.0", {\
-          "packageLocation": "./.yarn/cache/stylelint-config-standard-npm-35.0.0-77b196edb0-527420c646.zip/node_modules/stylelint-config-standard/",\
+        ["npm:36.0.0", {\
+          "packageLocation": "./.yarn/cache/stylelint-config-standard-npm-36.0.0-37594da779-78b14cdfdd.zip/node_modules/stylelint-config-standard/",\
           "packageDependencies": [\
-            ["stylelint-config-standard", "npm:35.0.0"]\
+            ["stylelint-config-standard", "npm:36.0.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:563dd0b6a08684eefb5dca8e9814db560672715143a52f8c8174097d7973ef8363212677ace3bff45be51096a58ccd512b7eb6851170f2fcdac007a3bed0fd4c#npm:35.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/stylelint-config-standard-virtual-58d6866717/0/cache/stylelint-config-standard-npm-35.0.0-77b196edb0-527420c646.zip/node_modules/stylelint-config-standard/",\
+        ["virtual:563dd0b6a08684eefb5dca8e9814db560672715143a52f8c8174097d7973ef8363212677ace3bff45be51096a58ccd512b7eb6851170f2fcdac007a3bed0fd4c#npm:36.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/stylelint-config-standard-virtual-79a5a0d6f2/0/cache/stylelint-config-standard-npm-36.0.0-37594da779-78b14cdfdd.zip/node_modules/stylelint-config-standard/",\
           "packageDependencies": [\
-            ["stylelint-config-standard", "virtual:563dd0b6a08684eefb5dca8e9814db560672715143a52f8c8174097d7973ef8363212677ace3bff45be51096a58ccd512b7eb6851170f2fcdac007a3bed0fd4c#npm:35.0.0"],\
+            ["stylelint-config-standard", "virtual:563dd0b6a08684eefb5dca8e9814db560672715143a52f8c8174097d7973ef8363212677ace3bff45be51096a58ccd512b7eb6851170f2fcdac007a3bed0fd4c#npm:36.0.0"],\
             ["@types/stylelint", null],\
             ["stylelint", "npm:15.11.0"],\
             ["stylelint-config-recommended", "virtual:b177bbaf37568924d5878f2400311a8be4c5e4e96fb8688016d4e3f53cdd2a93ae6d95e09ec59bef3ca084b94e68b687ef189d83d1a05959d9fd4360a98e3ded#npm:14.0.0"]\
@@ -19601,7 +19602,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["stylelint", "npm:15.11.0"],\
             ["stylelint-config-html", "virtual:563dd0b6a08684eefb5dca8e9814db560672715143a52f8c8174097d7973ef8363212677ace3bff45be51096a58ccd512b7eb6851170f2fcdac007a3bed0fd4c#npm:1.1.0"],\
             ["stylelint-config-recommended-vue", "virtual:563dd0b6a08684eefb5dca8e9814db560672715143a52f8c8174097d7973ef8363212677ace3bff45be51096a58ccd512b7eb6851170f2fcdac007a3bed0fd4c#npm:1.5.0"],\
-            ["stylelint-config-standard", "virtual:563dd0b6a08684eefb5dca8e9814db560672715143a52f8c8174097d7973ef8363212677ace3bff45be51096a58ccd512b7eb6851170f2fcdac007a3bed0fd4c#npm:35.0.0"]\
+            ["stylelint-config-standard", "virtual:563dd0b6a08684eefb5dca8e9814db560672715143a52f8c8174097d7973ef8363212677ace3bff45be51096a58ccd512b7eb6851170f2fcdac007a3bed0fd4c#npm:36.0.0"]\
           ],\
           "packagePeers": [\
             "@types/postcss-html",\
@@ -20468,7 +20469,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["consola", "npm:3.2.3"],\
             ["defu", "npm:6.1.3"],\
             ["mime", "npm:3.0.0"],\
-            ["node-fetch-native", "npm:1.4.1"],\
+            ["node-fetch-native", "npm:1.6.1"],\
             ["pathe", "npm:1.1.1"]\
           ],\
           "linkType": "HARD"\
@@ -20684,7 +20685,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["listhen", "npm:1.5.5"],\
             ["lru-cache", "npm:10.1.0"],\
             ["mri", "npm:1.2.0"],\
-            ["node-fetch-native", "npm:1.4.1"],\
+            ["node-fetch-native", "npm:1.6.1"],\
             ["ofetch", "npm:1.3.3"],\
             ["ufo", "npm:1.3.2"]\
           ],\
