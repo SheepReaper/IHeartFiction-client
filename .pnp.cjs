@@ -88,7 +88,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
             ["vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.3.13"],\
             ["vue-eslint-parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.3.2"],\
-            ["vue-template-compiler", "npm:2.7.15"],\
+            ["vue-template-compiler", "npm:2.7.16"],\
             ["webpack", "virtual:b9a267946252f3ad658bef2dcb5387579e5abb5b406b327cb1773b817b0889d3f6539c2a22b067b707c42963f4a0846226ce67d4189042bd36a82ce80a3a64a3#npm:5.89.0"]\
           ],\
           "linkType": "SOFT"\
@@ -21456,10 +21456,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vue-template-compiler", [\
-        ["npm:2.7.15", {\
-          "packageLocation": "./.yarn/cache/vue-template-compiler-npm-2.7.15-28e79f8ad6-79a0c70bab.zip/node_modules/vue-template-compiler/",\
+        ["npm:2.7.16", {\
+          "packageLocation": "./.yarn/cache/vue-template-compiler-npm-2.7.16-f59aa20e7d-a0d52ecbb9.zip/node_modules/vue-template-compiler/",\
           "packageDependencies": [\
-            ["vue-template-compiler", "npm:2.7.15"],\
+            ["vue-template-compiler", "npm:2.7.16"],\
             ["de-indent", "npm:1.0.2"],\
             ["he", "npm:1.2.0"]\
           ],\
@@ -21717,7 +21717,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=e012d7"],\
             ["vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.3.13"],\
             ["vue-eslint-parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.3.2"],\
-            ["vue-template-compiler", "npm:2.7.15"],\
+            ["vue-template-compiler", "npm:2.7.16"],\
             ["webpack", "virtual:b9a267946252f3ad658bef2dcb5387579e5abb5b406b327cb1773b817b0889d3f6539c2a22b067b707c42963f4a0846226ce67d4189042bd36a82ce80a3a64a3#npm:5.89.0"]\
           ],\
           "linkType": "SOFT"\
