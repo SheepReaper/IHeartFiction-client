@@ -30,8 +30,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@babel/core", "npm:7.23.7"],\
             ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.23.8"],\
-            ["@commitlint/cli", "npm:18.4.4"],\
-            ["@commitlint/config-conventional", "npm:18.4.4"],\
+            ["@commitlint/cli", "npm:18.5.0"],\
+            ["@commitlint/config-conventional", "npm:18.5.0"],\
             ["@nuxt/types", "npm:2.17.3"],\
             ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
             ["@nuxtjs/axios", "npm:5.13.6"],\
@@ -2844,10 +2844,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/cli", [\
-        ["npm:18.4.4", {\
-          "packageLocation": "./.yarn/cache/@commitlint-cli-npm-18.4.4-bd9046c9e3-b7544e3d0f.zip/node_modules/@commitlint/cli/",\
+        ["npm:18.5.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-cli-npm-18.5.0-7a197acf3c-68cda89e51.zip/node_modules/@commitlint/cli/",\
           "packageDependencies": [\
-            ["@commitlint/cli", "npm:18.4.4"],\
+            ["@commitlint/cli", "npm:18.5.0"],\
             ["@commitlint/format", "npm:18.4.4"],\
             ["@commitlint/lint", "npm:18.5.0"],\
             ["@commitlint/load", "npm:18.5.0"],\
@@ -2863,10 +2863,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/config-conventional", [\
-        ["npm:18.4.4", {\
-          "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-18.4.4-efb27ad3aa-53238dfac4.zip/node_modules/@commitlint/config-conventional/",\
+        ["npm:18.5.0", {\
+          "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-18.5.0-41c85a334b-787f7b6f8a.zip/node_modules/@commitlint/config-conventional/",\
           "packageDependencies": [\
-            ["@commitlint/config-conventional", "npm:18.4.4"],\
+            ["@commitlint/config-conventional", "npm:18.5.0"],\
             ["conventional-changelog-conventionalcommits", "npm:7.0.2"]\
           ],\
           "linkType": "HARD"\
@@ -21646,8 +21646,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["web-client", "workspace:."],\
             ["@babel/core", "npm:7.23.7"],\
             ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.23.8"],\
-            ["@commitlint/cli", "npm:18.4.4"],\
-            ["@commitlint/config-conventional", "npm:18.4.4"],\
+            ["@commitlint/cli", "npm:18.5.0"],\
+            ["@commitlint/config-conventional", "npm:18.5.0"],\
             ["@nuxt/types", "npm:2.17.3"],\
             ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
             ["@nuxtjs/axios", "npm:5.13.6"],\
