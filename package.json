@@ -81,7 +81,7 @@
     "stylelint": "15.11.0",
     "stylelint-config-prettier": "9.0.5",
     "stylelint-config-standard-vue": "1.0.0",
-    "ts-jest": "29.1.1",
+    "ts-jest": "29.1.2",
     "typescript": "5.3.3",
     "vue": "3.4.15",
     "vue-eslint-parser": "9.3.2",
