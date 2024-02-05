@@ -77,7 +77,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nuxt", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.9.3"],\
             ["nuxt-property-decorator", "npm:2.9.1"],\
             ["postcss-html", "npm:1.6.0"],\
-            ["prettier", "npm:3.2.4"],\
+            ["prettier", "npm:3.2.5"],\
             ["pug", "npm:3.0.2"],\
             ["pug-plain-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.1.0"],\
             ["start-server-and-test", "npm:2.0.3"],\
@@ -10917,7 +10917,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", null],\
             ["eslint", "npm:8.56.0"],\
             ["eslint-config-prettier", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.1.0"],\
-            ["prettier", "npm:3.2.4"],\
+            ["prettier", "npm:3.2.5"],\
             ["prettier-linter-helpers", "npm:1.0.0"],\
             ["synckit", "npm:0.8.8"]\
           ],\
@@ -17341,10 +17341,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:3.2.4", {\
-          "packageLocation": "./.yarn/unplugged/prettier-npm-3.2.4-3ca24592c3/node_modules/prettier/",\
+        ["npm:3.2.5", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.2.5-6859110d6a/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:3.2.4"]\
+            ["prettier", "npm:3.2.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21643,7 +21643,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nuxt", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.9.3"],\
             ["nuxt-property-decorator", "npm:2.9.1"],\
             ["postcss-html", "npm:1.6.0"],\
-            ["prettier", "npm:3.2.4"],\
+            ["prettier", "npm:3.2.5"],\
             ["pug", "npm:3.0.2"],\
             ["pug-plain-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.1.0"],\
             ["start-server-and-test", "npm:2.0.3"],\
