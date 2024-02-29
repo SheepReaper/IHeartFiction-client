@@ -3646,13 +3646,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.56.3":
-  version: 8.56.3
-  resolution: "@types/eslint@npm:8.56.3"
+"@types/eslint@npm:8.56.5":
+  version: 8.56.5
+  resolution: "@types/eslint@npm:8.56.5"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
-  checksum: 6e596e583496aeebb7c0b36d1e328cb8173844f8b82c213496e533ec7990c3451811b523d98a99e5b216056e4be8c417c87504b7b31fe32389b25b3294ce767a
+  checksum: 95a7a23ca38c78e5c27a2ed36ef60f094d5e6589e3473c320b6ff69eb3ca6333d5b7f0d5053416369f5ab2fb86874df19562d4d67a98237c17def6e30abff540
   languageName: node
   linkType: hard
 
@@ -16754,7 +16754,7 @@ __metadata:
     "@nuxtjs/vuetify": 1.12.3
     "@types/babel__core": 7.20.5
     "@types/babel__preset-env": 7.9.6
-    "@types/eslint": 8.56.3
+    "@types/eslint": 8.56.5
     "@types/jest": 29.5.12
     "@types/node": 20.11.20
     "@typescript-eslint/eslint-plugin": 6.21.0
