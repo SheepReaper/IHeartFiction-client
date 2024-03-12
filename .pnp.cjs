@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.24.0"],\
             ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.24.0"],\
             ["@commitlint/cli", "npm:18.6.1"],\
-            ["@commitlint/config-conventional", "npm:18.6.2"],\
+            ["@commitlint/config-conventional", "npm:18.6.3"],\
             ["@nuxt/types", "npm:2.17.3"],\
             ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
             ["@nuxtjs/axios", "npm:5.13.6"],\
@@ -2863,10 +2863,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@commitlint/config-conventional", [\
-        ["npm:18.6.2", {\
-          "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-18.6.2-d59698bbcc-139453f333.zip/node_modules/@commitlint/config-conventional/",\
+        ["npm:18.6.3", {\
+          "packageLocation": "./.yarn/cache/@commitlint-config-conventional-npm-18.6.3-1057bfca92-3d70eaaf0e.zip/node_modules/@commitlint/config-conventional/",\
           "packageDependencies": [\
-            ["@commitlint/config-conventional", "npm:18.6.2"],\
+            ["@commitlint/config-conventional", "npm:18.6.3"],\
             ["@commitlint/types", "npm:18.6.1"],\
             ["conventional-changelog-conventionalcommits", "npm:7.0.2"]\
           ],\
@@ -21940,7 +21940,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", "npm:7.24.0"],\
             ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.24.0"],\
             ["@commitlint/cli", "npm:18.6.1"],\
-            ["@commitlint/config-conventional", "npm:18.6.2"],\
+            ["@commitlint/config-conventional", "npm:18.6.3"],\
             ["@nuxt/types", "npm:2.17.3"],\
             ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
             ["@nuxtjs/axios", "npm:5.13.6"],\
