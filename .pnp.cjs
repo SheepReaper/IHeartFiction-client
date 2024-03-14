@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.21.0"],\
             ["@vue/compiler-dom", "npm:3.4.21"],\
             ["@vue/server-renderer", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.4.21"],\
-            ["@vue/test-utils", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.4"],\
+            ["@vue/test-utils", "npm:2.4.5"],\
             ["@vue/vue3-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.6"],\
             ["babel-core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.0.0-bridge.0"],\
             ["babel-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
@@ -6814,29 +6814,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@vue/test-utils", [\
-        ["npm:2.4.4", {\
-          "packageLocation": "./.yarn/cache/@vue-test-utils-npm-2.4.4-5dc39d2d67-edd444308a.zip/node_modules/@vue/test-utils/",\
+        ["npm:2.4.5", {\
+          "packageLocation": "./.yarn/cache/@vue-test-utils-npm-2.4.5-c7add925a0-385745c2e6.zip/node_modules/@vue/test-utils/",\
           "packageDependencies": [\
-            ["@vue/test-utils", "npm:2.4.4"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.4", {\
-          "packageLocation": "./.yarn/__virtual__/@vue-test-utils-virtual-4be63db5f1/0/cache/@vue-test-utils-npm-2.4.4-5dc39d2d67-edd444308a.zip/node_modules/@vue/test-utils/",\
-          "packageDependencies": [\
-            ["@vue/test-utils", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.4"],\
-            ["@types/vue", null],\
-            ["@types/vue__server-renderer", null],\
-            ["@vue/server-renderer", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.4.21"],\
+            ["@vue/test-utils", "npm:2.4.5"],\
             ["js-beautify", "npm:1.15.1"],\
-            ["vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.4.21"],\
-            ["vue-component-type-helpers", "npm:1.8.27"]\
-          ],\
-          "packagePeers": [\
-            "@types/vue",\
-            "@types/vue__server-renderer",\
-            "@vue/server-renderer",\
-            "vue"\
+            ["vue-component-type-helpers", "npm:2.0.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21657,10 +21640,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vue-component-type-helpers", [\
-        ["npm:1.8.27", {\
-          "packageLocation": "./.yarn/cache/vue-component-type-helpers-npm-1.8.27-ee89220676-71245a41a1.zip/node_modules/vue-component-type-helpers/",\
+        ["npm:2.0.6", {\
+          "packageLocation": "./.yarn/cache/vue-component-type-helpers-npm-2.0.6-89d56ddb8c-f6a48eb7b7.zip/node_modules/vue-component-type-helpers/",\
           "packageDependencies": [\
-            ["vue-component-type-helpers", "npm:1.8.27"]\
+            ["vue-component-type-helpers", "npm:2.0.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -21993,7 +21976,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.21.0"],\
             ["@vue/compiler-dom", "npm:3.4.21"],\
             ["@vue/server-renderer", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.4.21"],\
-            ["@vue/test-utils", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:2.4.4"],\
+            ["@vue/test-utils", "npm:2.4.5"],\
             ["@vue/vue3-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.6"],\
             ["babel-core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.0.0-bridge.0"],\
             ["babel-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
