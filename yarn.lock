@@ -4955,13 +4955,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:2.4.5":
-  version: 2.4.5
-  resolution: "@vue/test-utils@npm:2.4.5"
+"@vue/test-utils@npm:2.4.6":
+  version: 2.4.6
+  resolution: "@vue/test-utils@npm:2.4.6"
   dependencies:
     js-beautify: ^1.14.9
     vue-component-type-helpers: ^2.0.0
-  checksum: 385745c2e644fcc5af1c6da1448c51b1222eba70fe21f290ee20b7ef718e3a8b699dbab6305ac7f6711c9d03e508fbdb009aa5b9b9be06556dee21e1a64af846
+  checksum: ae6f3c10f6ffb45b7be73e1c550c18b1d54ebec0a7d34f2600f974d1407ace8de48836600d60c872bbfb007d109a2ececb2307659a4c861e62ced913d32c7a25
   languageName: node
   linkType: hard
 
@@ -17551,7 +17551,7 @@ __metadata:
     "@typescript-eslint/parser": 6.21.0
     "@vue/compiler-dom": 3.4.26
     "@vue/server-renderer": 3.4.26
-    "@vue/test-utils": 2.4.5
+    "@vue/test-utils": 2.4.6
     "@vue/vue3-jest": 29.2.6
     babel-core: 7.0.0-bridge.0
     babel-jest: 29.7.0
