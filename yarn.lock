@@ -11255,13 +11255,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-tokens@npm:^8.0.0":
-  version: 8.0.3
-  resolution: "js-tokens@npm:8.0.3"
-  checksum: b749c808290ec1932fdf5486412074c64da6f48387a89d58f00e84058db89a7707f62d2a066fd673030dd6776bf656b50f6e0fa34135f9b3cacccde39a508977
-  languageName: node
-  linkType: hard
-
 "js-tokens@npm:^9.0.0":
   version: 9.0.0
   resolution: "js-tokens@npm:9.0.0"
@@ -13575,15 +13568,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-html@npm:1.6.0":
-  version: 1.6.0
-  resolution: "postcss-html@npm:1.6.0"
+"postcss-html@npm:1.7.0":
+  version: 1.7.0
+  resolution: "postcss-html@npm:1.7.0"
   dependencies:
     htmlparser2: ^8.0.0
-    js-tokens: ^8.0.0
+    js-tokens: ^9.0.0
     postcss: ^8.4.0
     postcss-safe-parser: ^6.0.0
-  checksum: 4ce8058c7a88fabbf0133e85afae4a093e603590f94fa89374142f56f2f71b1f849945923ec0f6b97367ede2c94fcdb1437ccf852ed131818459293141320314
+  checksum: 6621cbb17433fdb65cd862b6737d08de209f911710c1f8507a62df76f1975c7632674f98e040cab209f248327de1e2c553b1946c60210693c76fc78ccb7bd0ee
   languageName: node
   linkType: hard
 
@@ -17578,7 +17571,7 @@ __metadata:
     lint-staged: 15.2.2
     nuxt: 3.11.2
     nuxt-property-decorator: 2.9.1
-    postcss-html: 1.6.0
+    postcss-html: 1.7.0
     prettier: 3.2.5
     pug: 3.0.2
     pug-plain-loader: 1.1.0
