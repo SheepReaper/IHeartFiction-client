@@ -76,7 +76,7 @@
     "prettier": "3.2.5",
     "pug": "3.0.3",
     "pug-plain-loader": "1.1.0",
-    "start-server-and-test": "2.0.3",
+    "start-server-and-test": "2.0.4",
     "stylelint": "16.6.1",
     "stylelint-config-standard-vue": "1.0.0",
     "ts-jest": "29.1.2",
