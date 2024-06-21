@@ -26,14 +26,14 @@
     "@nuxtjs/axios": "5.13.6",
     "@nuxtjs/pwa": "3.3.5",
     "core-js": "3.37.0",
-    "nuxt": "3.11.2"
+    "nuxt": "3.12.2"
   },
   "devDependencies": {
     "@babel/core": "7.24.7",
     "@babel/preset-env": "7.24.7",
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
-    "@nuxt/types": "2.17.3",
+    "@nuxt/types": "2.17.4",
     "@nuxt/typescript-build": "3.0.2",
     "@nuxtjs/eslint-config-typescript": "12.1.0",
     "@nuxtjs/eslint-module": "4.1.0",
