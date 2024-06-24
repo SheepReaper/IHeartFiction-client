@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
           ["@vue/vue3-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.6"],\
           ["babel-core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.0.0-bridge.0"],\
           ["babel-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-          ["core-js", "npm:3.37.0"],\
+          ["core-js", "npm:3.37.1"],\
           ["cross-env", "npm:7.0.3"],\
           ["cypress", "npm:13.9.0"],\
           ["eslint", "npm:8.57.0"],\
@@ -10511,10 +10511,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["core-js", [\
-      ["npm:3.37.0", {\
-        "packageLocation": "./.yarn/unplugged/core-js-npm-3.37.0-98818d5691/node_modules/core-js/",\
+      ["npm:3.37.1", {\
+        "packageLocation": "./.yarn/unplugged/core-js-npm-3.37.1-b1db5e7c23/node_modules/core-js/",\
         "packageDependencies": [\
-          ["core-js", "npm:3.37.0"]\
+          ["core-js", "npm:3.37.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -23774,7 +23774,7 @@ const RAW_RUNTIME_STATE =
           ["@vue/vue3-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.6"],\
           ["babel-core", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.0.0-bridge.0"],\
           ["babel-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-          ["core-js", "npm:3.37.0"],\
+          ["core-js", "npm:3.37.1"],\
           ["cross-env", "npm:7.0.3"],\
           ["cypress", "npm:13.9.0"],\
           ["eslint", "npm:8.57.0"],\
