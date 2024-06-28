@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.24.7"],\
           ["@commitlint/cli", "npm:19.3.0"],\
           ["@commitlint/config-conventional", "npm:19.2.2"],\
-          ["@nuxt/types", "npm:2.17.4"],\
+          ["@nuxt/types", "npm:2.18.1"],\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
           ["@nuxtjs/axios", "npm:5.13.6"],\
           ["@nuxtjs/eslint-config-typescript", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:12.1.0"],\
@@ -5162,10 +5162,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@nuxt/types", [\
-      ["npm:2.17.4", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@nuxt-types-npm-2.17.4-df39db2677-10c0.zip/node_modules/@nuxt/types/",\
+      ["npm:2.18.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@nuxt-types-npm-2.18.1-2506d90706-10c0.zip/node_modules/@nuxt/types/",\
         "packageDependencies": [\
-          ["@nuxt/types", "npm:2.17.4"],\
+          ["@nuxt/types", "npm:2.18.1"],\
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/compression", "npm:1.7.5"],\
           ["@types/connect", "npm:3.4.38"],\
@@ -5197,7 +5197,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@nuxt-typescript-build-virtual-e651b6958a/5/cache/others/berry/cache/@nuxt-typescript-build-npm-3.0.2-b41a00e0b1-10c0.zip/node_modules/@nuxt/typescript-build/",\
         "packageDependencies": [\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
-          ["@nuxt/types", "npm:2.17.4"],\
+          ["@nuxt/types", "npm:2.18.1"],\
           ["@types/nuxt__types", null],\
           ["@types/typescript", null],\
           ["consola", "npm:3.2.3"],\
@@ -23812,7 +23812,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.24.7"],\
           ["@commitlint/cli", "npm:19.3.0"],\
           ["@commitlint/config-conventional", "npm:19.2.2"],\
-          ["@nuxt/types", "npm:2.17.4"],\
+          ["@nuxt/types", "npm:2.18.1"],\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
           ["@nuxtjs/axios", "npm:5.13.6"],\
           ["@nuxtjs/eslint-config-typescript", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:12.1.0"],\
