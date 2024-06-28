@@ -3271,9 +3271,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/types@npm:2.17.4":
-  version: 2.17.4
-  resolution: "@nuxt/types@npm:2.17.4"
+"@nuxt/types@npm:2.18.1":
+  version: 2.18.1
+  resolution: "@nuxt/types@npm:2.18.1"
   dependencies:
     "@types/babel__core": "npm:7.20.5"
     "@types/compression": "npm:1.7.5"
@@ -3290,7 +3290,7 @@ __metadata:
     "@types/webpack": "npm:^4.41.38"
     "@types/webpack-bundle-analyzer": "npm:3.9.5"
     "@types/webpack-hot-middleware": "npm:2.25.5"
-  checksum: 10c0/e37c1a4d0fa4c89558a1e0f0b02d4b0f6c15c40c954228066cd5205bd5d50cd2ec0268b024b4e6469ab8985daff48546b99bb6bf60b1f78b49214e722c8a00f7
+  checksum: 10c0/dda6cbdfcf805ae2e62804d6fa8d19cdfb8ae176a4770d92b7783d0cfb445241912738f4dff6b123607ac2f0e51eba8e9597b19598c994e9fd5512db01d93074
   languageName: node
   linkType: hard
 
@@ -18255,7 +18255,7 @@ __metadata:
     "@babel/preset-env": "npm:7.24.7"
     "@commitlint/cli": "npm:19.3.0"
     "@commitlint/config-conventional": "npm:19.2.2"
-    "@nuxt/types": "npm:2.17.4"
+    "@nuxt/types": "npm:2.18.1"
     "@nuxt/typescript-build": "npm:3.0.2"
     "@nuxtjs/axios": "npm:5.13.6"
     "@nuxtjs/eslint-config-typescript": "npm:12.1.0"
