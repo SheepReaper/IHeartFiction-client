@@ -79,7 +79,7 @@
     "start-server-and-test": "2.0.4",
     "stylelint": "16.6.1",
     "stylelint-config-standard-vue": "1.0.0",
-    "ts-jest": "29.1.5",
+    "ts-jest": "29.2.2",
     "typescript": "5.5.3",
     "vue": "3.4.31",
     "vue-eslint-parser": "9.4.3",
