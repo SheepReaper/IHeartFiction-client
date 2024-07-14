@@ -84,7 +84,7 @@
     "vue": "3.4.31",
     "vue-eslint-parser": "9.4.3",
     "vue-template-compiler": "2.7.16",
-    "webpack": "5.92.1"
+    "webpack": "5.93.0"
   },
   "packageManager": "yarn@4.3.1"
 }
