@@ -43,7 +43,7 @@
     "@types/babel__preset-env": "7.9.7",
     "@types/eslint": "8.56.11",
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.13",
+    "@types/node": "20.14.14",
     "@typescript-eslint/eslint-plugin": "7.17.0",
     "@typescript-eslint/parser": "7.17.0",
     "@vue/compiler-dom": "3.4.34",
