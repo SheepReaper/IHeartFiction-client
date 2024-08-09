@@ -66,7 +66,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-nuxt", "npm:4.0.0"],\
           ["eslint-plugin-prettier", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.2.1"],\
           ["eslint-plugin-promise", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.6.0"],\
-          ["eslint-plugin-unicorn", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:49.0.0"],\
+          ["eslint-plugin-unicorn", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:55.0.0"],\
           ["eslint-plugin-vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.27.0"],\
           ["husky", "npm:9.1.4"],\
           ["jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
@@ -8814,6 +8814,17 @@ const RAW_RUNTIME_STATE =
           ["update-browserslist-db", "virtual:35c88a70258408ad547ff579bcbbfcad001957151505b4a3c69a8d95ff7e38775b8623264bee7c45de87e4ffd1cb15c3499bf0c38ab865f2b58b9ebd13ee7294#npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.23.3", {\
+        "packageLocation": "../../../../cache/others/berry/cache/browserslist-npm-4.23.3-4e727c7b5b-10c0.zip/node_modules/browserslist/",\
+        "packageDependencies": [\
+          ["browserslist", "npm:4.23.3"],\
+          ["caniuse-lite", "npm:1.0.30001651"],\
+          ["electron-to-chromium", "npm:1.5.5"],\
+          ["node-releases", "npm:2.0.18"],\
+          ["update-browserslist-db", "virtual:4e727c7b5b033f8d5ac7299f9860cb61f5802656f7b4fea2accd32d68dc1a767387a6d23f0724065d3c65e61cb31b9eec2438ae937ce36e7602b4586ede55af6#npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["bs-logger", [\
@@ -9049,6 +9060,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001643-1477bdedce-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
           ["caniuse-lite", "npm:1.0.30001643"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.30001651", {\
+        "packageLocation": "../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001651-976e4d30de-10c0.zip/node_modules/caniuse-lite/",\
+        "packageDependencies": [\
+          ["caniuse-lite", "npm:1.0.30001651"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9643,6 +9661,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["core-js-compat", "npm:3.37.1"],\
           ["browserslist", "npm:4.23.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.38.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/core-js-compat-npm-3.38.0-cd0aa312bc-10c0.zip/node_modules/core-js-compat/",\
+        "packageDependencies": [\
+          ["core-js-compat", "npm:3.38.0"],\
+          ["browserslist", "npm:4.23.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10739,6 +10765,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.2-b70a9a7ac1-10c0.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
           ["electron-to-chromium", "npm:1.5.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.5.5", {\
+        "packageLocation": "../../../../cache/others/berry/cache/electron-to-chromium-npm-1.5.5-ce59e1f3c6-10c0.zip/node_modules/electron-to-chromium/",\
+        "packageDependencies": [\
+          ["electron-to-chromium", "npm:1.5.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11993,13 +12026,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["eslint-plugin-unicorn", [\
-      ["npm:49.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/eslint-plugin-unicorn-npm-49.0.0-b6195f02e8-10c0.zip/node_modules/eslint-plugin-unicorn/",\
-        "packageDependencies": [\
-          ["eslint-plugin-unicorn", "npm:49.0.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
       ["npm:51.0.1", {\
         "packageLocation": "../../../../cache/others/berry/cache/eslint-plugin-unicorn-npm-51.0.1-d722d846a4-10c0.zip/node_modules/eslint-plugin-unicorn/",\
         "packageDependencies": [\
@@ -12007,17 +12033,26 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:49.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/eslint-plugin-unicorn-virtual-b5028900bf/5/cache/others/berry/cache/eslint-plugin-unicorn-npm-49.0.0-b6195f02e8-10c0.zip/node_modules/eslint-plugin-unicorn/",\
+      ["npm:55.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/eslint-plugin-unicorn-npm-55.0.0-3a26442294-10c0.zip/node_modules/eslint-plugin-unicorn/",\
         "packageDependencies": [\
-          ["eslint-plugin-unicorn", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:49.0.0"],\
+          ["eslint-plugin-unicorn", "npm:55.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:55.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/eslint-plugin-unicorn-virtual-4939f92f61/5/cache/others/berry/cache/eslint-plugin-unicorn-npm-55.0.0-3a26442294-10c0.zip/node_modules/eslint-plugin-unicorn/",\
+        "packageDependencies": [\
+          ["eslint-plugin-unicorn", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:55.0.0"],\
           ["@babel/helper-validator-identifier", "npm:7.24.7"],\
           ["@eslint-community/eslint-utils", "virtual:e13f4866e59e8c5bed105f804eb97fe4af9974dd6cac90592f499a8bfbeec81d3c31292ea5e4611d36c655265ff9943ba75cadd9882455a6163fb47820b520ed#npm:4.4.0"],\
           ["@types/eslint", "npm:8.56.11"],\
-          ["ci-info", "npm:3.9.0"],\
+          ["ci-info", "npm:4.0.0"],\
           ["clean-regexp", "npm:1.0.0"],\
+          ["core-js-compat", "npm:3.38.0"],\
           ["eslint", "npm:8.57.0"],\
           ["esquery", "npm:1.6.0"],\
+          ["globals", "npm:15.9.0"],\
           ["indent-string", "npm:4.0.0"],\
           ["is-builtin-module", "npm:3.2.1"],\
           ["jsesc", "npm:3.0.2"],\
@@ -13405,6 +13440,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/globals-npm-14.0.0-5fc3d8d5da-10c0.zip/node_modules/globals/",\
         "packageDependencies": [\
           ["globals", "npm:14.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:15.9.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/globals-npm-15.9.0-52af85f5e6-10c0.zip/node_modules/globals/",\
+        "packageDependencies": [\
+          ["globals", "npm:15.9.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -21542,6 +21584,21 @@ const RAW_RUNTIME_STATE =
           "browserslist"\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["virtual:4e727c7b5b033f8d5ac7299f9860cb61f5802656f7b4fea2accd32d68dc1a767387a6d23f0724065d3c65e61cb31b9eec2438ae937ce36e7602b4586ede55af6#npm:1.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/update-browserslist-db-virtual-e5d722ea57/5/cache/others/berry/cache/update-browserslist-db-npm-1.1.0-3d2cb7d955-10c0.zip/node_modules/update-browserslist-db/",\
+        "packageDependencies": [\
+          ["update-browserslist-db", "virtual:4e727c7b5b033f8d5ac7299f9860cb61f5802656f7b4fea2accd32d68dc1a767387a6d23f0724065d3c65e61cb31b9eec2438ae937ce36e7602b4586ede55af6#npm:1.1.0"],\
+          ["@types/browserslist", null],\
+          ["browserslist", "npm:4.23.3"],\
+          ["escalade", "npm:3.1.2"],\
+          ["picocolors", "npm:1.0.1"]\
+        ],\
+        "packagePeers": [\
+          "@types/browserslist",\
+          "browserslist"\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["uqr", [\
@@ -22437,7 +22494,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-nuxt", "npm:4.0.0"],\
           ["eslint-plugin-prettier", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.2.1"],\
           ["eslint-plugin-promise", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:6.6.0"],\
-          ["eslint-plugin-unicorn", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:49.0.0"],\
+          ["eslint-plugin-unicorn", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:55.0.0"],\
           ["eslint-plugin-vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.27.0"],\
           ["husky", "npm:9.1.4"],\
           ["jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
