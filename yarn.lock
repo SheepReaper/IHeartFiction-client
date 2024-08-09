@@ -3811,7 +3811,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*":
+"@types/eslint@npm:*, @types/eslint@npm:9.6.0":
   version: 9.6.0
   resolution: "@types/eslint@npm:9.6.0"
   dependencies:
@@ -3821,7 +3821,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.56.11, @types/eslint@npm:^8.4.5, @types/eslint@npm:^8.56.10":
+"@types/eslint@npm:^8.4.5, @types/eslint@npm:^8.56.10":
   version: 8.56.11
   resolution: "@types/eslint@npm:8.56.11"
   dependencies:
@@ -17185,7 +17185,7 @@ __metadata:
     "@nuxtjs/vuetify": "npm:1.12.3"
     "@types/babel__core": "npm:7.20.5"
     "@types/babel__preset-env": "npm:7.9.7"
-    "@types/eslint": "npm:8.56.11"
+    "@types/eslint": "npm:9.6.0"
     "@types/jest": "npm:29.5.12"
     "@types/node": "npm:20.14.14"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
