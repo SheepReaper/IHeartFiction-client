@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/eslint", "npm:8.56.11"],\
           ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.14.15"],\
+          ["@types/node", "npm:20.16.1"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@vue/compiler-dom", "npm:3.4.38"],\
@@ -5872,11 +5872,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.14.15", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.14.15-3e9c945d93-10c0.zip/node_modules/@types/node/",\
+      ["npm:20.16.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.16.1-ba5fb07db1-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.14.15"],\
-          ["undici-types", "npm:5.26.5"]\
+          ["@types/node", "npm:20.16.1"],\
+          ["undici-types", "npm:6.19.6"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -16517,7 +16517,7 @@ const RAW_RUNTIME_STATE =
           ["@nuxt/telemetry", "npm:2.5.4"],\
           ["@nuxt/vite-builder", "virtual:c2725b917482ceb28236c40e4623777136b012c2cb920be6f2ad75ec34aeb456505d6263b8f6925cd0a310083841911412cafb99d9b0d66702b29e77a526c2ea#npm:3.12.4"],\
           ["@parcel/watcher", null],\
-          ["@types/node", "npm:20.14.15"],\
+          ["@types/node", "npm:20.16.1"],\
           ["@types/parcel__watcher", null],\
           ["@unhead/dom", "npm:1.9.16"],\
           ["@unhead/ssr", "npm:1.9.16"],\
@@ -20742,13 +20742,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:5.26.5", {\
-        "packageLocation": "../../../../cache/others/berry/cache/undici-types-npm-5.26.5-de4f7c7bb9-10c0.zip/node_modules/undici-types/",\
-        "packageDependencies": [\
-          ["undici-types", "npm:5.26.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:6.19.6", {\
         "packageLocation": "../../../../cache/others/berry/cache/undici-types-npm-6.19.6-9d9ccfb00d-10c0.zip/node_modules/undici-types/",\
         "packageDependencies": [\
@@ -22052,7 +22045,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/eslint", "npm:8.56.11"],\
           ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.14.15"],\
+          ["@types/node", "npm:20.16.1"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@vue/compiler-dom", "npm:3.4.38"],\
