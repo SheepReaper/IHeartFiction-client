@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/eslint", "npm:8.56.12"],\
           ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.16.1"],\
+          ["@types/node", "npm:20.16.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@vue/compiler-dom", "npm:3.4.38"],\
@@ -5861,10 +5861,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.16.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.16.1-ba5fb07db1-10c0.zip/node_modules/@types/node/",\
+      ["npm:20.16.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.16.2-fa541092c6-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.16.1"],\
+          ["@types/node", "npm:20.16.2"],\
           ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
@@ -16548,7 +16548,7 @@ const RAW_RUNTIME_STATE =
           ["@nuxt/telemetry", "npm:2.5.4"],\
           ["@nuxt/vite-builder", "virtual:5a831197d1ef8c67cd32c1b4e252617f15ef6eb25d86c952aed42ab2ade5998c4c6f000e64f7562c243f96aa5443fd4b268c8d6dd0cf4d7ada751a26a9ebdf42#npm:3.13.0"],\
           ["@parcel/watcher", null],\
-          ["@types/node", "npm:20.16.1"],\
+          ["@types/node", "npm:20.16.2"],\
           ["@types/parcel__watcher", null],\
           ["@unhead/dom", "npm:1.10.0"],\
           ["@unhead/ssr", "npm:1.10.0"],\
@@ -22094,7 +22094,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/eslint", "npm:8.56.12"],\
           ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.16.1"],\
+          ["@types/node", "npm:20.16.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@vue/compiler-dom", "npm:3.4.38"],\
