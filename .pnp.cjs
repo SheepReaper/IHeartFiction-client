@@ -29,8 +29,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/core", "npm:7.25.2"],\
           ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.25.4"],\
-          ["@commitlint/cli", "npm:19.4.0"],\
-          ["@commitlint/config-conventional", "npm:19.2.2"],\
+          ["@commitlint/cli", "npm:19.4.1"],\
+          ["@commitlint/config-conventional", "npm:19.4.1"],\
           ["@nuxt/types", "npm:2.18.1"],\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
           ["@nuxtjs/axios", "npm:5.13.6"],\
@@ -2871,12 +2871,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/cli", [\
-      ["npm:19.4.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-cli-npm-19.4.0-f98136516c-10c0.zip/node_modules/@commitlint/cli/",\
+      ["npm:19.4.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-cli-npm-19.4.1-3163d3cb36-10c0.zip/node_modules/@commitlint/cli/",\
         "packageDependencies": [\
-          ["@commitlint/cli", "npm:19.4.0"],\
+          ["@commitlint/cli", "npm:19.4.1"],\
           ["@commitlint/format", "npm:19.3.0"],\
-          ["@commitlint/lint", "npm:19.2.2"],\
+          ["@commitlint/lint", "npm:19.4.1"],\
           ["@commitlint/load", "npm:19.4.0"],\
           ["@commitlint/read", "npm:19.4.0"],\
           ["@commitlint/types", "npm:19.0.3"],\
@@ -2887,10 +2887,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/config-conventional", [\
-      ["npm:19.2.2", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-config-conventional-npm-19.2.2-2bb85a8bdf-10c0.zip/node_modules/@commitlint/config-conventional/",\
+      ["npm:19.4.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-config-conventional-npm-19.4.1-a710b4b5b3-10c0.zip/node_modules/@commitlint/config-conventional/",\
         "packageDependencies": [\
-          ["@commitlint/config-conventional", "npm:19.2.2"],\
+          ["@commitlint/config-conventional", "npm:19.4.1"],\
           ["@commitlint/types", "npm:19.0.3"],\
           ["conventional-changelog-conventionalcommits", "npm:7.0.2"]\
         ],\
@@ -2955,13 +2955,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/lint", [\
-      ["npm:19.2.2", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-lint-npm-19.2.2-0724d922e2-10c0.zip/node_modules/@commitlint/lint/",\
+      ["npm:19.4.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-lint-npm-19.4.1-b040193911-10c0.zip/node_modules/@commitlint/lint/",\
         "packageDependencies": [\
-          ["@commitlint/lint", "npm:19.2.2"],\
+          ["@commitlint/lint", "npm:19.4.1"],\
           ["@commitlint/is-ignored", "npm:19.2.2"],\
           ["@commitlint/parse", "npm:19.0.3"],\
-          ["@commitlint/rules", "npm:19.0.3"],\
+          ["@commitlint/rules", "npm:19.4.1"],\
           ["@commitlint/types", "npm:19.0.3"]\
         ],\
         "linkType": "HARD"\
@@ -3037,10 +3037,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/rules", [\
-      ["npm:19.0.3", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-rules-npm-19.0.3-9547d09d1e-10c0.zip/node_modules/@commitlint/rules/",\
+      ["npm:19.4.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-rules-npm-19.4.1-829008e759-10c0.zip/node_modules/@commitlint/rules/",\
         "packageDependencies": [\
-          ["@commitlint/rules", "npm:19.0.3"],\
+          ["@commitlint/rules", "npm:19.4.1"],\
           ["@commitlint/ensure", "npm:19.0.3"],\
           ["@commitlint/message", "npm:19.0.0"],\
           ["@commitlint/to-lines", "npm:19.0.0"],\
@@ -22080,8 +22080,8 @@ const RAW_RUNTIME_STATE =
           ["web-client", "workspace:."],\
           ["@babel/core", "npm:7.25.2"],\
           ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.25.4"],\
-          ["@commitlint/cli", "npm:19.4.0"],\
-          ["@commitlint/config-conventional", "npm:19.2.2"],\
+          ["@commitlint/cli", "npm:19.4.1"],\
+          ["@commitlint/config-conventional", "npm:19.4.1"],\
           ["@nuxt/types", "npm:2.18.1"],\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
           ["@nuxtjs/axios", "npm:5.13.6"],\
