@@ -71,7 +71,7 @@ const RAW_RUNTIME_STATE =
           ["husky", "npm:9.1.5"],\
           ["jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-          ["lint-staged", "npm:15.2.9"],\
+          ["lint-staged", "npm:15.2.10"],\
           ["nuxt", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.13.0"],\
           ["nuxt-property-decorator", "npm:2.9.1"],\
           ["postcss-html", "npm:1.7.0"],\
@@ -15332,10 +15332,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lint-staged", [\
-      ["npm:15.2.9", {\
-        "packageLocation": "../../../../cache/others/berry/cache/lint-staged-npm-15.2.9-092f307382-10c0.zip/node_modules/lint-staged/",\
+      ["npm:15.2.10", {\
+        "packageLocation": "../../../../cache/others/berry/cache/lint-staged-npm-15.2.10-3374e8211c-10c0.zip/node_modules/lint-staged/",\
         "packageDependencies": [\
-          ["lint-staged", "npm:15.2.9"],\
+          ["lint-staged", "npm:15.2.10"],\
           ["chalk", "npm:5.3.0"],\
           ["commander", "npm:12.1.0"],\
           ["debug", "virtual:5372f94f60354e044992e7caec3d7b6c0a01bc27684ca64c0ad5ec78bb1e4e3a5c8bae5ffc28175bcd04f35d90eeedc4d92f4267fad1d89e026bda696fcdd216#npm:4.3.6"],\
@@ -22122,7 +22122,7 @@ const RAW_RUNTIME_STATE =
           ["husky", "npm:9.1.5"],\
           ["jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-          ["lint-staged", "npm:15.2.9"],\
+          ["lint-staged", "npm:15.2.10"],\
           ["nuxt", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.13.0"],\
           ["nuxt-property-decorator", "npm:2.9.1"],\
           ["postcss-html", "npm:1.7.0"],\
