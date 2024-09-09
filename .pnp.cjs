@@ -78,7 +78,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["pug", "npm:3.0.3"],\
           ["pug-plain-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.1.0"],\
-          ["start-server-and-test", "npm:2.0.5"],\
+          ["start-server-and-test", "npm:2.0.7"],\
           ["stylelint", "npm:16.9.0"],\
           ["stylelint-config-standard-vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.0.0"],\
           ["ts-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.5"],\
@@ -10012,6 +10012,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["npm:4.3.7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/debug-npm-4.3.7-385645adf9-10c0.zip/node_modules/debug/",\
+        "packageDependencies": [\
+          ["debug", "npm:4.3.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
       ["virtual:1b9e2a314c35921e1b14ca2d2c7664f165a5c0f3f02ca1e30357c6546941724b55e5624ce0d5b4790874f2259ae08ae26d9f95d2cdbb84aae50aa451a2a572cd#npm:4.3.6", {\
         "packageLocation": "./.yarn/__virtual__/debug-virtual-0afdf91fb7/5/cache/others/berry/cache/debug-npm-4.3.6-ecb233d831-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
@@ -10030,6 +10037,20 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/debug-virtual-507f12afb6/5/cache/others/berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["debug", "virtual:396a3691f7b25accf085fe2fff1f56eb7540eff3f2e928a7572ca1de9b831ff8f22136404f236aaed35d90369918dfc34392844d0f822a310563f34746dfb015#npm:3.2.7"],\
+          ["@types/supports-color", null],\
+          ["ms", "npm:2.1.3"],\
+          ["supports-color", null]\
+        ],\
+        "packagePeers": [\
+          "@types/supports-color",\
+          "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:47692a81345baaee9dd4e389cb3245b23214bb434bdabaac94f946d2124d0403275c71f3dd840d628219cd84456e78ef295b4ff414280f480d2cd32512258924#npm:4.3.7", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-7736f53ded/5/cache/others/berry/cache/debug-npm-4.3.7-385645adf9-10c0.zip/node_modules/debug/",\
+        "packageDependencies": [\
+          ["debug", "virtual:47692a81345baaee9dd4e389cb3245b23214bb434bdabaac94f946d2124d0403275c71f3dd840d628219cd84456e78ef295b4ff414280f480d2cd32512258924#npm:4.3.7"],\
           ["@types/supports-color", null],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
@@ -19730,18 +19751,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["start-server-and-test", [\
-      ["npm:2.0.5", {\
-        "packageLocation": "../../../../cache/others/berry/cache/start-server-and-test-npm-2.0.5-f329283657-10c0.zip/node_modules/start-server-and-test/",\
+      ["npm:2.0.7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/start-server-and-test-npm-2.0.7-47692a8134-10c0.zip/node_modules/start-server-and-test/",\
         "packageDependencies": [\
-          ["start-server-and-test", "npm:2.0.5"],\
+          ["start-server-and-test", "npm:2.0.7"],\
           ["arg", "npm:5.0.2"],\
           ["bluebird", "npm:3.7.2"],\
           ["check-more-types", "npm:2.24.0"],\
-          ["debug", "virtual:1b9e2a314c35921e1b14ca2d2c7664f165a5c0f3f02ca1e30357c6546941724b55e5624ce0d5b4790874f2259ae08ae26d9f95d2cdbb84aae50aa451a2a572cd#npm:4.3.6"],\
+          ["debug", "virtual:47692a81345baaee9dd4e389cb3245b23214bb434bdabaac94f946d2124d0403275c71f3dd840d628219cd84456e78ef295b4ff414280f480d2cd32512258924#npm:4.3.7"],\
           ["execa", "npm:5.1.1"],\
           ["lazy-ass", "npm:1.6.0"],\
           ["ps-tree", "npm:1.2.0"],\
-          ["wait-on", "npm:7.2.0"]\
+          ["wait-on", "npm:8.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -22332,10 +22353,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["wait-on", [\
-      ["npm:7.2.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/wait-on-npm-7.2.0-672226c2e5-10c0.zip/node_modules/wait-on/",\
+      ["npm:8.0.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/wait-on-npm-8.0.0-f6fd89dc26-10c0.zip/node_modules/wait-on/",\
         "packageDependencies": [\
-          ["wait-on", "npm:7.2.0"],\
+          ["wait-on", "npm:8.0.0"],\
           ["axios", "npm:1.7.7"],\
           ["joi", "npm:17.13.3"],\
           ["lodash", "npm:4.17.21"],\
@@ -22422,7 +22443,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["pug", "npm:3.0.3"],\
           ["pug-plain-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.1.0"],\
-          ["start-server-and-test", "npm:2.0.5"],\
+          ["start-server-and-test", "npm:2.0.7"],\
           ["stylelint", "npm:16.9.0"],\
           ["stylelint-config-standard-vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.0.0"],\
           ["ts-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.5"],\
