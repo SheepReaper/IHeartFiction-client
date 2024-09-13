@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/eslint", "npm:8.56.12"],\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.5"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
@@ -5806,10 +5806,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/jest", [\
-      ["npm:29.5.12", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-jest-npm-29.5.12-6459b9d012-10c0.zip/node_modules/@types/jest/",\
+      ["npm:29.5.13", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-jest-npm-29.5.13-b43d0e7497-10c0.zip/node_modules/@types/jest/",\
         "packageDependencies": [\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["expect", "npm:29.7.0"],\
           ["pretty-format", "npm:29.7.0"]\
         ],\
@@ -7093,7 +7093,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/plugin-transform-modules-commonjs", "virtual:819140ad5f316a3a7a42186e3cbf20baccd7579857874d5c1c1eb811d4d2634045289fbdf3a1f2e14460c901560a66411681f632ff218200ffe509418de8f378#npm:7.24.8"],\
           ["@types/babel-jest", null],\
           ["@types/babel__core", "npm:7.20.5"],\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["@types/typescript", null],\
           ["@types/vue", null],\
           ["@vue/compiler-sfc", "npm:3.5.4"],\
@@ -11452,7 +11452,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["eslint-plugin-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:28.8.3"],\
           ["@types/eslint", "npm:8.56.12"],\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["@types/typescript-eslint__eslint-plugin", null],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/utils", "virtual:8fdc1604bb4f1716f26061ef68924842f833facafb6c771f975bf0a009834379087cc4df68c8202585992ac75e8ded1f70b61194dae935b86162610463e3c92e#npm:8.5.0"],\
@@ -20534,7 +20534,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel-jest", null],\
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/esbuild", null],\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["@types/jest__transform", null],\
           ["@types/jest__types", null],\
           ["@types/typescript", null],\
@@ -22153,7 +22153,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/eslint", "npm:8.56.12"],\
-          ["@types/jest", "npm:29.5.12"],\
+          ["@types/jest", "npm:29.5.13"],\
           ["@types/node", "npm:20.16.5"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
