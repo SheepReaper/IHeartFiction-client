@@ -78,7 +78,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["pug", "npm:3.0.3"],\
           ["pug-plain-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.1.0"],\
-          ["start-server-and-test", "npm:2.0.7"],\
+          ["start-server-and-test", "npm:2.0.8"],\
           ["stylelint", "npm:16.9.0"],\
           ["stylelint-config-standard-vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.0.0"],\
           ["ts-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.5"],\
@@ -19652,10 +19652,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["start-server-and-test", [\
-      ["npm:2.0.7", {\
-        "packageLocation": "../../../../cache/others/berry/cache/start-server-and-test-npm-2.0.7-47692a8134-10c0.zip/node_modules/start-server-and-test/",\
+      ["npm:2.0.8", {\
+        "packageLocation": "../../../../cache/others/berry/cache/start-server-and-test-npm-2.0.8-ab0a68a316-10c0.zip/node_modules/start-server-and-test/",\
         "packageDependencies": [\
-          ["start-server-and-test", "npm:2.0.7"],\
+          ["start-server-and-test", "npm:2.0.8"],\
           ["arg", "npm:5.0.2"],\
           ["bluebird", "npm:3.7.2"],\
           ["check-more-types", "npm:2.24.0"],\
@@ -19663,7 +19663,7 @@ const RAW_RUNTIME_STATE =
           ["execa", "npm:5.1.1"],\
           ["lazy-ass", "npm:1.6.0"],\
           ["ps-tree", "npm:1.2.0"],\
-          ["wait-on", "npm:8.0.0"]\
+          ["wait-on", "npm:8.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -22194,10 +22194,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["wait-on", [\
-      ["npm:8.0.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/wait-on-npm-8.0.0-f6fd89dc26-10c0.zip/node_modules/wait-on/",\
+      ["npm:8.0.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/wait-on-npm-8.0.1-b00a3462ed-10c0.zip/node_modules/wait-on/",\
         "packageDependencies": [\
-          ["wait-on", "npm:8.0.0"],\
+          ["wait-on", "npm:8.0.1"],\
           ["axios", "npm:1.7.7"],\
           ["joi", "npm:17.13.3"],\
           ["lodash", "npm:4.17.21"],\
@@ -22284,7 +22284,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.3.3"],\
           ["pug", "npm:3.0.3"],\
           ["pug-plain-loader", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.1.0"],\
-          ["start-server-and-test", "npm:2.0.7"],\
+          ["start-server-and-test", "npm:2.0.8"],\
           ["stylelint", "npm:16.9.0"],\
           ["stylelint-config-standard-vue", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:1.0.0"],\
           ["ts-jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.2.5"],\
