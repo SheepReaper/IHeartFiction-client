@@ -29,8 +29,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/core", "npm:7.26.0"],\
           ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.26.0"],\
-          ["@commitlint/cli", "npm:19.5.0"],\
-          ["@commitlint/config-conventional", "npm:19.5.0"],\
+          ["@commitlint/cli", "npm:19.6.0"],\
+          ["@commitlint/config-conventional", "npm:19.6.0"],\
           ["@nuxt/types", "npm:2.18.1"],\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
           ["@nuxtjs/axios", "npm:5.13.6"],\
@@ -2792,12 +2792,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/cli", [\
-      ["npm:19.5.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-cli-npm-19.5.0-621eb7a04d-10c0.zip/node_modules/@commitlint/cli/",\
+      ["npm:19.6.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-cli-npm-19.6.0-814670b320-10c0.zip/node_modules/@commitlint/cli/",\
         "packageDependencies": [\
-          ["@commitlint/cli", "npm:19.5.0"],\
+          ["@commitlint/cli", "npm:19.6.0"],\
           ["@commitlint/format", "npm:19.5.0"],\
-          ["@commitlint/lint", "npm:19.5.0"],\
+          ["@commitlint/lint", "npm:19.6.0"],\
           ["@commitlint/load", "npm:19.5.0"],\
           ["@commitlint/read", "npm:19.5.0"],\
           ["@commitlint/types", "npm:19.5.0"],\
@@ -2808,10 +2808,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/config-conventional", [\
-      ["npm:19.5.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-config-conventional-npm-19.5.0-aea781dcb6-10c0.zip/node_modules/@commitlint/config-conventional/",\
+      ["npm:19.6.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-config-conventional-npm-19.6.0-f58bc23e3a-10c0.zip/node_modules/@commitlint/config-conventional/",\
         "packageDependencies": [\
-          ["@commitlint/config-conventional", "npm:19.5.0"],\
+          ["@commitlint/config-conventional", "npm:19.6.0"],\
           ["@commitlint/types", "npm:19.5.0"],\
           ["conventional-changelog-conventionalcommits", "npm:7.0.2"]\
         ],\
@@ -2865,10 +2865,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/is-ignored", [\
-      ["npm:19.5.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-is-ignored-npm-19.5.0-94bd6a650f-10c0.zip/node_modules/@commitlint/is-ignored/",\
+      ["npm:19.6.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-is-ignored-npm-19.6.0-6f191a8cd4-10c0.zip/node_modules/@commitlint/is-ignored/",\
         "packageDependencies": [\
-          ["@commitlint/is-ignored", "npm:19.5.0"],\
+          ["@commitlint/is-ignored", "npm:19.6.0"],\
           ["@commitlint/types", "npm:19.5.0"],\
           ["semver", "npm:7.6.3"]\
         ],\
@@ -2876,13 +2876,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/lint", [\
-      ["npm:19.5.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-lint-npm-19.5.0-b9fef12eb2-10c0.zip/node_modules/@commitlint/lint/",\
+      ["npm:19.6.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-lint-npm-19.6.0-f3268ed8d4-10c0.zip/node_modules/@commitlint/lint/",\
         "packageDependencies": [\
-          ["@commitlint/lint", "npm:19.5.0"],\
-          ["@commitlint/is-ignored", "npm:19.5.0"],\
+          ["@commitlint/lint", "npm:19.6.0"],\
+          ["@commitlint/is-ignored", "npm:19.6.0"],\
           ["@commitlint/parse", "npm:19.5.0"],\
-          ["@commitlint/rules", "npm:19.5.0"],\
+          ["@commitlint/rules", "npm:19.6.0"],\
           ["@commitlint/types", "npm:19.5.0"]\
         ],\
         "linkType": "HARD"\
@@ -2958,10 +2958,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/rules", [\
-      ["npm:19.5.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-rules-npm-19.5.0-a8b1a50340-10c0.zip/node_modules/@commitlint/rules/",\
+      ["npm:19.6.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-rules-npm-19.6.0-a975ef8de5-10c0.zip/node_modules/@commitlint/rules/",\
         "packageDependencies": [\
-          ["@commitlint/rules", "npm:19.5.0"],\
+          ["@commitlint/rules", "npm:19.6.0"],\
           ["@commitlint/ensure", "npm:19.5.0"],\
           ["@commitlint/message", "npm:19.5.0"],\
           ["@commitlint/to-lines", "npm:19.5.0"],\
@@ -22180,8 +22180,8 @@ const RAW_RUNTIME_STATE =
           ["web-client", "workspace:."],\
           ["@babel/core", "npm:7.26.0"],\
           ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.26.0"],\
-          ["@commitlint/cli", "npm:19.5.0"],\
-          ["@commitlint/config-conventional", "npm:19.5.0"],\
+          ["@commitlint/cli", "npm:19.6.0"],\
+          ["@commitlint/config-conventional", "npm:19.6.0"],\
           ["@nuxt/types", "npm:2.18.1"],\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
           ["@nuxtjs/axios", "npm:5.13.6"],\
