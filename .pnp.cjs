@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/eslint", "npm:8.56.12"],\
           ["@types/jest", "npm:29.5.14"],\
-          ["@types/node", "npm:20.17.6"],\
+          ["@types/node", "npm:20.17.7"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@vue/compiler-dom", "npm:3.5.13"],\
@@ -5805,10 +5805,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.17.6", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.17.6-c5a007c486-10c0.zip/node_modules/@types/node/",\
+      ["npm:20.17.7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@types-node-npm-20.17.7-a04f888d91-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.17.6"],\
+          ["@types/node", "npm:20.17.7"],\
           ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
@@ -16577,7 +16577,7 @@ const RAW_RUNTIME_STATE =
           ["@nuxt/telemetry", "npm:2.6.0"],\
           ["@nuxt/vite-builder", "virtual:7ba07319d13f286b21adce39d46f5954f5538de799e2b6468ae8f5c387cb450f52efdcf8cf2cf1997c49f16ad93d5388e1038a6428025da4edd563e5d18e8470#npm:3.14.1592"],\
           ["@parcel/watcher", null],\
-          ["@types/node", "npm:20.17.6"],\
+          ["@types/node", "npm:20.17.7"],\
           ["@types/parcel__watcher", null],\
           ["@unhead/dom", "npm:1.11.11"],\
           ["@unhead/shared", "npm:1.11.11"],\
@@ -22194,7 +22194,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__preset-env", "npm:7.9.7"],\
           ["@types/eslint", "npm:8.56.12"],\
           ["@types/jest", "npm:29.5.14"],\
-          ["@types/node", "npm:20.17.6"],\
+          ["@types/node", "npm:20.17.7"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@vue/compiler-dom", "npm:3.5.13"],\
@@ -25317,7 +25317,7 @@ class MountFS extends BasePortableFakeFS {
         if (this.notMount.has(filePath))
           continue;
         try {
-          if (this.typeCheck !== null && (this.baseFs.lstatSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
+          if (this.typeCheck !== null && (this.baseFs.statSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
             this.notMount.add(filePath);
             continue;
           }
