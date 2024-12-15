@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/core", "npm:7.26.0"],\
           ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.26.0"],\
-          ["@commitlint/cli", "npm:19.6.0"],\
+          ["@commitlint/cli", "npm:19.6.1"],\
           ["@commitlint/config-conventional", "npm:19.6.0"],\
           ["@nuxt/types", "npm:2.18.1"],\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
@@ -2768,13 +2768,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/cli", [\
-      ["npm:19.6.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-cli-npm-19.6.0-814670b320-10c0.zip/node_modules/@commitlint/cli/",\
+      ["npm:19.6.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-cli-npm-19.6.1-4e4c789fd2-10c0.zip/node_modules/@commitlint/cli/",\
         "packageDependencies": [\
-          ["@commitlint/cli", "npm:19.6.0"],\
+          ["@commitlint/cli", "npm:19.6.1"],\
           ["@commitlint/format", "npm:19.5.0"],\
           ["@commitlint/lint", "npm:19.6.0"],\
-          ["@commitlint/load", "npm:19.5.0"],\
+          ["@commitlint/load", "npm:19.6.1"],\
           ["@commitlint/read", "npm:19.5.0"],\
           ["@commitlint/types", "npm:19.5.0"],\
           ["tinyexec", "npm:0.3.1"],\
@@ -2865,17 +2865,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@commitlint/load", [\
-      ["npm:19.5.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-load-npm-19.5.0-5e9dc48946-10c0.zip/node_modules/@commitlint/load/",\
+      ["npm:19.6.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/@commitlint-load-npm-19.6.1-240713b1ae-10c0.zip/node_modules/@commitlint/load/",\
         "packageDependencies": [\
-          ["@commitlint/load", "npm:19.5.0"],\
+          ["@commitlint/load", "npm:19.6.1"],\
           ["@commitlint/config-validator", "npm:19.5.0"],\
           ["@commitlint/execute-rule", "npm:19.5.0"],\
           ["@commitlint/resolve-extends", "npm:19.5.0"],\
           ["@commitlint/types", "npm:19.5.0"],\
           ["chalk", "npm:5.3.0"],\
-          ["cosmiconfig", "virtual:5e9dc489467cb7920b4a3b726c4ea2171970ffd5cadd222b81d0a7ef0db72dd549a4d0f329fd00b7b9ff51493aa072bda129d1c294420a2a3f9781020e5835cb#npm:9.0.0"],\
-          ["cosmiconfig-typescript-loader", "virtual:5e9dc489467cb7920b4a3b726c4ea2171970ffd5cadd222b81d0a7ef0db72dd549a4d0f329fd00b7b9ff51493aa072bda129d1c294420a2a3f9781020e5835cb#npm:5.1.0"],\
+          ["cosmiconfig", "virtual:240713b1aee3f9a9985f27893a38884aaa4c838528f9ec7648194df30beb8d1249bfe4eaee4a2a57ec70a1b7fd9230ad027ba0f7397f7d82741ab0be031a69f9#npm:9.0.0"],\
+          ["cosmiconfig-typescript-loader", "virtual:240713b1aee3f9a9985f27893a38884aaa4c838528f9ec7648194df30beb8d1249bfe4eaee4a2a57ec70a1b7fd9230ad027ba0f7397f7d82741ab0be031a69f9#npm:6.1.0"],\
           ["lodash.isplainobject", "npm:4.0.6"],\
           ["lodash.merge", "npm:4.6.2"],\
           ["lodash.uniq", "npm:4.5.0"]\
@@ -9261,10 +9261,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:5e9dc489467cb7920b4a3b726c4ea2171970ffd5cadd222b81d0a7ef0db72dd549a4d0f329fd00b7b9ff51493aa072bda129d1c294420a2a3f9781020e5835cb#npm:9.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/cosmiconfig-virtual-8a37661cae/5/cache/others/berry/cache/cosmiconfig-npm-9.0.0-47d78cf275-10c0.zip/node_modules/cosmiconfig/",\
+      ["virtual:240713b1aee3f9a9985f27893a38884aaa4c838528f9ec7648194df30beb8d1249bfe4eaee4a2a57ec70a1b7fd9230ad027ba0f7397f7d82741ab0be031a69f9#npm:9.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/cosmiconfig-virtual-96d1864bcd/5/cache/others/berry/cache/cosmiconfig-npm-9.0.0-47d78cf275-10c0.zip/node_modules/cosmiconfig/",\
         "packageDependencies": [\
-          ["cosmiconfig", "virtual:5e9dc489467cb7920b4a3b726c4ea2171970ffd5cadd222b81d0a7ef0db72dd549a4d0f329fd00b7b9ff51493aa072bda129d1c294420a2a3f9781020e5835cb#npm:9.0.0"],\
+          ["cosmiconfig", "virtual:240713b1aee3f9a9985f27893a38884aaa4c838528f9ec7648194df30beb8d1249bfe4eaee4a2a57ec70a1b7fd9230ad027ba0f7397f7d82741ab0be031a69f9#npm:9.0.0"],\
           ["@types/typescript", null],\
           ["env-paths", "npm:2.2.1"],\
           ["import-fresh", "npm:3.3.0"],\
@@ -9280,22 +9280,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cosmiconfig-typescript-loader", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/cosmiconfig-typescript-loader-npm-5.1.0-e1f8f05f80-10c0.zip/node_modules/cosmiconfig-typescript-loader/",\
+      ["npm:6.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/cosmiconfig-typescript-loader-npm-6.1.0-8f457225f5-10c0.zip/node_modules/cosmiconfig-typescript-loader/",\
         "packageDependencies": [\
-          ["cosmiconfig-typescript-loader", "npm:5.1.0"]\
+          ["cosmiconfig-typescript-loader", "npm:6.1.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:5e9dc489467cb7920b4a3b726c4ea2171970ffd5cadd222b81d0a7ef0db72dd549a4d0f329fd00b7b9ff51493aa072bda129d1c294420a2a3f9781020e5835cb#npm:5.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/cosmiconfig-typescript-loader-virtual-2ba5e3dabc/5/cache/others/berry/cache/cosmiconfig-typescript-loader-npm-5.1.0-e1f8f05f80-10c0.zip/node_modules/cosmiconfig-typescript-loader/",\
+      ["virtual:240713b1aee3f9a9985f27893a38884aaa4c838528f9ec7648194df30beb8d1249bfe4eaee4a2a57ec70a1b7fd9230ad027ba0f7397f7d82741ab0be031a69f9#npm:6.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/cosmiconfig-typescript-loader-virtual-24e3d45e60/5/cache/others/berry/cache/cosmiconfig-typescript-loader-npm-6.1.0-8f457225f5-10c0.zip/node_modules/cosmiconfig-typescript-loader/",\
         "packageDependencies": [\
-          ["cosmiconfig-typescript-loader", "virtual:5e9dc489467cb7920b4a3b726c4ea2171970ffd5cadd222b81d0a7ef0db72dd549a4d0f329fd00b7b9ff51493aa072bda129d1c294420a2a3f9781020e5835cb#npm:5.1.0"],\
+          ["cosmiconfig-typescript-loader", "virtual:240713b1aee3f9a9985f27893a38884aaa4c838528f9ec7648194df30beb8d1249bfe4eaee4a2a57ec70a1b7fd9230ad027ba0f7397f7d82741ab0be031a69f9#npm:6.1.0"],\
           ["@types/cosmiconfig", null],\
           ["@types/node", null],\
           ["@types/typescript", null],\
-          ["cosmiconfig", "virtual:5e9dc489467cb7920b4a3b726c4ea2171970ffd5cadd222b81d0a7ef0db72dd549a4d0f329fd00b7b9ff51493aa072bda129d1c294420a2a3f9781020e5835cb#npm:9.0.0"],\
-          ["jiti", "npm:1.21.6"],\
+          ["cosmiconfig", "virtual:240713b1aee3f9a9985f27893a38884aaa4c838528f9ec7648194df30beb8d1249bfe4eaee4a2a57ec70a1b7fd9230ad027ba0f7397f7d82741ab0be031a69f9#npm:9.0.0"],\
+          ["jiti", "npm:2.4.1"],\
           ["typescript", null]\
         ],\
         "packagePeers": [\
@@ -19964,7 +19964,7 @@ const RAW_RUNTIME_STATE =
           ["@dual-bundle/import-meta-resolve", "npm:4.1.0"],\
           ["balanced-match", "npm:2.0.0"],\
           ["colord", "npm:2.9.3"],\
-          ["cosmiconfig", "virtual:5e9dc489467cb7920b4a3b726c4ea2171970ffd5cadd222b81d0a7ef0db72dd549a4d0f329fd00b7b9ff51493aa072bda129d1c294420a2a3f9781020e5835cb#npm:9.0.0"],\
+          ["cosmiconfig", "virtual:240713b1aee3f9a9985f27893a38884aaa4c838528f9ec7648194df30beb8d1249bfe4eaee4a2a57ec70a1b7fd9230ad027ba0f7397f7d82741ab0be031a69f9#npm:9.0.0"],\
           ["css-functions-list", "npm:3.2.3"],\
           ["css-tree", "npm:3.1.0"],\
           ["debug", "virtual:2a96cd6adb8d01ce6acadfdcee0e950328af9eb8d2f3484d458093d790927273d4d7e161cb1324ea2a1c52e3df1963e2785709a9f9d4a4cadac95d0519a47a9c#npm:4.4.0"],\
@@ -22341,7 +22341,7 @@ const RAW_RUNTIME_STATE =
           ["web-client", "workspace:."],\
           ["@babel/core", "npm:7.26.0"],\
           ["@babel/preset-env", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.26.0"],\
-          ["@commitlint/cli", "npm:19.6.0"],\
+          ["@commitlint/cli", "npm:19.6.1"],\
           ["@commitlint/config-conventional", "npm:19.6.0"],\
           ["@nuxt/types", "npm:2.18.1"],\
           ["@nuxt/typescript-build", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.0.2"],\
