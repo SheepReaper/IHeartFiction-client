@@ -13457,15 +13457,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-html@npm:1.7.0":
-  version: 1.7.0
-  resolution: "postcss-html@npm:1.7.0"
+"postcss-html@npm:1.8.0":
+  version: 1.8.0
+  resolution: "postcss-html@npm:1.8.0"
   dependencies:
     htmlparser2: "npm:^8.0.0"
     js-tokens: "npm:^9.0.0"
-    postcss: "npm:^8.4.0"
+    postcss: "npm:^8.5.0"
     postcss-safe-parser: "npm:^6.0.0"
-  checksum: 10c0/5c6a7ead7ad6e2ed8427035dc7b8ee18f03b0c03684d8e59ec2b7c4d5485ebb7e026049e73bd907f3f16db6be004575706e6d25592258de1b4329b98e6845bd5
+  checksum: 10c0/b018e2bc498019439a84952aae714b8730e1aed3fdb5ca100f8a1695ed4f7b26b178eac7d7e6df278e7fdb855894266308e292a235d020f85de40ac13a3796f8
   languageName: node
   linkType: hard
 
@@ -13752,7 +13752,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.0, postcss@npm:^8.4.43, postcss@npm:^8.4.48, postcss@npm:^8.4.49, postcss@npm:^8.5.1":
+"postcss@npm:^8.4.43, postcss@npm:^8.4.48, postcss@npm:^8.4.49, postcss@npm:^8.5.0, postcss@npm:^8.5.1":
   version: 8.5.1
   resolution: "postcss@npm:8.5.1"
   dependencies:
@@ -17367,7 +17367,7 @@ __metadata:
     lint-staged: "npm:15.3.0"
     nuxt: "npm:3.15.2"
     nuxt-property-decorator: "npm:2.9.1"
-    postcss-html: "npm:1.7.0"
+    postcss-html: "npm:1.8.0"
     prettier: "npm:3.4.2"
     pug: "npm:3.0.3"
     pug-plain-loader: "npm:1.1.0"
