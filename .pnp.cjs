@@ -71,7 +71,7 @@ const RAW_RUNTIME_STATE =
           ["husky", "npm:9.1.7"],\
           ["jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-          ["lint-staged", "npm:15.4.1"],\
+          ["lint-staged", "npm:15.4.2"],\
           ["nuxt", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.15.2"],\
           ["nuxt-property-decorator", "npm:2.9.1"],\
           ["postcss-html", "npm:1.8.0"],\
@@ -9041,10 +9041,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:12.1.0", {\
-        "packageLocation": "../../../../cache/others/berry/cache/commander-npm-12.1.0-65c868e907-10c0.zip/node_modules/commander/",\
+      ["npm:13.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/commander-npm-13.1.0-bdbbfaaf9d-10c0.zip/node_modules/commander/",\
         "packageDependencies": [\
-          ["commander", "npm:12.1.0"]\
+          ["commander", "npm:13.1.0"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -15365,12 +15365,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lint-staged", [\
-      ["npm:15.4.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/lint-staged-npm-15.4.1-8d0a5b9932-10c0.zip/node_modules/lint-staged/",\
+      ["npm:15.4.2", {\
+        "packageLocation": "../../../../cache/others/berry/cache/lint-staged-npm-15.4.2-1172738fea-10c0.zip/node_modules/lint-staged/",\
         "packageDependencies": [\
-          ["lint-staged", "npm:15.4.1"],\
+          ["lint-staged", "npm:15.4.2"],\
           ["chalk", "npm:5.4.1"],\
-          ["commander", "npm:12.1.0"],\
+          ["commander", "npm:13.1.0"],\
           ["debug", "virtual:a3d61690ba664825bc3419a2793a38c5816b08788b98c6ee50351b5774678dbdc2bb4fee8b9da058baf30b2cafbd28e48fcd8cf8cd1fda2d9d7ea9d6b90379c7#npm:4.4.0"],\
           ["execa", "npm:8.0.1"],\
           ["lilconfig", "npm:3.1.3"],\
@@ -15378,7 +15378,7 @@ const RAW_RUNTIME_STATE =
           ["micromatch", "npm:4.0.8"],\
           ["pidtree", "npm:0.6.0"],\
           ["string-argv", "npm:0.3.2"],\
-          ["yaml", "npm:2.6.1"]\
+          ["yaml", "npm:2.7.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -22607,7 +22607,7 @@ const RAW_RUNTIME_STATE =
           ["husky", "npm:9.1.7"],\
           ["jest", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
           ["jest-environment-jsdom", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:29.7.0"],\
-          ["lint-staged", "npm:15.4.1"],\
+          ["lint-staged", "npm:15.4.2"],\
           ["nuxt", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:3.15.2"],\
           ["nuxt-property-decorator", "npm:2.9.1"],\
           ["postcss-html", "npm:1.8.0"],\
@@ -23026,13 +23026,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/yaml-npm-1.10.2-0e780aebdf-10c0.zip/node_modules/yaml/",\
         "packageDependencies": [\
           ["yaml", "npm:1.10.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:2.6.1", {\
-        "packageLocation": "../../../../cache/others/berry/cache/yaml-npm-2.6.1-eb747069e9-10c0.zip/node_modules/yaml/",\
-        "packageDependencies": [\
-          ["yaml", "npm:2.6.1"]\
         ],\
         "linkType": "HARD"\
       }],\
