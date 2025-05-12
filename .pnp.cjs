@@ -88,7 +88,7 @@ const RAW_RUNTIME_STATE =
           ["vue-eslint-parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.4.3"],\
           ["vue-template-compiler", "npm:2.7.16"],\
           ["web-client", "workspace:."],\
-          ["webpack", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.7"]\
+          ["webpack", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.8"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -22273,36 +22273,6 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6ce341fd44094deda8615d52abe16c6ec5b1f5676f524e40c954ef753ec2c77e1424fc285b0739f15a3d08b0b372e9be9a8a13c6fcb2e25d8ab8cf952b9d21c1#npm:5.3.14", {\
-        "packageLocation": "./.yarn/__virtual__/terser-webpack-plugin-virtual-e132444a24/7/runner/cache/others/berry/cache/terser-webpack-plugin-npm-5.3.14-e4f2e3cd89-10c0.zip/node_modules/terser-webpack-plugin/",\
-        "packageDependencies": [\
-          ["@jridgewell/trace-mapping", "npm:0.3.25"],\
-          ["@swc/core", null],\
-          ["@types/esbuild", null],\
-          ["@types/swc__core", null],\
-          ["@types/uglify-js", null],\
-          ["@types/webpack", null],\
-          ["esbuild", null],\
-          ["jest-worker", "npm:27.5.1"],\
-          ["schema-utils", "npm:4.3.0"],\
-          ["serialize-javascript", "npm:6.0.2"],\
-          ["terser", "npm:5.37.0"],\
-          ["terser-webpack-plugin", "virtual:6ce341fd44094deda8615d52abe16c6ec5b1f5676f524e40c954ef753ec2c77e1424fc285b0739f15a3d08b0b372e9be9a8a13c6fcb2e25d8ab8cf952b9d21c1#npm:5.3.14"],\
-          ["uglify-js", null],\
-          ["webpack", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.7"]\
-        ],\
-        "packagePeers": [\
-          "@swc/core",\
-          "@types/esbuild",\
-          "@types/swc__core",\
-          "@types/uglify-js",\
-          "@types/webpack",\
-          "esbuild",\
-          "uglify-js",\
-          "webpack"\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["virtual:96f3e4f72bb9f03d1007daad4b88559879b4f5f5bc673cf94710477988293b3a7b8ec7c2eca1ebb2997b07d05064cf35e6380e3c17b61a1ddf733953fd3e68c7#npm:5.3.11", {\
         "packageLocation": "./.yarn/__virtual__/terser-webpack-plugin-virtual-b6fb908137/7/runner/cache/others/berry/cache/terser-webpack-plugin-npm-5.3.11-1a5bba0883-10c0.zip/node_modules/terser-webpack-plugin/",\
         "packageDependencies": [\
@@ -22320,6 +22290,36 @@ const RAW_RUNTIME_STATE =
           ["terser-webpack-plugin", "virtual:96f3e4f72bb9f03d1007daad4b88559879b4f5f5bc673cf94710477988293b3a7b8ec7c2eca1ebb2997b07d05064cf35e6380e3c17b61a1ddf733953fd3e68c7#npm:5.3.11"],\
           ["uglify-js", null],\
           ["webpack", "virtual:579ff937c0ff3d48b0754278f3a0cf2f6643add1f670025af649b6e2fcc72a0129ca236aa1acacaf10177dc41989fe62b90d058dd6f233a83787ae4fb4ab5bb6#npm:5.97.1"]\
+        ],\
+        "packagePeers": [\
+          "@swc/core",\
+          "@types/esbuild",\
+          "@types/swc__core",\
+          "@types/uglify-js",\
+          "@types/webpack",\
+          "esbuild",\
+          "uglify-js",\
+          "webpack"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:bc6cf793128c7cdd0a36f18a8e04122873d24f84d6d7ad2decc9eb0e9d7cdda38140b229a827b2def5e1dbba37b8db4bff40c449868efe3d7991a88efa17673f#npm:5.3.14", {\
+        "packageLocation": "./.yarn/__virtual__/terser-webpack-plugin-virtual-d6e0af60b8/7/runner/cache/others/berry/cache/terser-webpack-plugin-npm-5.3.14-e4f2e3cd89-10c0.zip/node_modules/terser-webpack-plugin/",\
+        "packageDependencies": [\
+          ["@jridgewell/trace-mapping", "npm:0.3.25"],\
+          ["@swc/core", null],\
+          ["@types/esbuild", null],\
+          ["@types/swc__core", null],\
+          ["@types/uglify-js", null],\
+          ["@types/webpack", null],\
+          ["esbuild", null],\
+          ["jest-worker", "npm:27.5.1"],\
+          ["schema-utils", "npm:4.3.0"],\
+          ["serialize-javascript", "npm:6.0.2"],\
+          ["terser", "npm:5.37.0"],\
+          ["terser-webpack-plugin", "virtual:bc6cf793128c7cdd0a36f18a8e04122873d24f84d6d7ad2decc9eb0e9d7cdda38140b229a827b2def5e1dbba37b8db4bff40c449868efe3d7991a88efa17673f#npm:5.3.14"],\
+          ["uglify-js", null],\
+          ["webpack", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.8"]\
         ],\
         "packagePeers": [\
           "@swc/core",\
@@ -24565,7 +24565,7 @@ const RAW_RUNTIME_STATE =
           ["vue-eslint-parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:9.4.3"],\
           ["vue-template-compiler", "npm:2.7.16"],\
           ["web-client", "workspace:."],\
-          ["webpack", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.7"]\
+          ["webpack", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.8"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -24594,10 +24594,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:5.99.7", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/webpack-npm-5.99.7-fe019bedd5-10c0.zip/node_modules/webpack/",\
+      ["npm:5.99.8", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/webpack-npm-5.99.8-7626f6a735-10c0.zip/node_modules/webpack/",\
         "packageDependencies": [\
-          ["webpack", "npm:5.99.7"]\
+          ["webpack", "npm:5.99.8"]\
         ],\
         "linkType": "SOFT"\
       }],\
@@ -24637,8 +24637,8 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.7", {\
-        "packageLocation": "./.yarn/__virtual__/webpack-virtual-6ce341fd44/7/runner/cache/others/berry/cache/webpack-npm-5.99.7-fe019bedd5-10c0.zip/node_modules/webpack/",\
+      ["virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.8", {\
+        "packageLocation": "./.yarn/__virtual__/webpack-virtual-bc6cf79312/7/runner/cache/others/berry/cache/webpack-npm-5.99.8-7626f6a735-10c0.zip/node_modules/webpack/",\
         "packageDependencies": [\
           ["@types/eslint-scope", "npm:3.7.7"],\
           ["@types/estree", "npm:1.0.6"],\
@@ -24662,9 +24662,9 @@ const RAW_RUNTIME_STATE =
           ["neo-async", "npm:2.6.2"],\
           ["schema-utils", "npm:4.3.2"],\
           ["tapable", "npm:2.2.1"],\
-          ["terser-webpack-plugin", "virtual:6ce341fd44094deda8615d52abe16c6ec5b1f5676f524e40c954ef753ec2c77e1424fc285b0739f15a3d08b0b372e9be9a8a13c6fcb2e25d8ab8cf952b9d21c1#npm:5.3.14"],\
+          ["terser-webpack-plugin", "virtual:bc6cf793128c7cdd0a36f18a8e04122873d24f84d6d7ad2decc9eb0e9d7cdda38140b229a827b2def5e1dbba37b8db4bff40c449868efe3d7991a88efa17673f#npm:5.3.14"],\
           ["watchpack", "npm:2.4.2"],\
-          ["webpack", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.7"],\
+          ["webpack", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:5.99.8"],\
           ["webpack-cli", null],\
           ["webpack-sources", "npm:3.2.3"]\
         ],\
