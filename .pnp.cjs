@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__preset-env", "npm:7.10.0"],\
           ["@types/eslint", "npm:8.56.12"],\
           ["@types/jest", "npm:29.5.14"],\
-          ["@types/node", "npm:20.17.50"],\
+          ["@types/node", "npm:20.17.57"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@vue/compiler-dom", "npm:3.5.15"],\
@@ -7175,10 +7175,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.17.50", {\
-        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-20.17.50-96a173831a-10c0.zip/node_modules/@types/node/",\
+      ["npm:20.17.57", {\
+        "packageLocation": "../../../../../../runner/cache/others/berry/cache/@types-node-npm-20.17.57-5ff1cc86a6-10c0.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:20.17.50"],\
+          ["@types/node", "npm:20.17.57"],\
           ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
@@ -19398,7 +19398,7 @@ const RAW_RUNTIME_STATE =
           ["@nuxt/telemetry", "npm:2.6.6"],\
           ["@nuxt/vite-builder", "virtual:ab2612636813d5b4fc6171f863587d89e9c7a9d7289dd7055bf441ec2024e5db08795329ab652ef108477c62e0d066e2347db3393b44efa01b421aaf3b749d31#npm:3.17.4"],\
           ["@parcel/watcher", null],\
-          ["@types/node", "npm:20.17.50"],\
+          ["@types/node", "npm:20.17.57"],\
           ["@types/parcel__watcher", null],\
           ["@unhead/vue", "virtual:ab2612636813d5b4fc6171f863587d89e9c7a9d7289dd7055bf441ec2024e5db08795329ab652ef108477c62e0d066e2347db3393b44efa01b421aaf3b749d31#npm:2.0.10"],\
           ["@vue/shared", "npm:3.5.14"],\
@@ -26045,7 +26045,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__preset-env", "npm:7.10.0"],\
           ["@types/eslint", "npm:8.56.12"],\
           ["@types/jest", "npm:29.5.14"],\
-          ["@types/node", "npm:20.17.50"],\
+          ["@types/node", "npm:20.17.57"],\
           ["@typescript-eslint/eslint-plugin", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:641f1c31801e38023218f48c3ca9335d0268508c8989c90afc328d6c9df9edcaf4094fbd5e9f0512eb22a7cc69c7d03bf1be4de8694e16bede6997fbdb5b58a1#npm:7.18.0"],\
           ["@vue/compiler-dom", "npm:3.5.15"],\
