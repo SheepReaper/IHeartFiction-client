@@ -5335,12 +5335,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.19.1":
-  version: 20.19.1
-  resolution: "@types/node@npm:20.19.1"
+"@types/node@npm:22.15.34":
+  version: 22.15.34
+  resolution: "@types/node@npm:22.15.34"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/4f1c3c8ec24c79af6802b376fa307904abf19accb9ac291de0bfc02220494c8b027d3ef733dbf64cc09b37594f22f679a15eabb30f3785bcfcc13bd9bbd8c0e2
+  checksum: 10c0/fb6a6b36daaa1b484aaba3d33b4d1e7b37ea993e29f20b7a676affa76ed6ff6acd2ded4d5003469bc8dbc815b3d224533b4560896037ef6d5b5d552721ab7d57
   languageName: node
   linkType: hard
 
@@ -21398,7 +21398,7 @@ __metadata:
     "@types/babel__preset-env": "npm:7.10.0"
     "@types/eslint": "npm:8.56.12"
     "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:20.19.1"
+    "@types/node": "npm:22.15.34"
     "@typescript-eslint/eslint-plugin": "npm:7.18.0"
     "@typescript-eslint/parser": "npm:7.18.0"
     "@vue/compiler-dom": "npm:3.5.17"
